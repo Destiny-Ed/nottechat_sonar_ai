@@ -15,7 +15,7 @@ NotteChat enables users to paste document URLs, extract text, and chat with an A
 - **Real Filename Extraction**: Display accurate document names from Content-Disposition headers or Google Docs metadata.
 - **AI-Powered Chat**: Summarize documents and answer queries using the Perplexity Sonar API, with cited responses.
 - **Cross-Platform**: Built with Flutter for seamless performance on iOS, Android, and web.
-- **Polished UX**: Vibrant UI with intuitive onboarding, session naming, and a 3-day free trial paywall ($4.99/month after).
+- **Polished UX**: Vibrant UI with intuitive onboarding, session naming
 - **Analytics**: Firebase integration tracks document types and API usage for continuous improvement.
 
 ## Functionality
@@ -28,7 +28,7 @@ NotteChat enables users to paste document URLs, extract text, and chat with an A
 - `Google Docs`: PDF export with real filename extraction.
 
 **AI Chat**: Users ask questions (e.g., “Summarize this PDF” or “Compare this .doc to current trends”). The Perplexity Sonar API processes the query with extracted text as context, delivering summaries or answers with web-sourced citations.  
-**Session Management**: Chats are organized with descriptive titles (e.g., “Session 2025-11-13 - SampleReport.doc”).  
+**Session Management**: Chats are organized with descriptive titles (e.g., “SampleReport.doc”).  
 **Error Handling**: User-friendly errors suggest converting unsupported .doc files to .docx or PDF externally.
 
 ## Perplexity Sonar API Integration
