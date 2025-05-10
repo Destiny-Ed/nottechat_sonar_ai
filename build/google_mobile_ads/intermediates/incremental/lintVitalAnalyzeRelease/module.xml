@@ -1,0 +1,26 @@
+<lint-module
+    format="1"
+    dir="/Users/destinyed/.pub-cache/hosted/pub.dev/google_mobile_ads-6.0.0/android"
+    name=":google_mobile_ads"
+    type="LIBRARY"
+    maven="io.flutter.plugins.googlemobileads:google_mobile_ads:6.0.0"
+    agpVersion="8.7.0"
+    buildFolder="/Users/destinyed/Documents/MyProjects/NotteChat-Ai/build/google_mobile_ads"
+    bootClassPath="/Users/destinyed/Library/Android/sdk/platforms/android-35/android.jar:/Users/destinyed/Library/Android/sdk/build-tools/34.0.0/core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-35"
+    neverShrinking="true">
+  <lintOptions
+      disable="InvalidPackage"
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true">
+    <severities>
+      <severity
+        id="InvalidPackage"
+        severity="IGNORE" />
+    </severities>
+  </lintOptions>
+  <variant name="release"/>
+</lint-module>

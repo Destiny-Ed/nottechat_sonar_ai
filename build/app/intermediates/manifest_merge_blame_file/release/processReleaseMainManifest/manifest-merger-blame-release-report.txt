@@ -1,0 +1,816 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.nottechat.ai"
+4    android:versionCode="9"
+5    android:versionName="2.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:3:1-76
+11-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:3:18-73
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:5:5-66
+12-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:5:22-64
+13    <uses-permission android:name="com.android.vending.BILLING" />
+13-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:6:1-63
+13-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:6:18-60
+14    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+14-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:7:3-69
+14-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:7:20-66
+15    <uses-permission android:name="android.permission.BLUETOOTH" />
+15-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:8:3-65
+15-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:8:20-63
+16    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+16-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:9:5-73
+16-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:9:22-71
+17    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+17-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:10:5-75
+17-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:10:22-73
+18    <!--
+19         Required to query activities that can process text, see:
+20         https://developer.android.com/training/package-visibility and
+21         https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
+22
+23         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
+24    -->
+25    <queries>
+25-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:57:5-62:15
+26        <intent>
+26-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:58:9-61:18
+27            <action android:name="android.intent.action.PROCESS_TEXT" />
+27-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:59:13-72
+27-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:59:21-70
+28
+29            <data android:mimeType="text/plain" />
+29-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:60:13-50
+29-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:60:19-48
+30        </intent>
+31        <intent>
+31-->[:file_picker] /Users/destinyed/Documents/MyProjects/NotteChat-Ai/build/file_picker/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:8:9-12:18
+32            <action android:name="android.intent.action.GET_CONTENT" />
+32-->[:file_picker] /Users/destinyed/Documents/MyProjects/NotteChat-Ai/build/file_picker/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:9:13-72
+32-->[:file_picker] /Users/destinyed/Documents/MyProjects/NotteChat-Ai/build/file_picker/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:9:21-69
+33
+34            <data android:mimeType="*/*" />
+34-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:60:13-50
+34-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:60:19-48
+35        </intent> <!-- For browser content -->
+36        <intent>
+36-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:38:9-44:18
+37            <action android:name="android.intent.action.VIEW" />
+37-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:39:13-65
+37-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:39:21-62
+38
+39            <category android:name="android.intent.category.BROWSABLE" />
+39-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:41:13-74
+39-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:41:23-71
+40
+41            <data android:scheme="https" />
+41-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:60:13-50
+42        </intent> <!-- End of browser content -->
+43        <!-- For CustomTabsService -->
+44        <intent>
+44-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:47:9-49:18
+45            <action android:name="android.support.customtabs.action.CustomTabsService" />
+45-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:48:13-90
+45-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:48:21-87
+46        </intent> <!-- End of CustomTabsService -->
+47        <!-- For MRAID capabilities -->
+48        <intent>
+48-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:52:9-56:18
+49            <action android:name="android.intent.action.INSERT" />
+49-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:53:13-67
+49-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:53:21-64
+50
+51            <data android:mimeType="vnd.android.cursor.dir/event" />
+51-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:60:13-50
+51-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:60:19-48
+52        </intent>
+53        <intent>
+53-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:57:9-61:18
+54            <action android:name="android.intent.action.VIEW" />
+54-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:39:13-65
+54-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:39:21-62
+55
+56            <data android:scheme="sms" />
+56-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:60:13-50
+57        </intent>
+58        <intent>
+58-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:62:9-66:18
+59            <action android:name="android.intent.action.DIAL" />
+59-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:63:13-65
+59-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:63:21-62
+60
+61            <data android:path="tel:" />
+61-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:60:13-50
+62        </intent>
+63        <intent>
+63-->[com.android.billingclient:billing:7.1.1] /Users/destinyed/.gradle/caches/8.10.2/transforms/c60b679ff4e84209f163232bb6d78f90/transformed/jetified-billing-7.1.1/AndroidManifest.xml:13:9-15:18
+64            <action android:name="com.android.vending.billing.InAppBillingService.BIND" />
+64-->[com.android.billingclient:billing:7.1.1] /Users/destinyed/.gradle/caches/8.10.2/transforms/c60b679ff4e84209f163232bb6d78f90/transformed/jetified-billing-7.1.1/AndroidManifest.xml:14:13-91
+64-->[com.android.billingclient:billing:7.1.1] /Users/destinyed/.gradle/caches/8.10.2/transforms/c60b679ff4e84209f163232bb6d78f90/transformed/jetified-billing-7.1.1/AndroidManifest.xml:14:21-88
+65        </intent>
+66        <intent>
+66-->[com.android.billingclient:billing:7.1.1] /Users/destinyed/.gradle/caches/8.10.2/transforms/c60b679ff4e84209f163232bb6d78f90/transformed/jetified-billing-7.1.1/AndroidManifest.xml:16:9-18:18
+67            <action android:name="com.google.android.apps.play.billingtestcompanion.BillingOverrideService.BIND" />
+67-->[com.android.billingclient:billing:7.1.1] /Users/destinyed/.gradle/caches/8.10.2/transforms/c60b679ff4e84209f163232bb6d78f90/transformed/jetified-billing-7.1.1/AndroidManifest.xml:17:13-116
+67-->[com.android.billingclient:billing:7.1.1] /Users/destinyed/.gradle/caches/8.10.2/transforms/c60b679ff4e84209f163232bb6d78f90/transformed/jetified-billing-7.1.1/AndroidManifest.xml:17:21-113
+68        </intent>
+69    </queries>
+70    <queries>
+70-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:57:5-62:15
+71        <intent>
+71-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:65:13-67:22
+72            <action android:name="android.speech.RecognitionService" />
+72-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:66:17-76
+72-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:66:25-73
+73        </intent>
+74    </queries>
+75
+76    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+76-->[:firebase_analytics] /Users/destinyed/Documents/MyProjects/NotteChat-Ai/build/firebase_analytics/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:7:5-79
+76-->[:firebase_analytics] /Users/destinyed/Documents/MyProjects/NotteChat-Ai/build/firebase_analytics/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:7:22-76
+77    <uses-permission android:name="android.permission.WAKE_LOCK" />
+77-->[:firebase_analytics] /Users/destinyed/Documents/MyProjects/NotteChat-Ai/build/firebase_analytics/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:9:5-68
+77-->[:firebase_analytics] /Users/destinyed/Documents/MyProjects/NotteChat-Ai/build/firebase_analytics/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:9:22-65
+78    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+78-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:26:5-79
+78-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:26:22-76
+79    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+79-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:27:5-82
+79-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:27:22-79
+80    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+80-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:28:5-88
+80-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:28:22-85
+81    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_TOPICS" />
+81-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:29:5-83
+81-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:29:22-80
+82    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+82-->[com.google.android.gms:play-services-measurement:22.4.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/1346c2c1a84849be2ea24d74740b9085/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:26:5-110
+82-->[com.google.android.gms:play-services-measurement:22.4.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/1346c2c1a84849be2ea24d74740b9085/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:26:22-107
+83    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+83-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:28:5-77
+83-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:28:22-74
+84
+85    <permission
+85-->[androidx.core:core:1.13.1] /Users/destinyed/.gradle/caches/8.10.2/transforms/7d68272d476cad94bfb90f742464bce9/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+86        android:name="com.nottechat.ai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+86-->[androidx.core:core:1.13.1] /Users/destinyed/.gradle/caches/8.10.2/transforms/7d68272d476cad94bfb90f742464bce9/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+87        android:protectionLevel="signature" />
+87-->[androidx.core:core:1.13.1] /Users/destinyed/.gradle/caches/8.10.2/transforms/7d68272d476cad94bfb90f742464bce9/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+88
+89    <uses-permission android:name="com.nottechat.ai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+89-->[androidx.core:core:1.13.1] /Users/destinyed/.gradle/caches/8.10.2/transforms/7d68272d476cad94bfb90f742464bce9/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+89-->[androidx.core:core:1.13.1] /Users/destinyed/.gradle/caches/8.10.2/transforms/7d68272d476cad94bfb90f742464bce9/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+90
+91    <application
+92        android:name="android.app.Application"
+92-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:14:9-42
+93        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+93-->[androidx.core:core:1.13.1] /Users/destinyed/.gradle/caches/8.10.2/transforms/7d68272d476cad94bfb90f742464bce9/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+94        android:extractNativeLibs="false"
+95        android:icon="@mipmap/launcher_icon"
+95-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:15:9-45
+96        android:label="NotteChat" >
+96-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:13:9-34
+97        <activity
+97-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:16:9-38:20
+98            android:name="com.nottechat.ai.MainActivity"
+98-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:17:13-41
+99            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+99-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:23:13-163
+100            android:exported="true"
+100-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:18:13-36
+101            android:hardwareAccelerated="true"
+101-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:24:13-47
+102            android:launchMode="singleTop"
+102-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:19:13-43
+103            android:screenOrientation="portrait"
+103-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:22:13-49
+104            android:taskAffinity=""
+104-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:20:13-36
+105            android:theme="@style/LaunchTheme"
+105-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:21:13-47
+106            android:windowSoftInputMode="adjustResize" >
+106-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:25:13-55
+107
+108            <!--
+109                 Specifies an Android theme to apply to this Activity as soon as
+110                 the Android process has started. This theme is visible to the user
+111                 while the Flutter UI initializes. After that, this theme continues
+112                 to determine the Window background behind the Flutter UI.
+113            -->
+114            <meta-data
+114-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:30:13-33:17
+115                android:name="io.flutter.embedding.android.NormalTheme"
+115-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:31:15-70
+116                android:resource="@style/NormalTheme" />
+116-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:32:15-52
+117
+118            <intent-filter>
+118-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:34:13-37:29
+119                <action android:name="android.intent.action.MAIN" />
+119-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:35:17-68
+119-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:35:25-66
+120
+121                <category android:name="android.intent.category.LAUNCHER" />
+121-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:36:17-76
+121-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:36:27-74
+122            </intent-filter>
+123        </activity>
+124        <!--
+125             Don't delete the meta-data below.
+126             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+127        -->
+128        <meta-data
+128-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:41:9-43:33
+129            android:name="flutterEmbedding"
+129-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:42:13-44
+130            android:value="2" />
+130-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:43:13-30
+131
+132        <!-- Add AdMob App ID -->
+133        <meta-data
+133-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:48:9-50:69
+134            android:name="com.google.android.gms.ads.APPLICATION_ID"
+134-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:49:13-69
+135            android:value="ca-app-pub-1757900198825539~8534111462" />
+135-->/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/src/main/AndroidManifest.xml:50:13-67
+136        <meta-data
+136-->[:google_mobile_ads] /Users/destinyed/Documents/MyProjects/NotteChat-Ai/build/google_mobile_ads/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:10:9-12:36
+137            android:name="io.flutter.embedded_views_preview"
+137-->[:google_mobile_ads] /Users/destinyed/Documents/MyProjects/NotteChat-Ai/build/google_mobile_ads/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:11:13-61
+138            android:value="true" />
+138-->[:google_mobile_ads] /Users/destinyed/Documents/MyProjects/NotteChat-Ai/build/google_mobile_ads/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:12:13-33
+139
+140        <activity
+140-->[:url_launcher_android] /Users/destinyed/Documents/MyProjects/NotteChat-Ai/build/url_launcher_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:8:9-11:74
+141            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+141-->[:url_launcher_android] /Users/destinyed/Documents/MyProjects/NotteChat-Ai/build/url_launcher_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:9:13-74
+142            android:exported="false"
+142-->[:url_launcher_android] /Users/destinyed/Documents/MyProjects/NotteChat-Ai/build/url_launcher_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:10:13-37
+143            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+143-->[:url_launcher_android] /Users/destinyed/Documents/MyProjects/NotteChat-Ai/build/url_launcher_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:11:13-71
+144
+145        <service
+145-->[:firebase_analytics] /Users/destinyed/Documents/MyProjects/NotteChat-Ai/build/firebase_analytics/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:12:9-16:19
+146            android:name="com.google.firebase.components.ComponentDiscoveryService"
+146-->[:firebase_analytics] /Users/destinyed/Documents/MyProjects/NotteChat-Ai/build/firebase_analytics/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:12:18-89
+147            android:directBootAware="true"
+147-->[com.google.firebase:firebase-common:21.0.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/a9e7e3e64b33f9c9f2f89e4a312a0776/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:32:13-43
+148            android:exported="false" >
+148-->[com.google.firebase:firebase-crashlytics:19.4.2] /Users/destinyed/.gradle/caches/8.10.2/transforms/00f780a23d07689e47bda94698a6262b/transformed/jetified-firebase-crashlytics-19.4.2/AndroidManifest.xml:14:13-37
+149            <meta-data
+149-->[:firebase_analytics] /Users/destinyed/Documents/MyProjects/NotteChat-Ai/build/firebase_analytics/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:13:13-15:85
+150                android:name="com.google.firebase.components:io.flutter.plugins.firebase.analytics.FlutterFirebaseAppRegistrar"
+150-->[:firebase_analytics] /Users/destinyed/Documents/MyProjects/NotteChat-Ai/build/firebase_analytics/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:14:17-128
+151                android:value="com.google.firebase.components.ComponentRegistrar" />
+151-->[:firebase_analytics] /Users/destinyed/Documents/MyProjects/NotteChat-Ai/build/firebase_analytics/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:15:17-82
+152            <meta-data
+152-->[:firebase_crashlytics] /Users/destinyed/Documents/MyProjects/NotteChat-Ai/build/firebase_crashlytics/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:9:13-11:85
+153                android:name="com.google.firebase.components:io.flutter.plugins.firebase.crashlytics.FlutterFirebaseAppRegistrar"
+153-->[:firebase_crashlytics] /Users/destinyed/Documents/MyProjects/NotteChat-Ai/build/firebase_crashlytics/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:10:17-130
+154                android:value="com.google.firebase.components.ComponentRegistrar" />
+154-->[:firebase_crashlytics] /Users/destinyed/Documents/MyProjects/NotteChat-Ai/build/firebase_crashlytics/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:11:17-82
+155            <meta-data
+155-->[:firebase_core] /Users/destinyed/Documents/MyProjects/NotteChat-Ai/build/firebase_core/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:9:13-11:85
+156                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+156-->[:firebase_core] /Users/destinyed/Documents/MyProjects/NotteChat-Ai/build/firebase_core/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:10:17-124
+157                android:value="com.google.firebase.components.ComponentRegistrar" />
+157-->[:firebase_core] /Users/destinyed/Documents/MyProjects/NotteChat-Ai/build/firebase_core/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:11:17-82
+158            <meta-data
+158-->[com.google.firebase:firebase-crashlytics:19.4.2] /Users/destinyed/.gradle/caches/8.10.2/transforms/00f780a23d07689e47bda94698a6262b/transformed/jetified-firebase-crashlytics-19.4.2/AndroidManifest.xml:15:13-17:85
+159                android:name="com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar"
+159-->[com.google.firebase:firebase-crashlytics:19.4.2] /Users/destinyed/.gradle/caches/8.10.2/transforms/00f780a23d07689e47bda94698a6262b/transformed/jetified-firebase-crashlytics-19.4.2/AndroidManifest.xml:16:17-126
+160                android:value="com.google.firebase.components.ComponentRegistrar" />
+160-->[com.google.firebase:firebase-crashlytics:19.4.2] /Users/destinyed/.gradle/caches/8.10.2/transforms/00f780a23d07689e47bda94698a6262b/transformed/jetified-firebase-crashlytics-19.4.2/AndroidManifest.xml:17:17-82
+161            <meta-data
+161-->[com.google.firebase:firebase-crashlytics:19.4.2] /Users/destinyed/.gradle/caches/8.10.2/transforms/00f780a23d07689e47bda94698a6262b/transformed/jetified-firebase-crashlytics-19.4.2/AndroidManifest.xml:18:13-20:85
+162                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+162-->[com.google.firebase:firebase-crashlytics:19.4.2] /Users/destinyed/.gradle/caches/8.10.2/transforms/00f780a23d07689e47bda94698a6262b/transformed/jetified-firebase-crashlytics-19.4.2/AndroidManifest.xml:19:17-115
+163                android:value="com.google.firebase.components.ComponentRegistrar" />
+163-->[com.google.firebase:firebase-crashlytics:19.4.2] /Users/destinyed/.gradle/caches/8.10.2/transforms/00f780a23d07689e47bda94698a6262b/transformed/jetified-firebase-crashlytics-19.4.2/AndroidManifest.xml:20:17-82
+164            <meta-data
+164-->[com.google.android.gms:play-services-measurement-api:22.4.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/a9b15aab010b7c7cb85b2ef2216635e4/transformed/jetified-play-services-measurement-api-22.4.0/AndroidManifest.xml:33:13-35:85
+165                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+165-->[com.google.android.gms:play-services-measurement-api:22.4.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/a9b15aab010b7c7cb85b2ef2216635e4/transformed/jetified-play-services-measurement-api-22.4.0/AndroidManifest.xml:34:17-139
+166                android:value="com.google.firebase.components.ComponentRegistrar" />
+166-->[com.google.android.gms:play-services-measurement-api:22.4.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/a9b15aab010b7c7cb85b2ef2216635e4/transformed/jetified-play-services-measurement-api-22.4.0/AndroidManifest.xml:35:17-82
+167            <meta-data
+167-->[com.google.firebase:firebase-sessions:2.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/4fab0e3328be30b3c4ecce890ae2e506/transformed/jetified-firebase-sessions-2.1.0/AndroidManifest.xml:29:13-31:85
+168                android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar"
+168-->[com.google.firebase:firebase-sessions:2.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/4fab0e3328be30b3c4ecce890ae2e506/transformed/jetified-firebase-sessions-2.1.0/AndroidManifest.xml:30:17-117
+169                android:value="com.google.firebase.components.ComponentRegistrar" />
+169-->[com.google.firebase:firebase-sessions:2.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/4fab0e3328be30b3c4ecce890ae2e506/transformed/jetified-firebase-sessions-2.1.0/AndroidManifest.xml:31:17-82
+170            <meta-data
+170-->[com.google.firebase:firebase-installations:18.0.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/6a4cc7a73ab8022b21da9ccbd6147499/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:15:13-17:85
+171                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+171-->[com.google.firebase:firebase-installations:18.0.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/6a4cc7a73ab8022b21da9ccbd6147499/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:16:17-130
+172                android:value="com.google.firebase.components.ComponentRegistrar" />
+172-->[com.google.firebase:firebase-installations:18.0.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/6a4cc7a73ab8022b21da9ccbd6147499/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:17:17-82
+173            <meta-data
+173-->[com.google.firebase:firebase-installations:18.0.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/6a4cc7a73ab8022b21da9ccbd6147499/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:18:13-20:85
+174                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+174-->[com.google.firebase:firebase-installations:18.0.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/6a4cc7a73ab8022b21da9ccbd6147499/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:19:17-127
+175                android:value="com.google.firebase.components.ComponentRegistrar" />
+175-->[com.google.firebase:firebase-installations:18.0.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/6a4cc7a73ab8022b21da9ccbd6147499/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:20:17-82
+176            <meta-data
+176-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/5fc1ff0dd64d954e1289e2c5ade7370e/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:12:13-14:85
+177                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+177-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/5fc1ff0dd64d954e1289e2c5ade7370e/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:13:17-116
+178                android:value="com.google.firebase.components.ComponentRegistrar" />
+178-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/5fc1ff0dd64d954e1289e2c5ade7370e/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:14:17-82
+179            <meta-data
+179-->[com.google.firebase:firebase-common:21.0.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/a9e7e3e64b33f9c9f2f89e4a312a0776/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:35:13-37:85
+180                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+180-->[com.google.firebase:firebase-common:21.0.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/a9e7e3e64b33f9c9f2f89e4a312a0776/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:36:17-109
+181                android:value="com.google.firebase.components.ComponentRegistrar" />
+181-->[com.google.firebase:firebase-common:21.0.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/a9e7e3e64b33f9c9f2f89e4a312a0776/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:37:17-82
+182            <meta-data
+182-->[com.google.firebase:firebase-datatransport:19.0.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/fd705d35f3dcdb1eb4a9e423286ac096/transformed/jetified-firebase-datatransport-19.0.0/AndroidManifest.xml:25:13-27:85
+183                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+183-->[com.google.firebase:firebase-datatransport:19.0.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/fd705d35f3dcdb1eb4a9e423286ac096/transformed/jetified-firebase-datatransport-19.0.0/AndroidManifest.xml:26:17-115
+184                android:value="com.google.firebase.components.ComponentRegistrar" />
+184-->[com.google.firebase:firebase-datatransport:19.0.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/fd705d35f3dcdb1eb4a9e423286ac096/transformed/jetified-firebase-datatransport-19.0.0/AndroidManifest.xml:27:17-82
+185        </service> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+186        <activity
+186-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:73:9-78:43
+187            android:name="com.google.android.gms.ads.AdActivity"
+187-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:74:13-65
+188            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+188-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:75:13-122
+189            android:exported="false"
+189-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:76:13-37
+190            android:theme="@android:style/Theme.Translucent" />
+190-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:77:13-61
+191
+192        <provider
+192-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:80:9-85:43
+193            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+193-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:81:13-76
+194            android:authorities="com.nottechat.ai.mobileadsinitprovider"
+194-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:82:13-73
+195            android:exported="false"
+195-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:83:13-37
+196            android:initOrder="100" />
+196-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:84:13-36
+197
+198        <service
+198-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:87:9-91:43
+199            android:name="com.google.android.gms.ads.AdService"
+199-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:88:13-64
+200            android:enabled="true"
+200-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:89:13-35
+201            android:exported="false" />
+201-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:90:13-37
+202
+203        <activity
+203-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:93:9-97:43
+204            android:name="com.google.android.gms.ads.OutOfContextTestingActivity"
+204-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:94:13-82
+205            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+205-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:95:13-122
+206            android:exported="false" />
+206-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:96:13-37
+207        <activity
+207-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:98:9-105:43
+208            android:name="com.google.android.gms.ads.NotificationHandlerActivity"
+208-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:99:13-82
+209            android:excludeFromRecents="true"
+209-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:100:13-46
+210            android:exported="false"
+210-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:101:13-37
+211            android:launchMode="singleTask"
+211-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:102:13-44
+212            android:taskAffinity=""
+212-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:103:13-36
+213            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+213-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:104:13-72
+214
+215        <meta-data
+215-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:107:9-109:36
+216            android:name="com.google.android.gms.ads.flag.OPTIMIZE_AD_LOADING"
+216-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:108:13-79
+217            android:value="true" />
+217-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:109:13-33
+218        <meta-data
+218-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:110:9-112:36
+219            android:name="com.google.android.gms.ads.flag.OPTIMIZE_INITIALIZATION"
+219-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:111:13-83
+220            android:value="true" />
+220-->[com.google.android.gms:play-services-ads-api:24.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/d018e13c6e33cb7082c7945191b222f9/transformed/jetified-play-services-ads-api-24.1.0/AndroidManifest.xml:112:13-33
+221
+222        <uses-library
+222-->[androidx.window:window:1.2.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/815f876c7375c0182680313e6a13155b/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
+223            android:name="androidx.window.extensions"
+223-->[androidx.window:window:1.2.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/815f876c7375c0182680313e6a13155b/transformed/jetified-window-1.2.0/AndroidManifest.xml:24:13-54
+224            android:required="false" />
+224-->[androidx.window:window:1.2.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/815f876c7375c0182680313e6a13155b/transformed/jetified-window-1.2.0/AndroidManifest.xml:25:13-37
+225        <uses-library
+225-->[androidx.window:window:1.2.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/815f876c7375c0182680313e6a13155b/transformed/jetified-window-1.2.0/AndroidManifest.xml:26:9-28:40
+226            android:name="androidx.window.sidecar"
+226-->[androidx.window:window:1.2.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/815f876c7375c0182680313e6a13155b/transformed/jetified-window-1.2.0/AndroidManifest.xml:27:13-51
+227            android:required="false" />
+227-->[androidx.window:window:1.2.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/815f876c7375c0182680313e6a13155b/transformed/jetified-window-1.2.0/AndroidManifest.xml:28:13-37
+228
+229        <meta-data
+229-->[com.android.billingclient:billing:7.1.1] /Users/destinyed/.gradle/caches/8.10.2/transforms/c60b679ff4e84209f163232bb6d78f90/transformed/jetified-billing-7.1.1/AndroidManifest.xml:22:9-24:37
+230            android:name="com.google.android.play.billingclient.version"
+230-->[com.android.billingclient:billing:7.1.1] /Users/destinyed/.gradle/caches/8.10.2/transforms/c60b679ff4e84209f163232bb6d78f90/transformed/jetified-billing-7.1.1/AndroidManifest.xml:23:13-73
+231            android:value="7.1.1" />
+231-->[com.android.billingclient:billing:7.1.1] /Users/destinyed/.gradle/caches/8.10.2/transforms/c60b679ff4e84209f163232bb6d78f90/transformed/jetified-billing-7.1.1/AndroidManifest.xml:24:13-34
+232
+233        <activity
+233-->[com.android.billingclient:billing:7.1.1] /Users/destinyed/.gradle/caches/8.10.2/transforms/c60b679ff4e84209f163232bb6d78f90/transformed/jetified-billing-7.1.1/AndroidManifest.xml:26:9-30:75
+234            android:name="com.android.billingclient.api.ProxyBillingActivity"
+234-->[com.android.billingclient:billing:7.1.1] /Users/destinyed/.gradle/caches/8.10.2/transforms/c60b679ff4e84209f163232bb6d78f90/transformed/jetified-billing-7.1.1/AndroidManifest.xml:27:13-78
+235            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+235-->[com.android.billingclient:billing:7.1.1] /Users/destinyed/.gradle/caches/8.10.2/transforms/c60b679ff4e84209f163232bb6d78f90/transformed/jetified-billing-7.1.1/AndroidManifest.xml:28:13-96
+236            android:exported="false"
+236-->[com.android.billingclient:billing:7.1.1] /Users/destinyed/.gradle/caches/8.10.2/transforms/c60b679ff4e84209f163232bb6d78f90/transformed/jetified-billing-7.1.1/AndroidManifest.xml:29:13-37
+237            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+237-->[com.android.billingclient:billing:7.1.1] /Users/destinyed/.gradle/caches/8.10.2/transforms/c60b679ff4e84209f163232bb6d78f90/transformed/jetified-billing-7.1.1/AndroidManifest.xml:30:13-72
+238        <activity
+238-->[com.android.billingclient:billing:7.1.1] /Users/destinyed/.gradle/caches/8.10.2/transforms/c60b679ff4e84209f163232bb6d78f90/transformed/jetified-billing-7.1.1/AndroidManifest.xml:31:9-35:75
+239            android:name="com.android.billingclient.api.ProxyBillingActivityV2"
+239-->[com.android.billingclient:billing:7.1.1] /Users/destinyed/.gradle/caches/8.10.2/transforms/c60b679ff4e84209f163232bb6d78f90/transformed/jetified-billing-7.1.1/AndroidManifest.xml:32:13-80
+240            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+240-->[com.android.billingclient:billing:7.1.1] /Users/destinyed/.gradle/caches/8.10.2/transforms/c60b679ff4e84209f163232bb6d78f90/transformed/jetified-billing-7.1.1/AndroidManifest.xml:33:13-96
+241            android:exported="false"
+241-->[com.android.billingclient:billing:7.1.1] /Users/destinyed/.gradle/caches/8.10.2/transforms/c60b679ff4e84209f163232bb6d78f90/transformed/jetified-billing-7.1.1/AndroidManifest.xml:34:13-37
+242            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+242-->[com.android.billingclient:billing:7.1.1] /Users/destinyed/.gradle/caches/8.10.2/transforms/c60b679ff4e84209f163232bb6d78f90/transformed/jetified-billing-7.1.1/AndroidManifest.xml:35:13-72
+243
+244        <receiver
+244-->[com.google.android.gms:play-services-measurement:22.4.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/1346c2c1a84849be2ea24d74740b9085/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:29:9-33:20
+245            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+245-->[com.google.android.gms:play-services-measurement:22.4.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/1346c2c1a84849be2ea24d74740b9085/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:30:13-85
+246            android:enabled="true"
+246-->[com.google.android.gms:play-services-measurement:22.4.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/1346c2c1a84849be2ea24d74740b9085/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:31:13-35
+247            android:exported="false" >
+247-->[com.google.android.gms:play-services-measurement:22.4.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/1346c2c1a84849be2ea24d74740b9085/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:32:13-37
+248        </receiver>
+249
+250        <service
+250-->[com.google.android.gms:play-services-measurement:22.4.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/1346c2c1a84849be2ea24d74740b9085/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:35:9-38:40
+251            android:name="com.google.android.gms.measurement.AppMeasurementService"
+251-->[com.google.android.gms:play-services-measurement:22.4.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/1346c2c1a84849be2ea24d74740b9085/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:36:13-84
+252            android:enabled="true"
+252-->[com.google.android.gms:play-services-measurement:22.4.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/1346c2c1a84849be2ea24d74740b9085/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:37:13-35
+253            android:exported="false" />
+253-->[com.google.android.gms:play-services-measurement:22.4.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/1346c2c1a84849be2ea24d74740b9085/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:38:13-37
+254        <service
+254-->[com.google.android.gms:play-services-measurement:22.4.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/1346c2c1a84849be2ea24d74740b9085/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:39:9-43:72
+255            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+255-->[com.google.android.gms:play-services-measurement:22.4.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/1346c2c1a84849be2ea24d74740b9085/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:40:13-87
+256            android:enabled="true"
+256-->[com.google.android.gms:play-services-measurement:22.4.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/1346c2c1a84849be2ea24d74740b9085/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:41:13-35
+257            android:exported="false"
+257-->[com.google.android.gms:play-services-measurement:22.4.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/1346c2c1a84849be2ea24d74740b9085/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:42:13-37
+258            android:permission="android.permission.BIND_JOB_SERVICE" />
+258-->[com.google.android.gms:play-services-measurement:22.4.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/1346c2c1a84849be2ea24d74740b9085/transformed/jetified-play-services-measurement-22.4.0/AndroidManifest.xml:43:13-69
+259
+260        <activity
+260-->[com.google.android.gms:play-services-base:18.5.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/21144cd2ff8ca66a42c968a573e733d0/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+261            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+261-->[com.google.android.gms:play-services-base:18.5.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/21144cd2ff8ca66a42c968a573e733d0/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+262            android:exported="false"
+262-->[com.google.android.gms:play-services-base:18.5.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/21144cd2ff8ca66a42c968a573e733d0/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+263            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+263-->[com.google.android.gms:play-services-base:18.5.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/21144cd2ff8ca66a42c968a573e733d0/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+264
+265        <service
+265-->[com.google.firebase:firebase-sessions:2.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/4fab0e3328be30b3c4ecce890ae2e506/transformed/jetified-firebase-sessions-2.1.0/AndroidManifest.xml:22:9-25:40
+266            android:name="com.google.firebase.sessions.SessionLifecycleService"
+266-->[com.google.firebase:firebase-sessions:2.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/4fab0e3328be30b3c4ecce890ae2e506/transformed/jetified-firebase-sessions-2.1.0/AndroidManifest.xml:23:13-80
+267            android:enabled="true"
+267-->[com.google.firebase:firebase-sessions:2.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/4fab0e3328be30b3c4ecce890ae2e506/transformed/jetified-firebase-sessions-2.1.0/AndroidManifest.xml:24:13-35
+268            android:exported="false" />
+268-->[com.google.firebase:firebase-sessions:2.1.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/4fab0e3328be30b3c4ecce890ae2e506/transformed/jetified-firebase-sessions-2.1.0/AndroidManifest.xml:25:13-37
+269
+270        <provider
+270-->[com.google.firebase:firebase-common:21.0.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/a9e7e3e64b33f9c9f2f89e4a312a0776/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:23:9-28:39
+271            android:name="com.google.firebase.provider.FirebaseInitProvider"
+271-->[com.google.firebase:firebase-common:21.0.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/a9e7e3e64b33f9c9f2f89e4a312a0776/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:24:13-77
+272            android:authorities="com.nottechat.ai.firebaseinitprovider"
+272-->[com.google.firebase:firebase-common:21.0.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/a9e7e3e64b33f9c9f2f89e4a312a0776/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:25:13-72
+273            android:directBootAware="true"
+273-->[com.google.firebase:firebase-common:21.0.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/a9e7e3e64b33f9c9f2f89e4a312a0776/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:26:13-43
+274            android:exported="false"
+274-->[com.google.firebase:firebase-common:21.0.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/a9e7e3e64b33f9c9f2f89e4a312a0776/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:27:13-37
+275            android:initOrder="100" />
+275-->[com.google.firebase:firebase-common:21.0.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/a9e7e3e64b33f9c9f2f89e4a312a0776/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:28:13-36
+276        <provider
+276-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:31:9-39:20
+277            android:name="androidx.startup.InitializationProvider"
+277-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:32:13-67
+278            android:authorities="com.nottechat.ai.androidx-startup"
+278-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:33:13-68
+279            android:exported="false" >
+279-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:34:13-37
+280            <meta-data
+280-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:36:13-38:52
+281                android:name="androidx.work.WorkManagerInitializer"
+281-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:37:17-68
+282                android:value="androidx.startup" />
+282-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:38:17-49
+283            <meta-data
+283-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/1ee90b25fee1b097d626546c1b76d49d/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+284                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+284-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/1ee90b25fee1b097d626546c1b76d49d/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+285                android:value="androidx.startup" />
+285-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/1ee90b25fee1b097d626546c1b76d49d/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+286            <meta-data
+286-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/destinyed/.gradle/caches/8.10.2/transforms/5d6f74deef30a2bd2baeeec9e6043523/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+287                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+287-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/destinyed/.gradle/caches/8.10.2/transforms/5d6f74deef30a2bd2baeeec9e6043523/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+288                android:value="androidx.startup" />
+288-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/destinyed/.gradle/caches/8.10.2/transforms/5d6f74deef30a2bd2baeeec9e6043523/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+289        </provider>
+290
+291        <service
+291-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:41:9-46:35
+292            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+292-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:42:13-88
+293            android:directBootAware="false"
+293-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:43:13-44
+294            android:enabled="@bool/enable_system_alarm_service_default"
+294-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:44:13-72
+295            android:exported="false" />
+295-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:45:13-37
+296        <service
+296-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:47:9-53:35
+297            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+297-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:48:13-84
+298            android:directBootAware="false"
+298-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:49:13-44
+299            android:enabled="@bool/enable_system_job_service_default"
+299-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:50:13-70
+300            android:exported="true"
+300-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:51:13-36
+301            android:permission="android.permission.BIND_JOB_SERVICE" />
+301-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:52:13-69
+302        <service
+302-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:54:9-59:35
+303            android:name="androidx.work.impl.foreground.SystemForegroundService"
+303-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:55:13-81
+304            android:directBootAware="false"
+304-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:56:13-44
+305            android:enabled="@bool/enable_system_foreground_service_default"
+305-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:57:13-77
+306            android:exported="false" />
+306-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:58:13-37
+307
+308        <receiver
+308-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:61:9-66:35
+309            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+309-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:62:13-88
+310            android:directBootAware="false"
+310-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:63:13-44
+311            android:enabled="true"
+311-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:64:13-35
+312            android:exported="false" />
+312-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:65:13-37
+313        <receiver
+313-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:67:9-77:20
+314            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+314-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:68:13-106
+315            android:directBootAware="false"
+315-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:69:13-44
+316            android:enabled="false"
+316-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:70:13-36
+317            android:exported="false" >
+317-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:71:13-37
+318            <intent-filter>
+318-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:73:13-76:29
+319                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+319-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:74:17-87
+319-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:74:25-84
+320                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+320-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:75:17-90
+320-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:75:25-87
+321            </intent-filter>
+322        </receiver>
+323        <receiver
+323-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:78:9-88:20
+324            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+324-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:79:13-104
+325            android:directBootAware="false"
+325-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:80:13-44
+326            android:enabled="false"
+326-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:81:13-36
+327            android:exported="false" >
+327-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:82:13-37
+328            <intent-filter>
+328-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:84:13-87:29
+329                <action android:name="android.intent.action.BATTERY_OKAY" />
+329-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:85:17-77
+329-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:85:25-74
+330                <action android:name="android.intent.action.BATTERY_LOW" />
+330-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:86:17-76
+330-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:86:25-73
+331            </intent-filter>
+332        </receiver>
+333        <receiver
+333-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:89:9-99:20
+334            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+334-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:90:13-104
+335            android:directBootAware="false"
+335-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:91:13-44
+336            android:enabled="false"
+336-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:92:13-36
+337            android:exported="false" >
+337-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:93:13-37
+338            <intent-filter>
+338-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:95:13-98:29
+339                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+339-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:96:17-83
+339-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:96:25-80
+340                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+340-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:97:17-82
+340-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:97:25-79
+341            </intent-filter>
+342        </receiver>
+343        <receiver
+343-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:100:9-109:20
+344            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+344-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:101:13-103
+345            android:directBootAware="false"
+345-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:102:13-44
+346            android:enabled="false"
+346-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:103:13-36
+347            android:exported="false" >
+347-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:104:13-37
+348            <intent-filter>
+348-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:106:13-108:29
+349                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+349-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:107:17-79
+349-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:107:25-76
+350            </intent-filter>
+351        </receiver>
+352        <receiver
+352-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:110:9-121:20
+353            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+353-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:111:13-88
+354            android:directBootAware="false"
+354-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:112:13-44
+355            android:enabled="false"
+355-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:113:13-36
+356            android:exported="false" >
+356-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:114:13-37
+357            <intent-filter>
+357-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:116:13-120:29
+358                <action android:name="android.intent.action.BOOT_COMPLETED" />
+358-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:117:17-79
+358-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:117:25-76
+359                <action android:name="android.intent.action.TIME_SET" />
+359-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:118:17-73
+359-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:118:25-70
+360                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+360-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:119:17-81
+360-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:119:25-78
+361            </intent-filter>
+362        </receiver>
+363        <receiver
+363-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:122:9-131:20
+364            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+364-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:123:13-99
+365            android:directBootAware="false"
+365-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:124:13-44
+366            android:enabled="@bool/enable_system_alarm_service_default"
+366-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:125:13-72
+367            android:exported="false" >
+367-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:126:13-37
+368            <intent-filter>
+368-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:128:13-130:29
+369                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+369-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:129:17-98
+369-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:129:25-95
+370            </intent-filter>
+371        </receiver>
+372        <receiver
+372-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:132:9-142:20
+373            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+373-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:133:13-78
+374            android:directBootAware="false"
+374-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:134:13-44
+375            android:enabled="true"
+375-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:135:13-35
+376            android:exported="true"
+376-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:136:13-36
+377            android:permission="android.permission.DUMP" >
+377-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:137:13-57
+378            <intent-filter>
+378-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:139:13-141:29
+379                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+379-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:140:17-88
+379-->[androidx.work:work-runtime:2.7.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/129f5a367f544e775b85bcdf57429c31/transformed/work-runtime-2.7.0/AndroidManifest.xml:140:25-85
+380            </intent-filter>
+381        </receiver>
+382
+383        <uses-library
+383-->[androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] /Users/destinyed/.gradle/caches/8.10.2/transforms/03640fb6388aeb118602daa41ca4fe83/transformed/jetified-ads-adservices-1.1.0-beta11/AndroidManifest.xml:23:9-25:40
+384            android:name="android.ext.adservices"
+384-->[androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] /Users/destinyed/.gradle/caches/8.10.2/transforms/03640fb6388aeb118602daa41ca4fe83/transformed/jetified-ads-adservices-1.1.0-beta11/AndroidManifest.xml:24:13-50
+385            android:required="false" />
+385-->[androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] /Users/destinyed/.gradle/caches/8.10.2/transforms/03640fb6388aeb118602daa41ca4fe83/transformed/jetified-ads-adservices-1.1.0-beta11/AndroidManifest.xml:25:13-37
+386
+387        <meta-data
+387-->[com.google.android.gms:play-services-basement:18.5.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/e950d3581bb0853e109bd3239df6c5f4/transformed/jetified-play-services-basement-18.5.0/AndroidManifest.xml:21:9-23:69
+388            android:name="com.google.android.gms.version"
+388-->[com.google.android.gms:play-services-basement:18.5.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/e950d3581bb0853e109bd3239df6c5f4/transformed/jetified-play-services-basement-18.5.0/AndroidManifest.xml:22:13-58
+389            android:value="@integer/google_play_services_version" />
+389-->[com.google.android.gms:play-services-basement:18.5.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/e950d3581bb0853e109bd3239df6c5f4/transformed/jetified-play-services-basement-18.5.0/AndroidManifest.xml:23:13-66
+390
+391        <service
+391-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/84303f386919f0946294d1f947f7bb25/transformed/jetified-transport-backend-cct-3.3.0/AndroidManifest.xml:26:9-32:19
+392            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+392-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/84303f386919f0946294d1f947f7bb25/transformed/jetified-transport-backend-cct-3.3.0/AndroidManifest.xml:27:13-103
+393            android:exported="false" >
+393-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/84303f386919f0946294d1f947f7bb25/transformed/jetified-transport-backend-cct-3.3.0/AndroidManifest.xml:28:13-37
+394            <meta-data
+394-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/84303f386919f0946294d1f947f7bb25/transformed/jetified-transport-backend-cct-3.3.0/AndroidManifest.xml:29:13-31:39
+395                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+395-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/84303f386919f0946294d1f947f7bb25/transformed/jetified-transport-backend-cct-3.3.0/AndroidManifest.xml:30:17-94
+396                android:value="cct" />
+396-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/84303f386919f0946294d1f947f7bb25/transformed/jetified-transport-backend-cct-3.3.0/AndroidManifest.xml:31:17-36
+397        </service>
+398
+399        <receiver
+399-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/destinyed/.gradle/caches/8.10.2/transforms/5d6f74deef30a2bd2baeeec9e6043523/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+400            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+400-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/destinyed/.gradle/caches/8.10.2/transforms/5d6f74deef30a2bd2baeeec9e6043523/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+401            android:directBootAware="false"
+401-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/destinyed/.gradle/caches/8.10.2/transforms/5d6f74deef30a2bd2baeeec9e6043523/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+402            android:enabled="true"
+402-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/destinyed/.gradle/caches/8.10.2/transforms/5d6f74deef30a2bd2baeeec9e6043523/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+403            android:exported="true"
+403-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/destinyed/.gradle/caches/8.10.2/transforms/5d6f74deef30a2bd2baeeec9e6043523/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+404            android:permission="android.permission.DUMP" >
+404-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/destinyed/.gradle/caches/8.10.2/transforms/5d6f74deef30a2bd2baeeec9e6043523/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+405            <intent-filter>
+405-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/destinyed/.gradle/caches/8.10.2/transforms/5d6f74deef30a2bd2baeeec9e6043523/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+406                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+406-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/destinyed/.gradle/caches/8.10.2/transforms/5d6f74deef30a2bd2baeeec9e6043523/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+406-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/destinyed/.gradle/caches/8.10.2/transforms/5d6f74deef30a2bd2baeeec9e6043523/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+407            </intent-filter>
+408            <intent-filter>
+408-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/destinyed/.gradle/caches/8.10.2/transforms/5d6f74deef30a2bd2baeeec9e6043523/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+409                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+409-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/destinyed/.gradle/caches/8.10.2/transforms/5d6f74deef30a2bd2baeeec9e6043523/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+409-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/destinyed/.gradle/caches/8.10.2/transforms/5d6f74deef30a2bd2baeeec9e6043523/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+410            </intent-filter>
+411            <intent-filter>
+411-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/destinyed/.gradle/caches/8.10.2/transforms/5d6f74deef30a2bd2baeeec9e6043523/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+412                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+412-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/destinyed/.gradle/caches/8.10.2/transforms/5d6f74deef30a2bd2baeeec9e6043523/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+412-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/destinyed/.gradle/caches/8.10.2/transforms/5d6f74deef30a2bd2baeeec9e6043523/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+413            </intent-filter>
+414            <intent-filter>
+414-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/destinyed/.gradle/caches/8.10.2/transforms/5d6f74deef30a2bd2baeeec9e6043523/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+415                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+415-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/destinyed/.gradle/caches/8.10.2/transforms/5d6f74deef30a2bd2baeeec9e6043523/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+415-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/destinyed/.gradle/caches/8.10.2/transforms/5d6f74deef30a2bd2baeeec9e6043523/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+416            </intent-filter>
+417        </receiver>
+418
+419        <service
+419-->[androidx.room:room-runtime:2.2.5] /Users/destinyed/.gradle/caches/8.10.2/transforms/44ebad1fae28a89aa91dfa7ae7940990/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+420            android:name="androidx.room.MultiInstanceInvalidationService"
+420-->[androidx.room:room-runtime:2.2.5] /Users/destinyed/.gradle/caches/8.10.2/transforms/44ebad1fae28a89aa91dfa7ae7940990/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+421            android:directBootAware="true"
+421-->[androidx.room:room-runtime:2.2.5] /Users/destinyed/.gradle/caches/8.10.2/transforms/44ebad1fae28a89aa91dfa7ae7940990/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+422            android:exported="false" />
+422-->[androidx.room:room-runtime:2.2.5] /Users/destinyed/.gradle/caches/8.10.2/transforms/44ebad1fae28a89aa91dfa7ae7940990/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+423        <service
+423-->[com.google.android.datatransport:transport-runtime:3.3.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/e359f3f83e1365e4cce83e8268659b4e/transformed/jetified-transport-runtime-3.3.0/AndroidManifest.xml:24:9-28:19
+424            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+424-->[com.google.android.datatransport:transport-runtime:3.3.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/e359f3f83e1365e4cce83e8268659b4e/transformed/jetified-transport-runtime-3.3.0/AndroidManifest.xml:25:13-117
+425            android:exported="false"
+425-->[com.google.android.datatransport:transport-runtime:3.3.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/e359f3f83e1365e4cce83e8268659b4e/transformed/jetified-transport-runtime-3.3.0/AndroidManifest.xml:26:13-37
+426            android:permission="android.permission.BIND_JOB_SERVICE" >
+426-->[com.google.android.datatransport:transport-runtime:3.3.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/e359f3f83e1365e4cce83e8268659b4e/transformed/jetified-transport-runtime-3.3.0/AndroidManifest.xml:27:13-69
+427        </service>
+428
+429        <receiver
+429-->[com.google.android.datatransport:transport-runtime:3.3.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/e359f3f83e1365e4cce83e8268659b4e/transformed/jetified-transport-runtime-3.3.0/AndroidManifest.xml:30:9-32:40
+430            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+430-->[com.google.android.datatransport:transport-runtime:3.3.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/e359f3f83e1365e4cce83e8268659b4e/transformed/jetified-transport-runtime-3.3.0/AndroidManifest.xml:31:13-132
+431            android:exported="false" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+431-->[com.google.android.datatransport:transport-runtime:3.3.0] /Users/destinyed/.gradle/caches/8.10.2/transforms/e359f3f83e1365e4cce83e8268659b4e/transformed/jetified-transport-runtime-3.3.0/AndroidManifest.xml:32:13-37
+432        <activity
+432-->[com.google.android.play:core-common:2.0.4] /Users/destinyed/.gradle/caches/8.10.2/transforms/d7b49057c7eb0519f9123dca0968815b/transformed/jetified-core-common-2.0.4/AndroidManifest.xml:14:9-18:65
+433            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+433-->[com.google.android.play:core-common:2.0.4] /Users/destinyed/.gradle/caches/8.10.2/transforms/d7b49057c7eb0519f9123dca0968815b/transformed/jetified-core-common-2.0.4/AndroidManifest.xml:15:13-93
+434            android:exported="false"
+434-->[com.google.android.play:core-common:2.0.4] /Users/destinyed/.gradle/caches/8.10.2/transforms/d7b49057c7eb0519f9123dca0968815b/transformed/jetified-core-common-2.0.4/AndroidManifest.xml:16:13-37
+435            android:stateNotNeeded="true"
+435-->[com.google.android.play:core-common:2.0.4] /Users/destinyed/.gradle/caches/8.10.2/transforms/d7b49057c7eb0519f9123dca0968815b/transformed/jetified-core-common-2.0.4/AndroidManifest.xml:17:13-42
+436            android:theme="@style/Theme.PlayCore.Transparent" />
+436-->[com.google.android.play:core-common:2.0.4] /Users/destinyed/.gradle/caches/8.10.2/transforms/d7b49057c7eb0519f9123dca0968815b/transformed/jetified-core-common-2.0.4/AndroidManifest.xml:18:13-62
+437    </application>
+438
+439</manifest>

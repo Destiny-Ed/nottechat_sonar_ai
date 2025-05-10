@@ -1,0 +1,2 @@
+/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/.cxx/RelWithDebInfo/3t364du2/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/destinyed/Documents/MyProjects/NotteChat-Ai/android/app/.cxx/RelWithDebInfo/3t364du2/armeabi-v7a/CMakeFiles/rebuild_cache.dir

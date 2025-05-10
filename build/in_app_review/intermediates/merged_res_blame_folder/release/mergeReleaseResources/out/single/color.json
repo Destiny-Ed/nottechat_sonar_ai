@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "dev.britannio.in_app_review-release-28:/color/common_google_signin_btn_tint.xml",
+        "source": "dev.britannio.in_app_review-jetified-play-services-base-18.2.0-14:/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "dev.britannio.in_app_review-release-28:/color/common_google_signin_btn_text_light.xml",
+        "source": "dev.britannio.in_app_review-jetified-play-services-base-18.2.0-14:/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "dev.britannio.in_app_review-release-28:/color/common_google_signin_btn_text_dark.xml",
+        "source": "dev.britannio.in_app_review-jetified-play-services-base-18.2.0-14:/color/common_google_signin_btn_text_dark.xml"
+    }
+]

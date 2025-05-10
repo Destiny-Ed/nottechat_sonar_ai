@@ -8,18 +8,6 @@
       "languageVersion": "3.2"
     },
     {
-      "name": "advanced_in_app_review",
-      "rootUri": "file:///Users/destinyed/.pub-cache/hosted/pub.dev/advanced_in_app_review-1.3.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.4"
-    },
-    {
-      "name": "app_tracking_transparency",
-      "rootUri": "file:///Users/destinyed/.pub-cache/hosted/pub.dev/app_tracking_transparency-2.0.6+1",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
       "name": "archive",
       "rootUri": "file:///Users/destinyed/.pub-cache/hosted/pub.dev/archive-3.6.1",
       "packageUri": "lib/",
@@ -92,28 +80,10 @@
       "languageVersion": "3.4"
     },
     {
-      "name": "csslib",
-      "rootUri": "file:///Users/destinyed/.pub-cache/hosted/pub.dev/csslib-1.0.2",
-      "packageUri": "lib/",
-      "languageVersion": "3.1"
-    },
-    {
       "name": "cupertino_icons",
       "rootUri": "file:///Users/destinyed/.pub-cache/hosted/pub.dev/cupertino_icons-1.0.8",
       "packageUri": "lib/",
       "languageVersion": "3.1"
-    },
-    {
-      "name": "device_info_plus",
-      "rootUri": "file:///Users/destinyed/.pub-cache/hosted/pub.dev/device_info_plus-11.4.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.4"
-    },
-    {
-      "name": "device_info_plus_platform_interface",
-      "rootUri": "file:///Users/destinyed/.pub-cache/hosted/pub.dev/device_info_plus_platform_interface-7.0.2",
-      "packageUri": "lib/",
-      "languageVersion": "2.18"
     },
     {
       "name": "docx_to_text",
@@ -248,18 +218,6 @@
       "languageVersion": "3.7"
     },
     {
-      "name": "google_generative_ai",
-      "rootUri": "file:///Users/destinyed/.pub-cache/hosted/pub.dev/google_generative_ai-0.4.7",
-      "packageUri": "lib/",
-      "languageVersion": "3.1"
-    },
-    {
-      "name": "google_mobile_ads",
-      "rootUri": "file:///Users/destinyed/.pub-cache/hosted/pub.dev/google_mobile_ads-6.0.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.6"
-    },
-    {
       "name": "hive",
       "rootUri": "file:///Users/destinyed/.pub-cache/hosted/pub.dev/hive-2.2.3",
       "packageUri": "lib/",
@@ -270,12 +228,6 @@
       "rootUri": "file:///Users/destinyed/.pub-cache/hosted/pub.dev/hive_flutter-1.1.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
-    },
-    {
-      "name": "html",
-      "rootUri": "file:///Users/destinyed/.pub-cache/hosted/pub.dev/html-0.15.6",
-      "packageUri": "lib/",
-      "languageVersion": "3.2"
     },
     {
       "name": "http",
@@ -294,42 +246,6 @@
       "rootUri": "file:///Users/destinyed/.pub-cache/hosted/pub.dev/image-4.3.0",
       "packageUri": "lib/",
       "languageVersion": "2.15"
-    },
-    {
-      "name": "in_app_purchase",
-      "rootUri": "file:///Users/destinyed/.pub-cache/hosted/pub.dev/in_app_purchase-3.2.1",
-      "packageUri": "lib/",
-      "languageVersion": "3.5"
-    },
-    {
-      "name": "in_app_purchase_android",
-      "rootUri": "file:///Users/destinyed/.pub-cache/hosted/pub.dev/in_app_purchase_android-0.4.0+1",
-      "packageUri": "lib/",
-      "languageVersion": "3.6"
-    },
-    {
-      "name": "in_app_purchase_platform_interface",
-      "rootUri": "file:///Users/destinyed/.pub-cache/hosted/pub.dev/in_app_purchase_platform_interface-1.4.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.1"
-    },
-    {
-      "name": "in_app_purchase_storekit",
-      "rootUri": "file:///Users/destinyed/.pub-cache/hosted/pub.dev/in_app_purchase_storekit-0.3.22+1",
-      "packageUri": "lib/",
-      "languageVersion": "3.4"
-    },
-    {
-      "name": "in_app_review",
-      "rootUri": "file:///Users/destinyed/.pub-cache/hosted/pub.dev/in_app_review-2.0.10",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "in_app_review_platform_interface",
-      "rootUri": "file:///Users/destinyed/.pub-cache/hosted/pub.dev/in_app_review_platform_interface-2.0.5",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
     },
     {
       "name": "intl",
@@ -384,24 +300,6 @@
       "rootUri": "file:///Users/destinyed/.pub-cache/hosted/pub.dev/nested-1.0.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
-    },
-    {
-      "name": "os_detect",
-      "rootUri": "file:///Users/destinyed/.pub-cache/hosted/pub.dev/os_detect-2.0.3",
-      "packageUri": "lib/",
-      "languageVersion": "3.5"
-    },
-    {
-      "name": "package_info_plus",
-      "rootUri": "file:///Users/destinyed/.pub-cache/hosted/pub.dev/package_info_plus-8.3.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.3"
-    },
-    {
-      "name": "package_info_plus_platform_interface",
-      "rootUri": "file:///Users/destinyed/.pub-cache/hosted/pub.dev/package_info_plus_platform_interface-3.2.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.18"
     },
     {
       "name": "path",
@@ -626,12 +524,6 @@
       "languageVersion": "3.5"
     },
     {
-      "name": "upgrader",
-      "rootUri": "file:///Users/destinyed/.pub-cache/hosted/pub.dev/upgrader-11.3.2",
-      "packageUri": "lib/",
-      "languageVersion": "3.5"
-    },
-    {
       "name": "url_launcher",
       "rootUri": "file:///Users/destinyed/.pub-cache/hosted/pub.dev/url_launcher-6.3.1",
       "packageUri": "lib/",
@@ -686,12 +578,6 @@
       "languageVersion": "2.14"
     },
     {
-      "name": "version",
-      "rootUri": "file:///Users/destinyed/.pub-cache/hosted/pub.dev/version-3.0.2",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
       "name": "vm_service",
       "rootUri": "file:///Users/destinyed/.pub-cache/hosted/pub.dev/vm_service-14.3.1",
       "packageUri": "lib/",
@@ -704,38 +590,8 @@
       "languageVersion": "3.4"
     },
     {
-      "name": "webview_flutter",
-      "rootUri": "file:///Users/destinyed/.pub-cache/hosted/pub.dev/webview_flutter-4.11.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.6"
-    },
-    {
-      "name": "webview_flutter_android",
-      "rootUri": "file:///Users/destinyed/.pub-cache/hosted/pub.dev/webview_flutter_android-4.4.2",
-      "packageUri": "lib/",
-      "languageVersion": "3.6"
-    },
-    {
-      "name": "webview_flutter_platform_interface",
-      "rootUri": "file:///Users/destinyed/.pub-cache/hosted/pub.dev/webview_flutter_platform_interface-2.11.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.4"
-    },
-    {
-      "name": "webview_flutter_wkwebview",
-      "rootUri": "file:///Users/destinyed/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.20.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.5"
-    },
-    {
       "name": "win32",
       "rootUri": "file:///Users/destinyed/.pub-cache/hosted/pub.dev/win32-5.13.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.7"
-    },
-    {
-      "name": "win32_registry",
-      "rootUri": "file:///Users/destinyed/.pub-cache/hosted/pub.dev/win32_registry-2.1.0",
       "packageUri": "lib/",
       "languageVersion": "3.7"
     },
@@ -764,7 +620,7 @@
       "languageVersion": "3.7"
     }
   ],
-  "generated": "2025-05-10T18:03:43.854533Z",
+  "generated": "2025-05-10T20:34:40.352414Z",
   "generator": "pub",
   "generatorVersion": "3.7.2",
   "flutterRoot": "file:///Users/destinyed/development/flutter",

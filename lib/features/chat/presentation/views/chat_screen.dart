@@ -15,7 +15,6 @@ import 'package:notte_chat/features/settings/presentation/provider/settings_prov
 import 'package:notte_chat/shared/style/color.dart';
 import 'package:notte_chat/shared/widgets/busy_overlay.dart';
 import 'package:provider/provider.dart';
-import 'package:upgrader/upgrader.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class ChatListScreen extends StatefulWidget {
@@ -39,11 +38,7 @@ class _ChatListScreenState extends State<ChatListScreen> {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    return UpgradeAlert(
-      showIgnore: false,
-      showLater: false,
-      upgrader: Upgrader(durationUntilAlertAgain: const Duration(days: 2)),
-      child: Consumer<ChatProvider>(
+    return Consumer<ChatProvider>(
         builder: (context, provider, child) {
           return BusyOverlay(
             show: provider.isExtracting,
@@ -193,8 +188,7 @@ class _ChatListScreenState extends State<ChatListScreen> {
             ),
           );
         },
-      ),
-    );
+      );
   }
 
   void _showUploadDialog() {

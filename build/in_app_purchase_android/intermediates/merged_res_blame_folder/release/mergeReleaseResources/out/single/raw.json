@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "io.flutter.plugins.inapppurchase.in_app_purchase_android-release-28:/raw/com_android_billingclient_registration_info.binarypb",
+        "source": "io.flutter.plugins.inapppurchase.in_app_purchase_android-jetified-billing-7.1.1-19:/raw/com_android_billingclient_registration_info.binarypb"
+    },
+    {
+        "merged": "io.flutter.plugins.inapppurchase.in_app_purchase_android-release-28:/raw/com_android_billingclient_heterodyne_info",
+        "source": "io.flutter.plugins.inapppurchase.in_app_purchase_android-jetified-billing-7.1.1-19:/raw/com_android_billingclient_heterodyne_info"
+    }
+]

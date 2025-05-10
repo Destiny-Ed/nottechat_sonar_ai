@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "dev.britannio.in_app_review-release-28:/layout-v21/notification_template_custom_big.xml",
+        "source": "dev.britannio.in_app_review-core-1.13.1-12:/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "dev.britannio.in_app_review-release-28:/layout-v21/notification_template_icon_group.xml",
+        "source": "dev.britannio.in_app_review-core-1.13.1-12:/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "dev.britannio.in_app_review-release-28:/layout-v21/notification_action_tombstone.xml",
+        "source": "dev.britannio.in_app_review-core-1.13.1-12:/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "dev.britannio.in_app_review-release-28:/layout-v21/notification_action.xml",
+        "source": "dev.britannio.in_app_review-core-1.13.1-12:/layout-v21/notification_action.xml"
+    }
+]
