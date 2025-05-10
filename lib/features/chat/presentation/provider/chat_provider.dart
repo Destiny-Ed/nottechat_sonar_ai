@@ -1,16 +1,13 @@
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
-import 'package:notte_chat/core/constants.dart';
 import 'package:notte_chat/core/utils/analysis_logger.dart';
 import 'package:notte_chat/core/utils/pick_pdf.dart';
 import 'package:notte_chat/core/utils/sonar_service.dart';
 import 'package:notte_chat/features/chat/data/model/chat_model.dart';
-import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:notte_chat/features/chat/data/repo/db_helper_factory.dart';
 import 'dart:io';
-import 'package:google_generative_ai/google_generative_ai.dart' as ai;
 
 class ChatProvider extends ChangeNotifier {
   List<ChatSession> _sessions = [];
