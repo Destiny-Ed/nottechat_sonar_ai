@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:notte_chat/core/utils/analysis_logger.dart';
 import 'package:notte_chat/features/chat/presentation/views/chat_screen.dart';
-import 'package:notte_chat/features/subscription/presentation/provider/subscription_provider.dart';
-import 'package:notte_chat/features/subscription/presentation/views/free_trial_paywall_screen.dart';
 import 'package:notte_chat/shared/style/color.dart';
-import 'package:provider/provider.dart';
 
 class OnboardingScreen extends StatefulWidget {
   const OnboardingScreen({super.key});
@@ -34,11 +31,6 @@ class _OnboardingScreenState extends State<OnboardingScreen> with SingleTickerPr
       'title': 'Offline Power',
       'description': 'Use NotteChat offline on all platform. Your documents, anywhere!',
       'image': 'assets/offline_mode.png',
-    },
-    {
-      'title': '3-Day Free Trial',
-      'description': 'Unlock unlimited chats with NotteChat Pro. Try it free for 3 days!',
-      'image': 'assets/free_trial.jpeg',
     },
   ];
 
@@ -77,14 +69,9 @@ class _OnboardingScreenState extends State<OnboardingScreen> with SingleTickerPr
       }
     }
 
-    final proProvider = context.read<ProProvider>();
     AnalysisLogger.logEvent("onboarding_completed", EventDataModel(value: "Get Started - Page ${_currentPage + 1}"));
 
-    if (proProvider.isProSubscribed) {
       Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => ChatListScreen()));
-    } else {
-      Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => const FreeTrialPaywallScreen()));
-    }
   }
 
   @override

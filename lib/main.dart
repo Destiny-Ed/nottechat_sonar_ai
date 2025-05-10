@@ -8,7 +8,6 @@ import 'package:notte_chat/features/chat/presentation/provider/chat_provider.dar
 import 'package:flutter/material.dart';
 import 'package:notte_chat/features/settings/presentation/provider/settings_provider.dart';
 import 'package:notte_chat/features/onboarding/presentations/views/splash_screen.dart';
-import 'package:notte_chat/features/subscription/presentation/provider/subscription_provider.dart';
 import 'package:notte_chat/firebase_options.dart';
 import 'package:provider/provider.dart';
 
@@ -36,7 +35,6 @@ _initApp() async {
       providers: [
         ChangeNotifierProvider(create: (_) => ChatProvider()),
         ChangeNotifierProvider(create: (_) => SettingsProvider()),
-        ChangeNotifierProvider(create: (_) => ProProvider()),
       ],
       child: MyApp(),
     ),

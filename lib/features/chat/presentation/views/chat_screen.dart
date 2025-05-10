@@ -1,9 +1,7 @@
 import 'dart:developer';
 import 'dart:io';
-
 import 'package:file_picker/file_picker.dart';
 import 'package:notte_chat/core/constants.dart';
-import 'package:notte_chat/core/enums/enum.dart';
 import 'package:notte_chat/core/extensions/date_extension.dart';
 import 'package:notte_chat/core/utils/analysis_logger.dart';
 import 'package:notte_chat/core/utils/pick_pdf.dart';
@@ -15,8 +13,6 @@ import 'package:notte_chat/features/chat/presentation/widgets/theme_toggle_butto
 import 'package:flutter/material.dart';
 import 'package:notte_chat/features/settings/presentation/provider/settings_provider.dart';
 import 'package:notte_chat/shared/style/color.dart';
-import 'package:notte_chat/features/subscription/presentation/dialog/pro_warning_dialog.dart';
-import 'package:notte_chat/features/subscription/presentation/provider/subscription_provider.dart';
 import 'package:notte_chat/shared/widgets/busy_overlay.dart';
 import 'package:provider/provider.dart';
 import 'package:upgrader/upgrader.dart';
@@ -83,31 +79,20 @@ class _ChatListScreenState extends State<ChatListScreen> {
                   //   onPressed: () => Provider.of<ChatProvider>(context, listen: false).toggleOfflineMode(),
                   //   tooltip: 'Toggle Offline Mode',
                   // ),
-                  Consumer<ProProvider>(
-                    builder: (context, provider, child) {
-                      return IconButton(
+                  IconButton(
                         icon: Icon(Icons.analytics),
                         onPressed: () {
-                          if (provider.isProSubscribed) {
+                        
                             Navigator.push(
                               context,
                               MaterialPageRoute(
                                 builder: (context) => AppAnalyticsScreen(),
                               ),
                             );
-                          } else {
-                            ///show dialog and then show paywall
-                            showProUpgradeDialog(
-                              context,
-                              "detailed chat analysis",
-                              ProFeaturesEnums.analysis,
-                            );
-                          }
+                          
                         },
                         tooltip: 'All Chat Analysis',
-                      );
-                    },
-                  ),
+                      )
                 ],
               ),
               body: Builder(
@@ -321,7 +306,6 @@ class _ChatListScreenState extends State<ChatListScreen> {
     List<PlatformFile> pdfFiles, {
     required bool isUrl,
   }) async {
-    final proProvider = context.read<ProProvider>();
 
     final isAllDocumentAndPDFs = pdfFiles.any(
       (e) =>
@@ -334,35 +318,10 @@ class _ChatListScreenState extends State<ChatListScreen> {
       );
       return;
     }
-    //TODO : UNCOMMENT THIS IN THE FUTURE TO MAKE PDFLINK EXTRACT TO BE PREMIUM
-    // if (isUrl &&
-    //     (proProvider.unlockedFeature != ProFeaturesEnums.linkExtract ||
-    //         !proProvider.isProSubscribed)) {
-    //   showProUpgradeDialog(
-    //     context,
-    //     "PDF/Word links",
-    //     ProFeaturesEnums.linkExtract,
-    //   );
-    // }
+   
 
     if (pdfFiles.isNotEmpty && context.mounted) {
-      if (proProvider.isProSubscribed ||
-          pdfFiles.length < 2 ||
-          proProvider.unlockedFeature == ProFeaturesEnums.multiPDF) {
-        context.read<ChatProvider>().createChatFromDocuments(pdfFiles).then((
-          _,
-        ) {
-          if (proProvider.unlockedFeature == ProFeaturesEnums.multiPDF)
-            proProvider.clearUnlockedFeature();
-        });
-      } else {
-        ///show dialog and then show paywall
-        showProUpgradeDialog(
-          context,
-          "Multi-PDF Chats",
-          ProFeaturesEnums.multiPDF,
-        );
-      }
+      context.read<ChatProvider>().createChatFromDocuments(pdfFiles) ;
     }
 
     AnalysisLogger.logEvent(

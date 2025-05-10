@@ -6,7 +6,6 @@ import 'package:flutter/material.dart';
 import 'package:notte_chat/features/chat/presentation/views/chat_screen.dart';
 import 'package:notte_chat/features/onboarding/presentations/views/onboarding_screen.dart';
 import 'package:notte_chat/features/settings/presentation/provider/settings_provider.dart';
-import 'package:notte_chat/features/subscription/presentation/provider/subscription_provider.dart';
 import 'package:provider/provider.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -32,7 +31,6 @@ class _SplashScreenState extends State<SplashScreen> {
         .setMinSecondsBeforeShowDialog(4)
         .monitor();
 
-    context.read<ProProvider>().restorePurchases();
   }
 
   @override

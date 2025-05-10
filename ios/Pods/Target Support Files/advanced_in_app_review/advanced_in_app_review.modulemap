@@ -1,0 +1,6 @@
+framework module advanced_in_app_review {
+  umbrella header "advanced_in_app_review-umbrella.h"
+
+  export *
+  module * { export * }
+}

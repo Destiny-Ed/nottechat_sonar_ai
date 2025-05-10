@@ -4,6 +4,7 @@ import 'package:flutter/services.dart';
 import 'package:notte_chat/core/constants.dart';
 import 'package:notte_chat/core/utils/analysis_logger.dart';
 import 'package:notte_chat/core/utils/pick_pdf.dart';
+import 'package:notte_chat/core/utils/sonar_service.dart';
 import 'package:notte_chat/features/chat/data/model/chat_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
@@ -15,8 +16,6 @@ class ChatProvider extends ChangeNotifier {
   List<ChatSession> _sessions = [];
   final _dbHelper = getDBHelper();
   final FlutterTts tts = FlutterTts();
-  // final ai.GenerativeModel _model = ai.GenerativeModel(model: 'gemini-2.0-flash-lite', apiKey: apiKeyGemini);
-  final ai.GenerativeModel _model = ai.GenerativeModel(model: 'gemini-1.5-flash-latest', apiKey: apiKeyGemini);
 
   bool _isThinking = false;
   bool isTTsSpeaking = false;
@@ -175,9 +174,10 @@ class ChatProvider extends ChangeNotifier {
     try {
       final prompt =
           'Persona: $persona\nContext: $pdfText\nQuery: $query\nRespond in the style of the specified persona.';
-      final response = await _model.generateContent([ai.Content.text(prompt)]);
-      if (response.text == null) return 'NotteChat returned no text';
-      return response.text!;
+      // final response = await _model.generateContent([ai.Content.text(prompt)]);
+      final response = await SonarService().queryDocument(prompt);
+      if (response == null) return 'NotteChat returned no text';
+      return response;
     } on SocketException catch (_) {
       return 'connection error: please check your network connection';
     } catch (e) {

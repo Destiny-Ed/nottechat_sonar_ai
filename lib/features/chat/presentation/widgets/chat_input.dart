@@ -1,15 +1,11 @@
 import 'dart:developer';
-
 import 'package:flutter/services.dart';
-import 'package:notte_chat/core/enums/enum.dart';
 import 'package:notte_chat/core/utils/analysis_logger.dart';
 import 'package:notte_chat/features/chat/presentation/provider/chat_provider.dart';
 import 'package:flutter/material.dart';
 
 import 'package:notte_chat/shared/style/color.dart';
 import 'package:notte_chat/features/settings/presentation/provider/settings_provider.dart';
-import 'package:notte_chat/features/subscription/presentation/dialog/pro_warning_dialog.dart';
-import 'package:notte_chat/features/subscription/presentation/provider/subscription_provider.dart';
 import 'package:provider/provider.dart';
 import 'package:speech_to_text/speech_to_text.dart' as stt;
 
@@ -71,10 +67,7 @@ class _ChatInputState extends State<ChatInput> {
         _voiceText = ''; // Reset voice text
         setState(() {});
 
-        if (mounted) {
-          final proProvider = context.read<ProProvider>();
-          if (proProvider.unlockedFeature == ProFeaturesEnums.audioChat) proProvider.clearUnlockedFeature();
-        }
+        
       }
     }
 
@@ -119,27 +112,15 @@ class _ChatInputState extends State<ChatInput> {
               child: IconButton(
                 icon: Icon(Icons.send, color: Colors.white, size: 20),
                 onPressed: () {
-                  final proProvider = context.read<ProProvider>();
                   final chatProvider = context.read<ChatProvider>();
 
                   if (_controller.text.isNotEmpty) {
                     ///Check if user conversations count is == 10 and not subscribed
-                    if ((!proProvider.isProSubscribed &&
-                            chatProvider.sessions[widget.sessionIndex].messages.length >= 10) &&
-                        proProvider.unlockedFeature != ProFeaturesEnums.conversationSession) {
-                      ///show dialog and then show paywall
-                      showProUpgradeDialog(context, "unlimited conversation", ProFeaturesEnums.conversationSession);
-                    } else {
+                    
                       chatProvider.sendMessage(_controller.text, widget.sessionIndex);
                       _controller.clear();
 
-                      if (mounted) {
-                        if (proProvider.unlockedFeature == ProFeaturesEnums.conversationSession)
-                          proProvider.clearUnlockedFeature();
-                      }
-
                       AnalysisLogger.logEvent("send chat", EventDataModel(value: "Chat Input"));
-                    }
                   }
                 },
               ),
@@ -150,13 +131,9 @@ class _ChatInputState extends State<ChatInput> {
               child: IconButton(
                 icon: Icon(_isListening ? Icons.stop : Icons.mic, color: Colors.white),
                 onPressed: () {
-                  final proProvider = context.read<ProProvider>();
-                  if (proProvider.isProSubscribed || proProvider.unlockedFeature == ProFeaturesEnums.audioChat) {
+                 
                     _toggleRecording();
-                  } else {
-                    ///show dialog and then show paywall
-                    showProUpgradeDialog(context, "audio chat", ProFeaturesEnums.audioChat);
-                  }
+                   
                 },
               ),
             ),

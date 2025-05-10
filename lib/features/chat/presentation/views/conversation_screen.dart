@@ -1,7 +1,6 @@
 import 'package:notte_chat/core/extensions/date_extension.dart';
 import 'package:notte_chat/core/utils/analysis_logger.dart';
 import 'package:notte_chat/features/chat/presentation/provider/chat_provider.dart';
-import 'package:notte_chat/features/chat/presentation/widgets/ads_widget.dart';
 import 'package:notte_chat/features/chat/presentation/widgets/chat_input.dart';
 import 'package:notte_chat/features/chat/presentation/widgets/message_bubble.dart';
 import 'package:notte_chat/features/chat/presentation/widgets/preset_button.dart';
@@ -152,7 +151,6 @@ class _ChatScreenState extends State<ChatScreen> {
                   //       ],
                   //     ),
                   //   ),
-                  AdsWidget(),
                   SearchIcon(onChanged: (value) => setState(() => _searchQuery = value)),
                   Expanded(
                     child: ListView.builder(
