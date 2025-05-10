@@ -36,7 +36,7 @@ class SonarService {
 
       final data = SonarResponse.fromJson(jsonDecode(response.body));
       log("sonar response :: ${data.toJson()}");
-      final answer = data.choices.first.message.content;
+      final answer = data.choices.first.message.content.replaceAll("Perplexity", "NotteChat");
 
       AnalysisLogger.logEvent(
         'sonar_query',
