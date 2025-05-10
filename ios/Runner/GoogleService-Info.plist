@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>791942755799-v239un74c3hd96lqvvdeljkc4hn1ummh.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.791942755799-v239un74c3hd96lqvvdeljkc4hn1ummh</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA4FtE3U6au9h7f0hRydshYb4JGEz7Lv9c</string>
+	<key>GCM_SENDER_ID</key>
+	<string>791942755799</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.nottechat.ai</string>
+	<key>PROJECT_ID</key>
+	<string>nottechat</string>
+	<key>STORAGE_BUCKET</key>
+	<string>nottechat.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:791942755799:ios:8202936d61fadeb4600792</string>
+</dict>
+</plist>

@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "791942755799",
+    "project_id": "nottechat",
+    "storage_bucket": "nottechat.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791942755799:android:b11a2ccfbf870aee600792",
+        "android_client_info": {
+          "package_name": "com.nottechat.ai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "791942755799-3jds5gouu3hdo5qjbor3tqh6f0v1e2j1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNujgmPFzMVVCY9PdKwEpTSBOZhCeeK4A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "791942755799-3jds5gouu3hdo5qjbor3tqh6f0v1e2j1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "791942755799-8vjepedm1ilsekfm748gcp1tsaj5p8p0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "ai.nottechat.com"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
