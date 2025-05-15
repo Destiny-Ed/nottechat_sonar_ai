@@ -1,11 +1,10 @@
 import 'dart:developer';
-import 'dart:io';
+import 'package:doc_text_extractor/doc_text_extractor.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:notte_chat/core/constants.dart';
 import 'package:notte_chat/core/extensions/date_extension.dart';
 import 'package:notte_chat/core/utils/analysis_logger.dart';
 import 'package:notte_chat/core/utils/pick_pdf.dart';
-import 'package:notte_chat/core/utils/url_helper.dart';
 import 'package:notte_chat/features/analysis/presentation/views/all_wide_analysis_screen.dart';
 import 'package:notte_chat/features/chat/presentation/provider/chat_provider.dart';
 import 'package:notte_chat/features/chat/presentation/views/conversation_screen.dart';
@@ -39,156 +38,154 @@ class _ChatListScreenState extends State<ChatListScreen> {
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     return Consumer<ChatProvider>(
-        builder: (context, provider, child) {
-          return BusyOverlay(
-            show: provider.isExtracting,
-            child: Scaffold(
-              appBar: AppBar(
-                title: Text(
-                  'NotteChat Ai',
-                  style: TextStyle(color: theme.textTheme.bodyMedium!.color),
-                ),
-                elevation: 0,
-                actions: [
-                  ElevatedButton(
-                    style: ButtonStyle(
-                      foregroundColor: WidgetStateProperty.all(Colors.white),
-                      backgroundColor: WidgetStateProperty.all(primaryColor),
-                    ),
-                    onPressed: () async {
-                      final url = Uri.parse(appWebsite);
-                      if (await canLaunchUrl(url)) {
-                        launchUrl(url);
-                      }
-
-                      AnalysisLogger.logEvent(
-                        "view about",
-                        EventDataModel(value: "Chat Screen"),
-                      );
-                    },
-                    child: Text("About"),
+      builder: (context, provider, child) {
+        return BusyOverlay(
+          show: provider.isExtracting,
+          child: Scaffold(
+            appBar: AppBar(
+              title: Text(
+                'NotteChat Ai',
+                style: TextStyle(color: theme.textTheme.bodyMedium!.color),
+              ),
+              elevation: 0,
+              actions: [
+                ElevatedButton(
+                  style: ButtonStyle(
+                    foregroundColor: WidgetStateProperty.all(Colors.white),
+                    backgroundColor: WidgetStateProperty.all(primaryColor),
                   ),
-                  ThemeToggleButton(),
-                  // IconButton(
-                  //   icon: Icon(Provider.of<ChatProvider>(context).isOffline ? Icons.cloud_off : Icons.cloud),
-                  //   onPressed: () => Provider.of<ChatProvider>(context, listen: false).toggleOfflineMode(),
-                  //   tooltip: 'Toggle Offline Mode',
-                  // ),
-                  IconButton(
-                        icon: Icon(Icons.analytics),
-                        onPressed: () {
-                        
+                  onPressed: () async {
+                    final url = Uri.parse(appWebsite);
+                    if (await canLaunchUrl(url)) {
+                      launchUrl(url);
+                    }
+
+                    AnalysisLogger.logEvent(
+                      "view about",
+                      EventDataModel(value: "Chat Screen"),
+                    );
+                  },
+                  child: Text("About"),
+                ),
+                ThemeToggleButton(),
+                // IconButton(
+                //   icon: Icon(Provider.of<ChatProvider>(context).isOffline ? Icons.cloud_off : Icons.cloud),
+                //   onPressed: () => Provider.of<ChatProvider>(context, listen: false).toggleOfflineMode(),
+                //   tooltip: 'Toggle Offline Mode',
+                // ),
+                IconButton(
+                  icon: Icon(Icons.analytics),
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => AppAnalyticsScreen(),
+                      ),
+                    );
+                  },
+                  tooltip: 'All Chat Analysis',
+                ),
+              ],
+            ),
+            body: Builder(
+              builder: (context) {
+                if (provider.sessions.isEmpty) {
+                  return Center(
+                    child: Column(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        Icon(
+                          Icons.description,
+                          size: 64,
+                          color: Colors.grey[400],
+                        ),
+                        SizedBox(height: 16),
+                        Text(
+                          'No chats yet. Upload PDFs or Word Docx to start!',
+                          style: theme.textTheme.bodyMedium,
+                        ),
+                      ],
+                    ),
+                  );
+                }
+
+                return ListView.builder(
+                  itemCount: provider.sessions.length,
+                  padding: const EdgeInsets.only(top: 10, bottom: 110),
+                  itemBuilder: (context, index) {
+                    final session = provider.sessions[index];
+
+                    return Dismissible(
+                      key: Key(session.id.toString()),
+                      direction: DismissDirection.endToStart,
+                      background: Container(
+                        color: Colors.red,
+                        alignment: Alignment.centerRight,
+                        padding: EdgeInsets.only(right: 16),
+                        child: Icon(Icons.delete, color: Colors.white),
+                      ),
+                      onDismissed: (direction) {
+                        provider.deleteChat(index);
+                        ScaffoldMessenger.of(context).showSnackBar(
+                          SnackBar(content: Text('${session.title} deleted')),
+                        );
+                      },
+                      child: Card(
+                        color: theme.cardColor,
+                        margin: EdgeInsets.symmetric(
+                          horizontal: 8,
+                          vertical: 4,
+                        ),
+                        child: ListTile(
+                          leading: Icon(
+                            session.title.toLowerCase().endsWith("pdf")
+                                ? Icons.picture_as_pdf
+                                : Icons.library_books,
+                            color: primaryColor,
+                          ),
+                          title: Text(
+                            session.title.cap,
+                            overflow: TextOverflow.ellipsis,
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              color: theme.textTheme.bodyMedium!.color,
+                            ),
+                          ),
+                          subtitle: Text(
+                            session.createdAt.formatDateAndTime(),
+                            style: theme.textTheme.bodySmall,
+                          ),
+                          onTap: () {
                             Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => AppAnalyticsScreen(),
+                                builder:
+                                    (context) =>
+                                        ChatScreen(sessionIndex: index),
                               ),
                             );
-                          
-                        },
-                        tooltip: 'All Chat Analysis',
-                      )
-                ],
-              ),
-              body: Builder(
-                builder: (context) {
-                  if (provider.sessions.isEmpty) {
-                    return Center(
-                      child: Column(
-                        mainAxisSize: MainAxisSize.min,
-                        children: [
-                          Icon(
-                            Icons.description,
-                            size: 64,
-                            color: Colors.grey[400],
-                          ),
-                          SizedBox(height: 16),
-                          Text(
-                            'No chats yet. Upload PDFs or Word Docx to start!',
-                            style: theme.textTheme.bodyMedium,
-                          ),
-                        ],
+                          },
+                        ),
                       ),
                     );
-                  }
-
-                  return ListView.builder(
-                    itemCount: provider.sessions.length,
-                    padding: const EdgeInsets.only(top: 10, bottom: 110),
-                    itemBuilder: (context, index) {
-                      final session = provider.sessions[index];
-
-                      return Dismissible(
-                        key: Key(session.id.toString()),
-                        direction: DismissDirection.endToStart,
-                        background: Container(
-                          color: Colors.red,
-                          alignment: Alignment.centerRight,
-                          padding: EdgeInsets.only(right: 16),
-                          child: Icon(Icons.delete, color: Colors.white),
-                        ),
-                        onDismissed: (direction) {
-                          provider.deleteChat(index);
-                          ScaffoldMessenger.of(context).showSnackBar(
-                            SnackBar(content: Text('${session.title} deleted')),
-                          );
-                        },
-                        child: Card(
-                          color: theme.cardColor,
-                          margin: EdgeInsets.symmetric(
-                            horizontal: 8,
-                            vertical: 4,
-                          ),
-                          child: ListTile(
-                            leading: Icon(
-                              session.title.toLowerCase().endsWith("pdf")
-                                  ? Icons.picture_as_pdf
-                                  : Icons.library_books,
-                              color: primaryColor,
-                            ),
-                            title: Text(
-                              session.title.cap,
-                              overflow: TextOverflow.ellipsis,
-                              style: TextStyle(
-                                fontWeight: FontWeight.bold,
-                                color: theme.textTheme.bodyMedium!.color,
-                              ),
-                            ),
-                            subtitle: Text(
-                              session.createdAt.formatDateAndTime(),
-                              style: theme.textTheme.bodySmall,
-                            ),
-                            onTap: () {
-                              Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder:
-                                      (context) =>
-                                          ChatScreen(sessionIndex: index),
-                                ),
-                              );
-                            },
-                          ),
-                        ),
-                      );
-                    },
-                  );
-                },
-              ),
-              floatingActionButton: FloatingActionButton.extended(
-                backgroundColor: primaryColor,
-                foregroundColor: Colors.white,
-                onPressed: () {
-                  _showUploadDialog();
-                },
-                tooltip: 'Upload PDFs or Word Docx',
-                label: Text("New Chat"),
-                icon: Icon(Icons.add),
-              ),
+                  },
+                );
+              },
             ),
-          );
-        },
-      );
+            floatingActionButton: FloatingActionButton.extended(
+              backgroundColor: primaryColor,
+              foregroundColor: Colors.white,
+              onPressed: () {
+                _showUploadDialog();
+              },
+              tooltip: 'Upload PDFs or Word Docx',
+              label: Text("New Chat"),
+              icon: Icon(Icons.add),
+            ),
+          ),
+        );
+      },
+    );
   }
 
   void _showUploadDialog() {
@@ -220,21 +217,21 @@ class _ChatListScreenState extends State<ChatListScreen> {
                 TextFormField(
                   controller: urlController,
                   style: Theme.of(context).textTheme.bodyMedium,
-                  decoration:   InputDecoration(
+                  decoration: InputDecoration(
                     border: OutlineInputBorder(),
                     labelText: 'Paste PDF, Word, or Google Docs URL',
                     labelStyle: Theme.of(context).textTheme.bodyMedium,
                     hintText: 'https://example.com/document.pdf',
-             
-
                   ),
                 ),
               ],
             ),
             actions: [
               TextButton(
-                 style: ButtonStyle(
-                  foregroundColor: WidgetStateProperty.all(Theme.of(context).textTheme.bodyMedium!.color),
+                style: ButtonStyle(
+                  foregroundColor: WidgetStateProperty.all(
+                    Theme.of(context).textTheme.bodyMedium!.color,
+                  ),
                 ),
                 onPressed: () => Navigator.pop(context),
                 child: const Text('Cancel'),
@@ -261,27 +258,28 @@ class _ChatListScreenState extends State<ChatListScreen> {
   }
 
   Future<void> _loadNetworkDocument(String url) async {
-      context.read<ChatProvider>().isExtracting = true;
+    context.read<ChatProvider>().isExtracting = true;
 
     try {
       log(url.toString());
 
-      final doc = await UrlHelper.fetchDocumentFromUrl(url);
+      final doc = await TextExtractor().extractText(url, isUrl: true);
       log(doc.toString());
-      if (doc == null) {
+      if (doc.text.isEmpty) {
         ScaffoldMessenger.of(context).showSnackBar(
           const SnackBar(content: Text('Failed to fetch document.')),
         );
         return;
       }
-      final getFile = File(doc['path']);
-      _processDocuments([
-        PlatformFile(
-          name: getFile.path.split("/").last,
-          size: getFile.lengthSync(),
-          path: getFile.path,
-          bytes: getFile.readAsBytesSync(),
-        ),
+
+      final platformFile = PlatformFile(
+        name: doc.filename,
+        size: 0,
+        path: doc.text,
+      );
+
+      context.read<ChatProvider>().createChatFromDocuments([
+        platformFile,
       ], isUrl: true);
     } catch (e) {
       ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text('$e')));
@@ -300,11 +298,11 @@ class _ChatListScreenState extends State<ChatListScreen> {
     List<PlatformFile> pdfFiles, {
     required bool isUrl,
   }) async {
-
     final isAllDocumentAndPDFs = pdfFiles.any(
       (e) =>
           e.extension!.toLowerCase() == "pdf" ||
-          e.extension!.toLowerCase() == "docx" || e.extension!.toLowerCase() == "doc",
+          e.extension!.toLowerCase() == "docx" ||
+          e.extension!.toLowerCase() == "doc",
     );
     if (!isAllDocumentAndPDFs) {
       ScaffoldMessenger.of(context).showSnackBar(
@@ -312,10 +310,9 @@ class _ChatListScreenState extends State<ChatListScreen> {
       );
       return;
     }
-   
 
     if (pdfFiles.isNotEmpty && context.mounted) {
-      context.read<ChatProvider>().createChatFromDocuments(pdfFiles) ;
+      context.read<ChatProvider>().createChatFromDocuments(pdfFiles);
     }
 
     AnalysisLogger.logEvent(

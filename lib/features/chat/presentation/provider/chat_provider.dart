@@ -48,7 +48,10 @@ class ChatProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-  Future<void> createChatFromDocuments(List<PlatformFile> documentFiles) async {
+  Future<void> createChatFromDocuments(
+    List<PlatformFile> documentFiles, {
+    bool isUrl = false,
+  }) async {
     _isExtracting = true;
     notifyListeners();
     try {
@@ -56,20 +59,31 @@ class ChatProvider extends ChangeNotifier {
       List<String> pdfPaths = [];
       String title = documentFiles.first.name; // Use file name for title
       for (var file in documentFiles) {
-        final getText = await extractText(file);
+        final getText =
+            (isUrl ? file.path : await extractLocalText(file.path ?? "")) ?? "";
 
         if (getText.isNotEmpty) {
           pdfTexts.add(getText);
-          pdfPaths.add(kIsWeb ? file.name : file.path ?? file.name); // Use name on web, path on mobile
+          if (!isUrl)
+            pdfPaths.add(
+              kIsWeb ? file.name : file.path ?? file.name,
+            ); // Use name on web, path on mobile
         }
       }
       if (pdfTexts.isNotEmpty) {
         ChatSession newSession = ChatSession(
-          title: documentFiles.length > 1 ? 'Multi-Document Chat: $title' : title,
+          title:
+              documentFiles.length > 1 ? 'Multi-Document Chat: $title' : title,
           createdAt: DateTime.now(),
           pdfTexts: pdfTexts,
           pdfPaths: pdfPaths,
-          messages: [ChatMessage(text: 'Document(s) loaded successfully!', isUser: false, createdAt: DateTime.now())],
+          messages: [
+            ChatMessage(
+              text: 'Document(s) loaded successfully!',
+              isUser: false,
+              createdAt: DateTime.now(),
+            ),
+          ],
           shareId: 'share_${DateTime.now().millisecondsSinceEpoch}',
         );
 
@@ -117,7 +131,10 @@ class ChatProvider extends ChangeNotifier {
         ),
       );
       notifyListeners();
-      AnalysisLogger.logEvent("document_error", EventDataModel(value: e.toString()));
+      AnalysisLogger.logEvent(
+        "document_error",
+        EventDataModel(value: e.toString()),
+      );
     } finally {
       _isExtracting = false;
       notifyListeners();

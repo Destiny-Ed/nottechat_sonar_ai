@@ -51,8 +51,7 @@ dependencies:
   firebase_analytics: ^11.4.5
   firebase_crashlytics: ^4.3.5
   hive_flutter: ^1.1.0
-  docx_to_text: ^1.0.1
-  syncfusion_flutter_pdf: ^29.1.38
+  doc_text_extractor: ^1.0.0
   # collection: ^1.19.1
 
 
