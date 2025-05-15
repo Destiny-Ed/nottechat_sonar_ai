@@ -1,7 +1,6 @@
 import 'dart:developer';
 import 'dart:io';
-
-import 'package:docx_to_text/docx_to_text.dart';
+import 'package:doc_text_extractor/doc_text_extractor.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
@@ -46,92 +45,21 @@ Future<List<PlatformFile>> pickDocuments() async {
   }
 }
 
-Future<String> extractText(PlatformFile file) async {
-  final isPdfFile = file.extension!.toLowerCase() == "pdf";
+Future<String> extractLocalText(String filePath ) async {
+   final extractor = TextExtractor();
+ 
   String getText = "";
-  print("isPDF File :: $isPdfFile");
 
   try {
-    if (isPdfFile) {
-      print("Extracting file");
-      // final getPDF = await ReadPdfText.getPDFtext(file.path).timeout(Duration(seconds: 5));
-      // getText = await getPDF;
+    final extractedText = await extractor.extractText(filePath, isUrl: false);
 
-      final PdfDocument document = PdfDocument(inputBytes: kIsWeb ? file.bytes : await File(file.path!).readAsBytes());
-      final PdfTextExtractor extractor = PdfTextExtractor(document);
-      final String text = extractor.extractText();
-      getText = text;
-      document.dispose(); // Free memory
+    getText = extractedText.text;
 
-      print("text :: $getText");
-    } 
-    else if (file.extension!.toLowerCase() == "docx") {
-      print(file.path);
-      final String? extractedText = await docxToText(kIsWeb ? file.bytes! : await File(file.path!).readAsBytes());
-      getText = extractedText ?? "";
-    }
-    else {
-      final String? extractedText = await _extractDocText(file);
-      getText = extractedText ?? "";
-    }
-  } on PlatformException catch (e) {
-    log("Error Extracting Document from (${isPdfFile ? "pdf" : "docx"}) : ${e.toString()}");
+  } catch (e) {
+    log("${e.toString()}");
     getText = "";
   }
 
   return getText;
 }
 
-
-// Extract text from DOC
-    Future<String?> _extractDocText(PlatformFile file) async {
-    try {
-      final bytes = await File(file.path!).readAsBytes();
-      final byteData = ByteData.sublistView(bytes);
-      String text = '';
-      // bool isLargeFile = bytes.length > 10 * 1024 * 1024; // >10MB
-
-      // Basic binary parser for .doc text
-      // Scan for printable ASCII/Unicode characters (32-126, basic Latin)
-      final buffer = StringBuffer();
-      bool inTextSegment = false;
-      int textLength = 0;
-
-      for (int i = 0; i < bytes.length && textLength < 100000; i++) {
-        final byte = byteData.getUint8(i);
-        if (byte >= 32 && byte <= 126) {
-          // Printable ASCII character
-          buffer.writeCharCode(byte);
-          inTextSegment = true;
-          textLength++;
-        } else if (byte == 13 || byte == 10) {
-          // Carriage return or newline
-          if (inTextSegment) {
-            buffer.write('\n');
-            textLength++;
-          }
-        } else {
-          // Non-text byte (e.g., formatting, metadata)
-          if (inTextSegment && buffer.isNotEmpty) {
-            text += '${buffer.toString()}\n';
-            buffer.clear();
-            inTextSegment = false;
-          }
-        }
-      }
-
-      // Append any remaining text
-      if (buffer.isNotEmpty) {
-        text += buffer.toString();
-      }
-
-      // Clean up extracted text
-      text = text.replaceAll(RegExp(r'\n\s*\n+'), '\n').trim();
-      if (text.isEmpty) {
-        throw Exception('No readable text found in .doc file');
-      }
-      return text;
-    } catch (e) {
-      throw Exception('Error extracting .doc text: File may be corrupted or unsupported. Try converting to .docx or PDF.');
-    }
-  }

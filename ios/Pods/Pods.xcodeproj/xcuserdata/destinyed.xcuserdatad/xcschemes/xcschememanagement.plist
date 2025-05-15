@@ -99,16 +99,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Google-Mobile-Ads-SDK-GoogleMobileAdsResources.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Google-Mobile-Ads-SDK.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>GoogleAppMeasurement.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -120,16 +110,6 @@
 			<false/>
 		</dict>
 		<key>GoogleDataTransport.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>GoogleUserMessagingPlatform-UserMessagingPlatformResources.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>GoogleUserMessagingPlatform.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -199,31 +179,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>advanced_in_app_review.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>app_tracking_transparency-app_tracking_transparency_privacy.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>app_tracking_transparency.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>device_info_plus-device_info_plus_privacy.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>device_info_plus.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>file_picker-file_picker_ios_privacy.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -249,42 +204,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>flutter_pdfview.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>flutter_tts.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>google_mobile_ads-google_mobile_ads.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>google_mobile_ads.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>in_app_purchase_storekit-in_app_purchase_storekit_privacy.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>in_app_purchase_storekit.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>in_app_review-in_app_review_privacy.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>in_app_review.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -295,16 +215,6 @@
 			<false/>
 		</dict>
 		<key>nanopb.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>package_info_plus-package_info_plus_privacy.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>package_info_plus.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -350,16 +260,6 @@
 			<false/>
 		</dict>
 		<key>url_launcher_ios.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>webview_flutter_wkwebview-webview_flutter_wkwebview_privacy.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>webview_flutter_wkwebview.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

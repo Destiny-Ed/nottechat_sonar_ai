@@ -1,0 +1,742 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/destinyed/Documents/MyProjects/NotteChat-Ai/build/ios/Debug-iphoneos/Runner.app/Runner.debug.dylib'
+relocations:
+  - { offset: 0x16E279, size: 0x8, addend: 0x0, symName: _RunnerVersionString, symObjAddr: 0x0, symBinAddr: 0xEA000, symSize: 0x0 }
+  - { offset: 0x16E2AE, size: 0x8, addend: 0x0, symName: _RunnerVersionNumber, symObjAddr: 0x28, symBinAddr: 0xEA028, symSize: 0x0 }
+  - { offset: 0x16E2EB, size: 0x8, addend: 0x0, symName: '+[GeneratedPluginRegistrant registerWithRegistry:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x344 }
+  - { offset: 0x16E2F9, size: 0x8, addend: 0x0, symName: '+[GeneratedPluginRegistrant registerWithRegistry:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x344 }
+  - { offset: 0x16E3E1, size: 0x8, addend: 0x0, symName: '_$s6Runner11AppDelegateC11application_29didFinishLaunchingWithOptionsSbSo13UIApplicationC_SDySo0j6LaunchI3KeyaypGSgtF', symObjAddr: 0x0, symBinAddr: 0x4344, symSize: 0x16C }
+  - { offset: 0x16E4CB, size: 0x8, addend: 0x0, symName: '_$s6Runner11AppDelegateCMa', symObjAddr: 0x16C, symBinAddr: 0x44B0, symSize: 0x24 }
+  - { offset: 0x16E4DF, size: 0x8, addend: 0x0, symName: '_$sSo29UIApplicationLaunchOptionsKeyaMa', symObjAddr: 0x190, symBinAddr: 0x44D4, symSize: 0x94 }
+  - { offset: 0x16E4F3, size: 0x8, addend: 0x0, symName: '_$sSo29UIApplicationLaunchOptionsKeyaABSHSCWl', symObjAddr: 0x224, symBinAddr: 0x4568, symSize: 0x6C }
+  - { offset: 0x16E507, size: 0x8, addend: 0x0, symName: '_$sSo29UIApplicationLaunchOptionsKeyas20_SwiftNewtypeWrapperSCSYWb', symObjAddr: 0x954, symBinAddr: 0x4C98, symSize: 0x14 }
+  - { offset: 0x16E51B, size: 0x8, addend: 0x0, symName: '_$sSo29UIApplicationLaunchOptionsKeyaABSYSCWl', symObjAddr: 0x968, symBinAddr: 0x4CAC, symSize: 0x6C }
+  - { offset: 0x16E52F, size: 0x8, addend: 0x0, symName: '_$sSo29UIApplicationLaunchOptionsKeyas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentationPWb', symObjAddr: 0x9D4, symBinAddr: 0x4D18, symSize: 0x14 }
+  - { offset: 0x16E543, size: 0x8, addend: 0x0, symName: '_$sSo29UIApplicationLaunchOptionsKeyaABs35_HasCustomAnyHashableRepresentationSCWl', symObjAddr: 0x9E8, symBinAddr: 0x4D2C, symSize: 0x6C }
+  - { offset: 0x16E557, size: 0x8, addend: 0x0, symName: '_$sSo29UIApplicationLaunchOptionsKeyaSHSCSQWb', symObjAddr: 0xA54, symBinAddr: 0x4D98, symSize: 0x14 }
+  - { offset: 0x16E56B, size: 0x8, addend: 0x0, symName: '_$sSo29UIApplicationLaunchOptionsKeyaABSQSCWl', symObjAddr: 0xA68, symBinAddr: 0x4DAC, symSize: 0x6C }
+  - { offset: 0x16E57F, size: 0x8, addend: 0x0, symName: '_$sSo29UIApplicationLaunchOptionsKeyaABs20_SwiftNewtypeWrapperSCWl', symObjAddr: 0xAD4, symBinAddr: 0x4E18, symSize: 0x6C }
+  - { offset: 0x16E593, size: 0x8, addend: 0x0, symName: '_$sS2Ss21_ObjectiveCBridgeable10FoundationWl', symObjAddr: 0xB40, symBinAddr: 0x4E84, symSize: 0x64 }
+  - { offset: 0x16E5D3, size: 0x8, addend: 0x0, symName: '_$sSo29UIApplicationLaunchOptionsKeyaSHSCSH9hashValueSivgTW', symObjAddr: 0x5C4, symBinAddr: 0x4908, symSize: 0x3C }
+  - { offset: 0x16E5EF, size: 0x8, addend: 0x0, symName: '_$sSo29UIApplicationLaunchOptionsKeyaSHSCSH4hash4intoys6HasherVz_tFTW', symObjAddr: 0x600, symBinAddr: 0x4944, symSize: 0x44 }
+  - { offset: 0x16E60B, size: 0x8, addend: 0x0, symName: '_$sSo29UIApplicationLaunchOptionsKeyaSHSCSH13_rawHashValue4seedS2i_tFTW', symObjAddr: 0x644, symBinAddr: 0x4988, symSize: 0x44 }
+  - { offset: 0x16E627, size: 0x8, addend: 0x0, symName: '_$sSo29UIApplicationLaunchOptionsKeyas21_ObjectiveCBridgeableSCsACP09_bridgeToE1C01_E5CTypeQzyFTW', symObjAddr: 0x688, symBinAddr: 0x49CC, symSize: 0x38 }
+  - { offset: 0x16E643, size: 0x8, addend: 0x0, symName: '_$sSo29UIApplicationLaunchOptionsKeyas21_ObjectiveCBridgeableSCsACP016_forceBridgeFromE1C_6resulty01_E5CTypeQz_xSgztFZTW', symObjAddr: 0x6C0, symBinAddr: 0x4A04, symSize: 0x48 }
+  - { offset: 0x16E65F, size: 0x8, addend: 0x0, symName: '_$sSo29UIApplicationLaunchOptionsKeyas21_ObjectiveCBridgeableSCsACP024_conditionallyBridgeFromE1C_6resultSb01_E5CTypeQz_xSgztFZTW', symObjAddr: 0x708, symBinAddr: 0x4A4C, symSize: 0x4C }
+  - { offset: 0x16E67B, size: 0x8, addend: 0x0, symName: '_$sSo29UIApplicationLaunchOptionsKeyas21_ObjectiveCBridgeableSCsACP026_unconditionallyBridgeFromE1Cyx01_E5CTypeQzSgFZTW', symObjAddr: 0x754, symBinAddr: 0x4A98, symSize: 0x48 }
+  - { offset: 0x16E697, size: 0x8, addend: 0x0, symName: '_$sSo29UIApplicationLaunchOptionsKeyaSQSCSQ2eeoiySbx_xtFZTW', symObjAddr: 0x79C, symBinAddr: 0x4AE0, symSize: 0x48 }
+  - { offset: 0x16E6BF, size: 0x8, addend: 0x0, symName: '_$sSo29UIApplicationLaunchOptionsKeyas35_HasCustomAnyHashableRepresentationSCsACP03_tofgH0s0gH0VSgyFTW', symObjAddr: 0x90C, symBinAddr: 0x4C50, symSize: 0x48 }
+  - { offset: 0x16E793, size: 0x8, addend: 0x0, symName: '_$s6Runner11AppDelegateC11application_29didFinishLaunchingWithOptionsSbSo13UIApplicationC_SDySo0j6LaunchI3KeyaypGSgtF', symObjAddr: 0x0, symBinAddr: 0x4344, symSize: 0x16C }
+  - { offset: 0x16E7E9, size: 0x8, addend: 0x0, symName: '_$s6Runner11AppDelegateC11application_29didFinishLaunchingWithOptionsSbSo13UIApplicationC_SDySo0j6LaunchI3KeyaypGSgtFTo', symObjAddr: 0x290, symBinAddr: 0x45D4, symSize: 0x12C }
+  - { offset: 0x16E809, size: 0x8, addend: 0x0, symName: '_$s6Runner11AppDelegateCACycfC', symObjAddr: 0x3BC, symBinAddr: 0x4700, symSize: 0x24 }
+  - { offset: 0x16E81D, size: 0x8, addend: 0x0, symName: '_$s6Runner11AppDelegateCACycfc', symObjAddr: 0x3E0, symBinAddr: 0x4724, symSize: 0x7C }
+  - { offset: 0x16E841, size: 0x8, addend: 0x0, symName: '_$s6Runner11AppDelegateCACycfcTo', symObjAddr: 0x45C, symBinAddr: 0x47A0, symSize: 0x20 }
+  - { offset: 0x16E85B, size: 0x8, addend: 0x0, symName: '_$s6Runner11AppDelegateC5$mainyyFZ', symObjAddr: 0x47C, symBinAddr: 0x47C0, symSize: 0x3C }
+  - { offset: 0x16E88A, size: 0x8, addend: 0x0, symName: '_$sSo21UIApplicationDelegateP5UIKitE4mainyyFZ', symObjAddr: 0x4B8, symBinAddr: 0x47FC, symSize: 0x98 }
+  - { offset: 0x16E8B5, size: 0x8, addend: 0x0, symName: '_$s6Runner11AppDelegateCfD', symObjAddr: 0x550, symBinAddr: 0x4894, symSize: 0x48 }
+  - { offset: 0x16E8D9, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x598, symBinAddr: 0x48DC, symSize: 0x2C }
+  - { offset: 0x16E8F3, size: 0x8, addend: 0x0, symName: '_$sSo29UIApplicationLaunchOptionsKeyaSYSCSY8rawValuexSg03RawF0Qz_tcfCTW', symObjAddr: 0x7E4, symBinAddr: 0x4B28, symSize: 0x34 }
+  - { offset: 0x16E90D, size: 0x8, addend: 0x0, symName: '_$sSo29UIApplicationLaunchOptionsKeya8rawValueABSS_tcfC', symObjAddr: 0x818, symBinAddr: 0x4B5C, symSize: 0x68 }
+  - { offset: 0x16E921, size: 0x8, addend: 0x0, symName: '_$sSo29UIApplicationLaunchOptionsKeyaSYSCSY8rawValue03RawF0QzvgTW', symObjAddr: 0x880, symBinAddr: 0x4BC4, symSize: 0x30 }
+  - { offset: 0x16E935, size: 0x8, addend: 0x0, symName: '_$sSo29UIApplicationLaunchOptionsKeya8rawValueSSvg', symObjAddr: 0x8B0, symBinAddr: 0x4BF4, symSize: 0x5C }
+  - { offset: 0x16EABA, size: 0x8, addend: 0x0, symName: '_$s6Runner19ResourceBundleClass33_7571A7321C8DCCC28D894D1A71659FA9LLCfd', symObjAddr: 0x0, symBinAddr: 0x4EE8, symSize: 0x24 }
+  - { offset: 0x16EADE, size: 0x8, addend: 0x0, symName: '_$s6Runner14resourceBundle33_7571A7321C8DCCC28D894D1A71659FA9LLSo8NSBundleCvp', symObjAddr: 0x6EB8, symBinAddr: 0x15EC08, symSize: 0x0 }
+  - { offset: 0x16EAF8, size: 0x8, addend: 0x0, symName: '_$s6Runner13ImageResourceV6launchACvpZ', symObjAddr: 0x70D0, symBinAddr: 0x1601B8, symSize: 0x0 }
+  - { offset: 0x16EC5F, size: 0x8, addend: 0x0, symName: '_$s6Runner14resourceBundle33_7571A7321C8DCCC28D894D1A71659FA9LL_WZ', symObjAddr: 0xBC, symBinAddr: 0x4FA4, symSize: 0x44 }
+  - { offset: 0x16EC79, size: 0x8, addend: 0x0, symName: '_$s6Runner14resourceBundle33_7571A7321C8DCCC28D894D1A71659FA9LLSo8NSBundleCvau', symObjAddr: 0x144, symBinAddr: 0x502C, symSize: 0x50 }
+  - { offset: 0x16EC97, size: 0x8, addend: 0x0, symName: '_$s6Runner13ImageResourceV6launch_WZ', symObjAddr: 0x194, symBinAddr: 0x507C, symSize: 0x7C }
+  - { offset: 0x16ECB1, size: 0x8, addend: 0x0, symName: '_$s6Runner13ImageResourceVWOh', symObjAddr: 0x30C, symBinAddr: 0x51F4, symSize: 0x3C }
+  - { offset: 0x16ECC5, size: 0x8, addend: 0x0, symName: '_$s6Runner13ImageResourceV6launchACvau', symObjAddr: 0x348, symBinAddr: 0x5230, symSize: 0x50 }
+  - { offset: 0x16ECE3, size: 0x8, addend: 0x0, symName: '_$s6Runner13ImageResourceV6launchACvgZ', symObjAddr: 0x398, symBinAddr: 0x5280, symSize: 0x58 }
+  - { offset: 0x16EDEC, size: 0x8, addend: 0x0, symName: '_$s6Runner13ColorResourceVWOh', symObjAddr: 0x54C, symBinAddr: 0x5434, symSize: 0x3C }
+  - { offset: 0x16EE00, size: 0x8, addend: 0x0, symName: '_$sSo8NSObjectCMa', symObjAddr: 0x6D8, symBinAddr: 0x55C0, symSize: 0x60 }
+  - { offset: 0x16EE14, size: 0x8, addend: 0x0, symName: '_$sSSWOh', symObjAddr: 0x824, symBinAddr: 0x570C, symSize: 0x28 }
+  - { offset: 0x16EE28, size: 0x8, addend: 0x0, symName: '_$sSo8NSBundleCMa', symObjAddr: 0x84C, symBinAddr: 0x5734, symSize: 0x60 }
+  - { offset: 0x16EE3C, size: 0x8, addend: 0x0, symName: '_$sSo8NSBundleCSo8NSObjectCSH10ObjectiveCWl', symObjAddr: 0x8AC, symBinAddr: 0x5794, symSize: 0x6C }
+  - { offset: 0x16EE50, size: 0x8, addend: 0x0, symName: '_$s6Runner13ColorResourceVACSHAAWl', symObjAddr: 0x980, symBinAddr: 0x5868, symSize: 0x68 }
+  - { offset: 0x16EE64, size: 0x8, addend: 0x0, symName: '_$s6Runner13ImageResourceVACSHAAWl', symObjAddr: 0xD78, symBinAddr: 0x5C60, symSize: 0x68 }
+  - { offset: 0x16EE78, size: 0x8, addend: 0x0, symName: '_$sSo7UIColorC6RunnerE8resourceAbC13ColorResourceV_tcfC', symObjAddr: 0xE6C, symBinAddr: 0x5D54, symSize: 0x1A0 }
+  - { offset: 0x16EEB5, size: 0x8, addend: 0x0, symName: '_$sSo7UIImageC6RunnerE8resourceAbC13ImageResourceV_tcfC', symObjAddr: 0x100C, symBinAddr: 0x5EF4, symSize: 0x1A0 }
+  - { offset: 0x16EEF2, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI5ColorV6RunnerEyAcD0C8ResourceVcfC', symObjAddr: 0x11AC, symBinAddr: 0x6094, symSize: 0xAC }
+  - { offset: 0x16EF2F, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI5ColorVWOh', symObjAddr: 0x1258, symBinAddr: 0x6140, symSize: 0x28 }
+  - { offset: 0x16EF43, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI5ImageV6RunnerEyAcD0C8ResourceVcfC', symObjAddr: 0x1280, symBinAddr: 0x6168, symSize: 0xAC }
+  - { offset: 0x16EF80, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI5ImageVWOh', symObjAddr: 0x132C, symBinAddr: 0x6214, symSize: 0x28 }
+  - { offset: 0x16EF94, size: 0x8, addend: 0x0, symName: '_$s6Runner13ColorResourceVSHAASQWb', symObjAddr: 0x1354, symBinAddr: 0x623C, symSize: 0x14 }
+  - { offset: 0x16EFA8, size: 0x8, addend: 0x0, symName: '_$s6Runner13ColorResourceVACSQAAWl', symObjAddr: 0x1368, symBinAddr: 0x6250, symSize: 0x68 }
+  - { offset: 0x16EFBC, size: 0x8, addend: 0x0, symName: '_$s6Runner13ImageResourceVSHAASQWb', symObjAddr: 0x13D0, symBinAddr: 0x62B8, symSize: 0x14 }
+  - { offset: 0x16EFD0, size: 0x8, addend: 0x0, symName: '_$s6Runner13ImageResourceVACSQAAWl', symObjAddr: 0x13E4, symBinAddr: 0x62CC, symSize: 0x68 }
+  - { offset: 0x16EFE4, size: 0x8, addend: 0x0, symName: '_$s6Runner19ResourceBundleClass33_7571A7321C8DCCC28D894D1A71659FA9LLCMa', symObjAddr: 0x144C, symBinAddr: 0x6334, symSize: 0x24 }
+  - { offset: 0x16EFF8, size: 0x8, addend: 0x0, symName: '_$s6Runner13ColorResourceVwCP', symObjAddr: 0x1470, symBinAddr: 0x6358, symSize: 0x64 }
+  - { offset: 0x16F00C, size: 0x8, addend: 0x0, symName: '_$s6Runner13ColorResourceVwxx', symObjAddr: 0x14D4, symBinAddr: 0x63BC, symSize: 0x38 }
+  - { offset: 0x16F020, size: 0x8, addend: 0x0, symName: '_$s6Runner13ColorResourceVwcp', symObjAddr: 0x150C, symBinAddr: 0x63F4, symSize: 0x64 }
+  - { offset: 0x16F034, size: 0x8, addend: 0x0, symName: '_$s6Runner13ColorResourceVwca', symObjAddr: 0x1570, symBinAddr: 0x6458, symSize: 0x80 }
+  - { offset: 0x16F048, size: 0x8, addend: 0x0, symName: ___swift_memcpy24_8, symObjAddr: 0x15F0, symBinAddr: 0x64D8, symSize: 0x14 }
+  - { offset: 0x16F05C, size: 0x8, addend: 0x0, symName: '_$s6Runner13ColorResourceVwta', symObjAddr: 0x1604, symBinAddr: 0x64EC, symSize: 0x60 }
+  - { offset: 0x16F070, size: 0x8, addend: 0x0, symName: '_$s6Runner13ColorResourceVwet', symObjAddr: 0x1664, symBinAddr: 0x654C, symSize: 0x118 }
+  - { offset: 0x16F084, size: 0x8, addend: 0x0, symName: '_$s6Runner13ColorResourceVwst', symObjAddr: 0x177C, symBinAddr: 0x6664, symSize: 0x1CC }
+  - { offset: 0x16F098, size: 0x8, addend: 0x0, symName: '_$s6Runner13ColorResourceVMa', symObjAddr: 0x1948, symBinAddr: 0x6830, symSize: 0x14 }
+  - { offset: 0x16F0AC, size: 0x8, addend: 0x0, symName: '_$s6Runner13ImageResourceVwCP', symObjAddr: 0x195C, symBinAddr: 0x6844, symSize: 0x64 }
+  - { offset: 0x16F0C0, size: 0x8, addend: 0x0, symName: '_$s6Runner13ImageResourceVwxx', symObjAddr: 0x19C0, symBinAddr: 0x68A8, symSize: 0x38 }
+  - { offset: 0x16F0D4, size: 0x8, addend: 0x0, symName: '_$s6Runner13ImageResourceVwcp', symObjAddr: 0x19F8, symBinAddr: 0x68E0, symSize: 0x64 }
+  - { offset: 0x16F0E8, size: 0x8, addend: 0x0, symName: '_$s6Runner13ImageResourceVwca', symObjAddr: 0x1A5C, symBinAddr: 0x6944, symSize: 0x80 }
+  - { offset: 0x16F0FC, size: 0x8, addend: 0x0, symName: '_$s6Runner13ImageResourceVwta', symObjAddr: 0x1ADC, symBinAddr: 0x69C4, symSize: 0x60 }
+  - { offset: 0x16F110, size: 0x8, addend: 0x0, symName: '_$s6Runner13ImageResourceVwet', symObjAddr: 0x1B3C, symBinAddr: 0x6A24, symSize: 0x118 }
+  - { offset: 0x16F124, size: 0x8, addend: 0x0, symName: '_$s6Runner13ImageResourceVwst', symObjAddr: 0x1C54, symBinAddr: 0x6B3C, symSize: 0x1CC }
+  - { offset: 0x16F138, size: 0x8, addend: 0x0, symName: '_$s6Runner13ImageResourceVMa', symObjAddr: 0x1E20, symBinAddr: 0x6D08, symSize: 0x14 }
+  - { offset: 0x16F1AB, size: 0x8, addend: 0x0, symName: '_$s6Runner19ResourceBundleClass33_7571A7321C8DCCC28D894D1A71659FA9LLCfd', symObjAddr: 0x0, symBinAddr: 0x4EE8, symSize: 0x24 }
+  - { offset: 0x16F1D5, size: 0x8, addend: 0x0, symName: '_$s6Runner19ResourceBundleClass33_7571A7321C8DCCC28D894D1A71659FA9LLCfD', symObjAddr: 0x24, symBinAddr: 0x4F0C, symSize: 0x3C }
+  - { offset: 0x16F1FF, size: 0x8, addend: 0x0, symName: '_$s6Runner19ResourceBundleClass33_7571A7321C8DCCC28D894D1A71659FA9LLCADycfC', symObjAddr: 0x60, symBinAddr: 0x4F48, symSize: 0x38 }
+  - { offset: 0x16F213, size: 0x8, addend: 0x0, symName: '_$s6Runner19ResourceBundleClass33_7571A7321C8DCCC28D894D1A71659FA9LLCADycfc', symObjAddr: 0x98, symBinAddr: 0x4F80, symSize: 0x24 }
+  - { offset: 0x16F243, size: 0x8, addend: 0x0, symName: '_$sSo8NSBundleC3forAByXlXp_tcfCTO', symObjAddr: 0x100, symBinAddr: 0x4FE8, symSize: 0x44 }
+  - { offset: 0x16F288, size: 0x8, addend: 0x0, symName: '_$s6Runner13ColorResourceVSHAASH13_rawHashValue4seedS2i_tFTW', symObjAddr: 0xA28, symBinAddr: 0x5910, symSize: 0x14 }
+  - { offset: 0x16F2A4, size: 0x8, addend: 0x0, symName: '_$s6Runner13ImageResourceVSHAASH13_rawHashValue4seedS2i_tFTW', symObjAddr: 0xE20, symBinAddr: 0x5D08, symSize: 0x14 }
+  - { offset: 0x16F2CD, size: 0x8, addend: 0x0, symName: '_$s6Runner13ImageResourceV4name6bundleACSS_So8NSBundleCtcfC', symObjAddr: 0x210, symBinAddr: 0x50F8, symSize: 0xFC }
+  - { offset: 0x16F30F, size: 0x8, addend: 0x0, symName: '_$s6Runner13ColorResourceV4name33_7571A7321C8DCCC28D894D1A71659FA9LLSSvg', symObjAddr: 0x3F0, symBinAddr: 0x52D8, symSize: 0x30 }
+  - { offset: 0x16F323, size: 0x8, addend: 0x0, symName: '_$s6Runner13ColorResourceV6bundle33_7571A7321C8DCCC28D894D1A71659FA9LLSo8NSBundleCvg', symObjAddr: 0x420, symBinAddr: 0x5308, symSize: 0x30 }
+  - { offset: 0x16F343, size: 0x8, addend: 0x0, symName: '_$s6Runner13ColorResourceV4name6bundleACSS_So8NSBundleCtcfC', symObjAddr: 0x450, symBinAddr: 0x5338, symSize: 0xFC }
+  - { offset: 0x16F385, size: 0x8, addend: 0x0, symName: '_$s6Runner13ColorResourceV23__derived_struct_equalsySbAC_ACtFZ', symObjAddr: 0x588, symBinAddr: 0x5470, symSize: 0x150 }
+  - { offset: 0x16F3C3, size: 0x8, addend: 0x0, symName: '_$s6Runner13ColorResourceV4hash4intoys6HasherVz_tF', symObjAddr: 0x738, symBinAddr: 0x5620, symSize: 0xEC }
+  - { offset: 0x16F3F3, size: 0x8, addend: 0x0, symName: '_$s6Runner13ColorResourceV9hashValueSivg', symObjAddr: 0x918, symBinAddr: 0x5800, symSize: 0x68 }
+  - { offset: 0x16F415, size: 0x8, addend: 0x0, symName: '_$s6Runner13ColorResourceVSHAASH9hashValueSivgTW', symObjAddr: 0x9E8, symBinAddr: 0x58D0, symSize: 0x20 }
+  - { offset: 0x16F429, size: 0x8, addend: 0x0, symName: '_$s6Runner13ColorResourceVSHAASH4hash4intoys6HasherVz_tFTW', symObjAddr: 0xA08, symBinAddr: 0x58F0, symSize: 0x20 }
+  - { offset: 0x16F443, size: 0x8, addend: 0x0, symName: '_$s6Runner13ColorResourceVSQAASQ2eeoiySbx_xtFZTW', symObjAddr: 0xA3C, symBinAddr: 0x5924, symSize: 0x38 }
+  - { offset: 0x16F457, size: 0x8, addend: 0x0, symName: '_$s6Runner13ImageResourceV4name33_7571A7321C8DCCC28D894D1A71659FA9LLSSvg', symObjAddr: 0xA74, symBinAddr: 0x595C, symSize: 0x30 }
+  - { offset: 0x16F46B, size: 0x8, addend: 0x0, symName: '_$s6Runner13ImageResourceV6bundle33_7571A7321C8DCCC28D894D1A71659FA9LLSo8NSBundleCvg', symObjAddr: 0xAA4, symBinAddr: 0x598C, symSize: 0x30 }
+  - { offset: 0x16F47F, size: 0x8, addend: 0x0, symName: '_$s6Runner13ImageResourceV23__derived_struct_equalsySbAC_ACtFZ', symObjAddr: 0xAD4, symBinAddr: 0x59BC, symSize: 0x150 }
+  - { offset: 0x16F4BD, size: 0x8, addend: 0x0, symName: '_$s6Runner13ImageResourceV4hash4intoys6HasherVz_tF', symObjAddr: 0xC24, symBinAddr: 0x5B0C, symSize: 0xEC }
+  - { offset: 0x16F4ED, size: 0x8, addend: 0x0, symName: '_$s6Runner13ImageResourceV9hashValueSivg', symObjAddr: 0xD10, symBinAddr: 0x5BF8, symSize: 0x68 }
+  - { offset: 0x16F50F, size: 0x8, addend: 0x0, symName: '_$s6Runner13ImageResourceVSHAASH9hashValueSivgTW', symObjAddr: 0xDE0, symBinAddr: 0x5CC8, symSize: 0x20 }
+  - { offset: 0x16F523, size: 0x8, addend: 0x0, symName: '_$s6Runner13ImageResourceVSHAASH4hash4intoys6HasherVz_tFTW', symObjAddr: 0xE00, symBinAddr: 0x5CE8, symSize: 0x20 }
+  - { offset: 0x16F53D, size: 0x8, addend: 0x0, symName: '_$s6Runner13ImageResourceVSQAASQ2eeoiySbx_xtFZTW', symObjAddr: 0xE34, symBinAddr: 0x5D1C, symSize: 0x38 }
+  - { offset: 0x16F6E9, size: 0x8, addend: 0x0, symName: '+[FLTFirebaseAnalyticsPlugin sharedInstance]', symObjAddr: 0x0, symBinAddr: 0xB9528, symSize: 0x7C }
+  - { offset: 0x16F70D, size: 0x8, addend: 0x0, symName: _kFLTFirebaseAnalyticsName, symObjAddr: 0x35D0, symBinAddr: 0x120A58, symSize: 0x0 }
+  - { offset: 0x16F723, size: 0x8, addend: 0x0, symName: _kFLTFirebaseAnalyticsValue, symObjAddr: 0x35D8, symBinAddr: 0x120A60, symSize: 0x0 }
+  - { offset: 0x16F739, size: 0x8, addend: 0x0, symName: _kFLTFirebaseAnalyticsEnabled, symObjAddr: 0x35E0, symBinAddr: 0x120A68, symSize: 0x0 }
+  - { offset: 0x16F74F, size: 0x8, addend: 0x0, symName: _kFLTFirebaseAnalyticsEventName, symObjAddr: 0x35E8, symBinAddr: 0x120A70, symSize: 0x0 }
+  - { offset: 0x16F765, size: 0x8, addend: 0x0, symName: _kFLTFirebaseAnalyticsParameters, symObjAddr: 0x35F0, symBinAddr: 0x120A78, symSize: 0x0 }
+  - { offset: 0x16F77B, size: 0x8, addend: 0x0, symName: _kFLTFirebaseAnalyticsAdStorageConsentGranted, symObjAddr: 0x35F8, symBinAddr: 0x120A80, symSize: 0x0 }
+  - { offset: 0x16F791, size: 0x8, addend: 0x0, symName: _kFLTFirebaseAnalyticsStorageConsentGranted, symObjAddr: 0x3600, symBinAddr: 0x120A88, symSize: 0x0 }
+  - { offset: 0x16F7A7, size: 0x8, addend: 0x0, symName: _kFLTFirebaseAdPersonalizationSignalsConsentGranted, symObjAddr: 0x3608, symBinAddr: 0x120A90, symSize: 0x0 }
+  - { offset: 0x16F7BD, size: 0x8, addend: 0x0, symName: _kFLTFirebaseAdUserDataConsentGranted, symObjAddr: 0x3610, symBinAddr: 0x120A98, symSize: 0x0 }
+  - { offset: 0x16F7D3, size: 0x8, addend: 0x0, symName: _kFLTFirebaseAnalyticsUserId, symObjAddr: 0x3618, symBinAddr: 0x120AA0, symSize: 0x0 }
+  - { offset: 0x16F7E9, size: 0x8, addend: 0x0, symName: _FLTFirebaseAnalyticsChannelName, symObjAddr: 0x3620, symBinAddr: 0x120AA8, symSize: 0x0 }
+  - { offset: 0x16F7F3, size: 0x8, addend: 0x0, symName: '+[FLTFirebaseAnalyticsPlugin sharedInstance]', symObjAddr: 0x0, symBinAddr: 0xB9528, symSize: 0x7C }
+  - { offset: 0x16F81D, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0xB7A8, symBinAddr: 0x15F2E0, symSize: 0x0 }
+  - { offset: 0x16F833, size: 0x8, addend: 0x0, symName: _sharedInstance.instance, symObjAddr: 0xB7B0, symBinAddr: 0x15F2E8, symSize: 0x0 }
+  - { offset: 0x16F934, size: 0x8, addend: 0x0, symName: '___44+[FLTFirebaseAnalyticsPlugin sharedInstance]_block_invoke', symObjAddr: 0x7C, symBinAddr: 0xB95A4, symSize: 0x8C }
+  - { offset: 0x16F95E, size: 0x8, addend: 0x0, symName: '+[FLTFirebaseAnalyticsPlugin registerWithRegistrar:]', symObjAddr: 0x108, symBinAddr: 0xB9630, symSize: 0x148 }
+  - { offset: 0x16F9CF, size: 0x8, addend: 0x0, symName: '-[FLTFirebaseAnalyticsPlugin handleMethodCall:result:]', symObjAddr: 0x250, symBinAddr: 0xB9778, symSize: 0x6A8 }
+  - { offset: 0x16FA41, size: 0x8, addend: 0x0, symName: '___54-[FLTFirebaseAnalyticsPlugin handleMethodCall:result:]_block_invoke', symObjAddr: 0x8F8, symBinAddr: 0xB9E20, symSize: 0xCC }
+  - { offset: 0x16FAB9, size: 0x8, addend: 0x0, symName: '-[FLTFirebaseAnalyticsPlugin getSessionIdWithMethodCallResult:]', symObjAddr: 0xA28, symBinAddr: 0xB9EEC, symSize: 0xCC }
+  - { offset: 0x16FAFD, size: 0x8, addend: 0x0, symName: '___63-[FLTFirebaseAnalyticsPlugin getSessionIdWithMethodCallResult:]_block_invoke', symObjAddr: 0xAF4, symBinAddr: 0xB9FB8, symSize: 0x110 }
+  - { offset: 0x16FB57, size: 0x8, addend: 0x0, symName: '-[FLTFirebaseAnalyticsPlugin logEvent:withMethodCallResult:]', symObjAddr: 0xC3C, symBinAddr: 0xBA0C8, symSize: 0x174 }
+  - { offset: 0x16FBC8, size: 0x8, addend: 0x0, symName: '-[FLTFirebaseAnalyticsPlugin setUserId:withMethodCallResult:]', symObjAddr: 0xDB0, symBinAddr: 0xBA23C, symSize: 0x128 }
+  - { offset: 0x16FC2A, size: 0x8, addend: 0x0, symName: '-[FLTFirebaseAnalyticsPlugin setUserProperty:withMethodCallResult:]', symObjAddr: 0xED8, symBinAddr: 0xBA364, symSize: 0x160 }
+  - { offset: 0x16FC9B, size: 0x8, addend: 0x0, symName: '-[FLTFirebaseAnalyticsPlugin setAnalyticsCollectionEnabled:withMethodCallResult:]', symObjAddr: 0x1038, symBinAddr: 0xBA4C4, symSize: 0x100 }
+  - { offset: 0x16FCFD, size: 0x8, addend: 0x0, symName: '-[FLTFirebaseAnalyticsPlugin resetAnalyticsDataWithMethodCallResult:]', symObjAddr: 0x1138, symBinAddr: 0xBA5C4, symSize: 0x90 }
+  - { offset: 0x16FD41, size: 0x8, addend: 0x0, symName: '-[FLTFirebaseAnalyticsPlugin setConsent:withMethodCallResult:]', symObjAddr: 0x11C8, symBinAddr: 0xBA654, symSize: 0x328 }
+  - { offset: 0x16FDE0, size: 0x8, addend: 0x0, symName: '-[FLTFirebaseAnalyticsPlugin setDefaultEventParameters:withMethodCallResult:]', symObjAddr: 0x14F0, symBinAddr: 0xBA97C, symSize: 0xB8 }
+  - { offset: 0x16FE33, size: 0x8, addend: 0x0, symName: '-[FLTFirebaseAnalyticsPlugin getAppInstanceIdWithMethodCallResult:]', symObjAddr: 0x15A8, symBinAddr: 0xBAA34, symSize: 0xB0 }
+  - { offset: 0x16FE86, size: 0x8, addend: 0x0, symName: '-[FLTFirebaseAnalyticsPlugin initiateOnDeviceConversionMeasurement:withMethodCallResult:]', symObjAddr: 0x1658, symBinAddr: 0xBAAE4, symSize: 0x2B0 }
+  - { offset: 0x16FF43, size: 0x8, addend: 0x0, symName: '-[FLTFirebaseAnalyticsPlugin didReinitializeFirebaseCore:]', symObjAddr: 0x1908, symBinAddr: 0xBAD94, symSize: 0x58 }
+  - { offset: 0x16FF87, size: 0x8, addend: 0x0, symName: '-[FLTFirebaseAnalyticsPlugin firebaseLibraryName]', symObjAddr: 0x1960, symBinAddr: 0xBADEC, symSize: 0x1C }
+  - { offset: 0x16FFC0, size: 0x8, addend: 0x0, symName: '-[FLTFirebaseAnalyticsPlugin firebaseLibraryVersion]', symObjAddr: 0x197C, symBinAddr: 0xBAE08, symSize: 0x1C }
+  - { offset: 0x16FFF9, size: 0x8, addend: 0x0, symName: '-[FLTFirebaseAnalyticsPlugin flutterChannelName]', symObjAddr: 0x1998, symBinAddr: 0xBAE24, symSize: 0x1C }
+  - { offset: 0x170032, size: 0x8, addend: 0x0, symName: '-[FLTFirebaseAnalyticsPlugin pluginConstantsForFIRApp:]', symObjAddr: 0x19B4, symBinAddr: 0xBAE40, symSize: 0x70 }
+  - { offset: 0x1702F2, size: 0x8, addend: 0x0, symName: '+[FLTFirebaseCorePlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0xBAEB0, symSize: 0xE8 }
+  - { offset: 0x170300, size: 0x8, addend: 0x0, symName: '+[FLTFirebaseCorePlugin sharedInstance]', symObjAddr: 0xE8, symBinAddr: 0xBAF98, symSize: 0x7C }
+  - { offset: 0x17032A, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x8140, symBinAddr: 0x15F2F0, symSize: 0x0 }
+  - { offset: 0x170340, size: 0x8, addend: 0x0, symName: _sharedInstance.instance, symObjAddr: 0x8148, symBinAddr: 0x15F2F8, symSize: 0x0 }
+  - { offset: 0x1703DA, size: 0x8, addend: 0x0, symName: _customAuthDomains, symObjAddr: 0x8150, symBinAddr: 0x15F300, symSize: 0x0 }
+  - { offset: 0x1703F4, size: 0x8, addend: 0x0, symName: '+[FLTFirebaseCorePlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0xBAEB0, symSize: 0xE8 }
+  - { offset: 0x1704DD, size: 0x8, addend: 0x0, symName: '___39+[FLTFirebaseCorePlugin sharedInstance]_block_invoke', symObjAddr: 0x164, symBinAddr: 0xBB014, symSize: 0x1C8 }
+  - { offset: 0x170525, size: 0x8, addend: 0x0, symName: '+[FLTFirebaseCorePlugin initialize]', symObjAddr: 0x32C, symBinAddr: 0xBB1DC, symSize: 0x8C }
+  - { offset: 0x17055A, size: 0x8, addend: 0x0, symName: '+[FLTFirebaseCorePlugin getCustomDomain:]', symObjAddr: 0x3B8, symBinAddr: 0xBB268, symSize: 0x74 }
+  - { offset: 0x1705A2, size: 0x8, addend: 0x0, symName: '-[FLTFirebaseCorePlugin optionsFromFIROptions:]', symObjAddr: 0x42C, symBinAddr: 0xBB2DC, symSize: 0x800 }
+  - { offset: 0x1705F9, size: 0x8, addend: 0x0, symName: '-[FLTFirebaseCorePlugin initializeResponseFromFIRApp:]', symObjAddr: 0xC2C, symBinAddr: 0xBBADC, symSize: 0x228 }
+  - { offset: 0x17065F, size: 0x8, addend: 0x0, symName: '-[FLTFirebaseCorePlugin didReinitializeFirebaseCore:]', symObjAddr: 0xE54, symBinAddr: 0xBBD04, symSize: 0x58 }
+  - { offset: 0x1706A3, size: 0x8, addend: 0x0, symName: '-[FLTFirebaseCorePlugin pluginConstantsForFIRApp:]', symObjAddr: 0xEAC, symBinAddr: 0xBBD5C, symSize: 0x70 }
+  - { offset: 0x1706EB, size: 0x8, addend: 0x0, symName: '-[FLTFirebaseCorePlugin firebaseLibraryName]', symObjAddr: 0xF1C, symBinAddr: 0xBBDCC, symSize: 0x1C }
+  - { offset: 0x170724, size: 0x8, addend: 0x0, symName: '-[FLTFirebaseCorePlugin firebaseLibraryVersion]', symObjAddr: 0xF38, symBinAddr: 0xBBDE8, symSize: 0x1C }
+  - { offset: 0x17075D, size: 0x8, addend: 0x0, symName: '-[FLTFirebaseCorePlugin flutterChannelName]', symObjAddr: 0xF54, symBinAddr: 0xBBE04, symSize: 0x1C }
+  - { offset: 0x170796, size: 0x8, addend: 0x0, symName: '-[FLTFirebaseCorePlugin initializeAppAppName:initializeAppRequest:completion:]', symObjAddr: 0xF70, symBinAddr: 0xBBE20, symSize: 0x7C0 }
+  - { offset: 0x170837, size: 0x8, addend: 0x0, symName: '-[FLTFirebaseCorePlugin initializeCoreWithCompletion:]', symObjAddr: 0x1730, symBinAddr: 0xBC5E0, symSize: 0x164 }
+  - { offset: 0x17088A, size: 0x8, addend: 0x0, symName: '___54-[FLTFirebaseCorePlugin initializeCoreWithCompletion:]_block_invoke', symObjAddr: 0x1894, symBinAddr: 0xBC744, symSize: 0x274 }
+  - { offset: 0x170944, size: 0x8, addend: 0x0, symName: '-[FLTFirebaseCorePlugin optionsFromResourceWithCompletion:]', symObjAddr: 0x1BA4, symBinAddr: 0xBC9B8, symSize: 0x60 }
+  - { offset: 0x170988, size: 0x8, addend: 0x0, symName: '-[FLTFirebaseCorePlugin deleteAppName:completion:]', symObjAddr: 0x1C04, symBinAddr: 0xBCA18, symSize: 0x130 }
+  - { offset: 0x1709EA, size: 0x8, addend: 0x0, symName: '___50-[FLTFirebaseCorePlugin deleteAppName:completion:]_block_invoke', symObjAddr: 0x1D34, symBinAddr: 0xBCB48, symSize: 0xB0 }
+  - { offset: 0x170A35, size: 0x8, addend: 0x0, symName: '-[FLTFirebaseCorePlugin setAutomaticDataCollectionEnabledAppName:enabled:completion:]', symObjAddr: 0x1E48, symBinAddr: 0xBCBF8, symSize: 0xFC }
+  - { offset: 0x170AA6, size: 0x8, addend: 0x0, symName: '-[FLTFirebaseCorePlugin setAutomaticResourceManagementEnabledAppName:enabled:completion:]', symObjAddr: 0x1F44, symBinAddr: 0xBCCF4, symSize: 0xA4 }
+  - { offset: 0x170F70, size: 0x8, addend: 0x0, symName: '+[FLTFirebaseMethodCallResult createWithSuccess:andErrorBlock:]', symObjAddr: 0x0, symBinAddr: 0xBCD98, symSize: 0xD0 }
+  - { offset: 0x170F8A, size: 0x8, addend: 0x0, symName: _kFIRDefaultAppNameIOS, symObjAddr: 0x6D8, symBinAddr: 0x120B80, symSize: 0x0 }
+  - { offset: 0x170FAA, size: 0x8, addend: 0x0, symName: _kFIRDefaultAppNameDart, symObjAddr: 0x6E0, symBinAddr: 0x120B88, symSize: 0x0 }
+  - { offset: 0x17110E, size: 0x8, addend: 0x0, symName: '+[FLTFirebaseMethodCallResult createWithSuccess:andErrorBlock:]', symObjAddr: 0x0, symBinAddr: 0xBCD98, symSize: 0xD0 }
+  - { offset: 0x171174, size: 0x8, addend: 0x0, symName: '-[FLTFirebaseMethodCallResult success]', symObjAddr: 0xD0, symBinAddr: 0xBCE68, symSize: 0x1C }
+  - { offset: 0x1711AD, size: 0x8, addend: 0x0, symName: '-[FLTFirebaseMethodCallResult setSuccess:]', symObjAddr: 0xEC, symBinAddr: 0xBCE84, symSize: 0x38 }
+  - { offset: 0x1711EF, size: 0x8, addend: 0x0, symName: '-[FLTFirebaseMethodCallResult error]', symObjAddr: 0x124, symBinAddr: 0xBCEBC, symSize: 0x1C }
+  - { offset: 0x171228, size: 0x8, addend: 0x0, symName: '-[FLTFirebaseMethodCallResult setError:]', symObjAddr: 0x140, symBinAddr: 0xBCED8, symSize: 0x38 }
+  - { offset: 0x17126A, size: 0x8, addend: 0x0, symName: '-[FLTFirebaseMethodCallResult .cxx_destruct]', symObjAddr: 0x178, symBinAddr: 0xBCF10, symSize: 0x48 }
+  - { offset: 0x17129F, size: 0x8, addend: 0x0, symName: '+[FLTFirebasePlugin createFlutterErrorFromCode:message:optionalDetails:andOptionalNSError:]', symObjAddr: 0x1C0, symBinAddr: 0xBCF58, symSize: 0x220 }
+  - { offset: 0x171323, size: 0x8, addend: 0x0, symName: '+[FLTFirebasePlugin firebaseAppNameFromDartName:]', symObjAddr: 0x3E0, symBinAddr: 0xBD178, symSize: 0xB8 }
+  - { offset: 0x17137A, size: 0x8, addend: 0x0, symName: '+[FLTFirebasePlugin firebaseAppNameFromIosName:]', symObjAddr: 0x498, symBinAddr: 0xBD230, symSize: 0xB8 }
+  - { offset: 0x1713D1, size: 0x8, addend: 0x0, symName: '+[FLTFirebasePlugin firebaseAppNamed:]', symObjAddr: 0x550, symBinAddr: 0xBD2E8, symSize: 0xC8 }
+  - { offset: 0x1714A6, size: 0x8, addend: 0x0, symName: '-[FLTFirebasePluginRegistry init]', symObjAddr: 0x0, symBinAddr: 0xBD3B0, symSize: 0xD8 }
+  - { offset: 0x1714B4, size: 0x8, addend: 0x0, symName: '+[FLTFirebasePluginRegistry sharedInstance]', symObjAddr: 0xD8, symBinAddr: 0xBD488, symSize: 0x7C }
+  - { offset: 0x1714DE, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x3780, symBinAddr: 0x15F308, symSize: 0x0 }
+  - { offset: 0x1714F4, size: 0x8, addend: 0x0, symName: _sharedInstance.instance, symObjAddr: 0x3788, symBinAddr: 0x15F310, symSize: 0x0 }
+  - { offset: 0x171570, size: 0x8, addend: 0x0, symName: '-[FLTFirebasePluginRegistry init]', symObjAddr: 0x0, symBinAddr: 0xBD3B0, symSize: 0xD8 }
+  - { offset: 0x171640, size: 0x8, addend: 0x0, symName: '___43+[FLTFirebasePluginRegistry sharedInstance]_block_invoke', symObjAddr: 0x154, symBinAddr: 0xBD504, symSize: 0x4C }
+  - { offset: 0x17166A, size: 0x8, addend: 0x0, symName: '-[FLTFirebasePluginRegistry registerFirebasePlugin:]', symObjAddr: 0x1A0, symBinAddr: 0xBD550, symSize: 0x10C }
+  - { offset: 0x1716AE, size: 0x8, addend: 0x0, symName: '-[FLTFirebasePluginRegistry pluginConstantsForFIRApp:]', symObjAddr: 0x2AC, symBinAddr: 0xBD65C, symSize: 0x26C }
+  - { offset: 0x171719, size: 0x8, addend: 0x0, symName: '-[FLTFirebasePluginRegistry didReinitializeFirebaseCore:]', symObjAddr: 0x518, symBinAddr: 0xBD8C8, symSize: 0x364 }
+  - { offset: 0x1717AC, size: 0x8, addend: 0x0, symName: '___57-[FLTFirebasePluginRegistry didReinitializeFirebaseCore:]_block_invoke', symObjAddr: 0x87C, symBinAddr: 0xBDC2C, symSize: 0x70 }
+  - { offset: 0x171812, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b40r, symObjAddr: 0x8EC, symBinAddr: 0xBDC9C, symSize: 0x58 }
+  - { offset: 0x171839, size: 0x8, addend: 0x0, symName: '-[FLTFirebasePluginRegistry .cxx_destruct]', symObjAddr: 0x984, symBinAddr: 0xBDCF4, symSize: 0x30 }
+  - { offset: 0x171A90, size: 0x8, addend: 0x0, symName: '+[PigeonFirebaseOptions makeWithApiKey:appId:messagingSenderId:projectId:authDomain:databaseURL:storageBucket:measurementId:trackingId:deepLinkURLScheme:androidClientId:iosClientId:iosBundleId:appGroupId:]', symObjAddr: 0x0, symBinAddr: 0xBDD24, symSize: 0x368 }
+  - { offset: 0x171A9E, size: 0x8, addend: 0x0, symName: _FirebaseCoreHostApiGetCodec, symObjAddr: 0x29D4, symBinAddr: 0xC06F8, symSize: 0x74 }
+  - { offset: 0x171AC4, size: 0x8, addend: 0x0, symName: _FirebaseCoreHostApiGetCodec.sSharedObject, symObjAddr: 0xDBC0, symBinAddr: 0x15F318, symSize: 0x0 }
+  - { offset: 0x171ADA, size: 0x8, addend: 0x0, symName: _FirebaseCoreHostApiGetCodec.sPred, symObjAddr: 0xDBC8, symBinAddr: 0x15F320, symSize: 0x0 }
+  - { offset: 0x171B27, size: 0x8, addend: 0x0, symName: _FirebaseAppHostApiGetCodec, symObjAddr: 0x3A3C, symBinAddr: 0xC16C4, symSize: 0x54 }
+  - { offset: 0x171B4F, size: 0x8, addend: 0x0, symName: _FirebaseAppHostApiGetCodec.sSharedObject, symObjAddr: 0xDBD0, symBinAddr: 0x15F328, symSize: 0x0 }
+  - { offset: 0x171D93, size: 0x8, addend: 0x0, symName: '+[PigeonFirebaseOptions makeWithApiKey:appId:messagingSenderId:projectId:authDomain:databaseURL:storageBucket:measurementId:trackingId:deepLinkURLScheme:androidClientId:iosClientId:iosBundleId:appGroupId:]', symObjAddr: 0x0, symBinAddr: 0xBDD24, symSize: 0x368 }
+  - { offset: 0x171EB8, size: 0x8, addend: 0x0, symName: '+[PigeonFirebaseOptions fromList:]', symObjAddr: 0x368, symBinAddr: 0xBE08C, symSize: 0x604 }
+  - { offset: 0x171F0F, size: 0x8, addend: 0x0, symName: _GetNullableObjectAtIndex, symObjAddr: 0x96C, symBinAddr: 0xBE690, symSize: 0xEC }
+  - { offset: 0x171F57, size: 0x8, addend: 0x0, symName: '+[PigeonFirebaseOptions nullableFromList:]', symObjAddr: 0xA58, symBinAddr: 0xBE77C, symSize: 0xDC }
+  - { offset: 0x171F9F, size: 0x8, addend: 0x0, symName: '-[PigeonFirebaseOptions toList]', symObjAddr: 0xB34, symBinAddr: 0xBE858, symSize: 0xA68 }
+  - { offset: 0x171FDA, size: 0x8, addend: 0x0, symName: '-[PigeonFirebaseOptions apiKey]', symObjAddr: 0x159C, symBinAddr: 0xBF2C0, symSize: 0x1C }
+  - { offset: 0x172013, size: 0x8, addend: 0x0, symName: '-[PigeonFirebaseOptions setApiKey:]', symObjAddr: 0x15B8, symBinAddr: 0xBF2DC, symSize: 0x38 }
+  - { offset: 0x172055, size: 0x8, addend: 0x0, symName: '-[PigeonFirebaseOptions appId]', symObjAddr: 0x15F0, symBinAddr: 0xBF314, symSize: 0x1C }
+  - { offset: 0x17208E, size: 0x8, addend: 0x0, symName: '-[PigeonFirebaseOptions setAppId:]', symObjAddr: 0x160C, symBinAddr: 0xBF330, symSize: 0x38 }
+  - { offset: 0x1720D0, size: 0x8, addend: 0x0, symName: '-[PigeonFirebaseOptions messagingSenderId]', symObjAddr: 0x1644, symBinAddr: 0xBF368, symSize: 0x1C }
+  - { offset: 0x172109, size: 0x8, addend: 0x0, symName: '-[PigeonFirebaseOptions setMessagingSenderId:]', symObjAddr: 0x1660, symBinAddr: 0xBF384, symSize: 0x38 }
+  - { offset: 0x17214B, size: 0x8, addend: 0x0, symName: '-[PigeonFirebaseOptions projectId]', symObjAddr: 0x1698, symBinAddr: 0xBF3BC, symSize: 0x1C }
+  - { offset: 0x172184, size: 0x8, addend: 0x0, symName: '-[PigeonFirebaseOptions setProjectId:]', symObjAddr: 0x16B4, symBinAddr: 0xBF3D8, symSize: 0x38 }
+  - { offset: 0x1721C6, size: 0x8, addend: 0x0, symName: '-[PigeonFirebaseOptions authDomain]', symObjAddr: 0x16EC, symBinAddr: 0xBF410, symSize: 0x1C }
+  - { offset: 0x1721FF, size: 0x8, addend: 0x0, symName: '-[PigeonFirebaseOptions setAuthDomain:]', symObjAddr: 0x1708, symBinAddr: 0xBF42C, symSize: 0x38 }
+  - { offset: 0x172241, size: 0x8, addend: 0x0, symName: '-[PigeonFirebaseOptions databaseURL]', symObjAddr: 0x1740, symBinAddr: 0xBF464, symSize: 0x1C }
+  - { offset: 0x17227A, size: 0x8, addend: 0x0, symName: '-[PigeonFirebaseOptions setDatabaseURL:]', symObjAddr: 0x175C, symBinAddr: 0xBF480, symSize: 0x38 }
+  - { offset: 0x1722BC, size: 0x8, addend: 0x0, symName: '-[PigeonFirebaseOptions storageBucket]', symObjAddr: 0x1794, symBinAddr: 0xBF4B8, symSize: 0x1C }
+  - { offset: 0x1722F5, size: 0x8, addend: 0x0, symName: '-[PigeonFirebaseOptions setStorageBucket:]', symObjAddr: 0x17B0, symBinAddr: 0xBF4D4, symSize: 0x38 }
+  - { offset: 0x172337, size: 0x8, addend: 0x0, symName: '-[PigeonFirebaseOptions measurementId]', symObjAddr: 0x17E8, symBinAddr: 0xBF50C, symSize: 0x1C }
+  - { offset: 0x172370, size: 0x8, addend: 0x0, symName: '-[PigeonFirebaseOptions setMeasurementId:]', symObjAddr: 0x1804, symBinAddr: 0xBF528, symSize: 0x38 }
+  - { offset: 0x1723B2, size: 0x8, addend: 0x0, symName: '-[PigeonFirebaseOptions trackingId]', symObjAddr: 0x183C, symBinAddr: 0xBF560, symSize: 0x1C }
+  - { offset: 0x1723EB, size: 0x8, addend: 0x0, symName: '-[PigeonFirebaseOptions setTrackingId:]', symObjAddr: 0x1858, symBinAddr: 0xBF57C, symSize: 0x38 }
+  - { offset: 0x17242D, size: 0x8, addend: 0x0, symName: '-[PigeonFirebaseOptions deepLinkURLScheme]', symObjAddr: 0x1890, symBinAddr: 0xBF5B4, symSize: 0x1C }
+  - { offset: 0x172466, size: 0x8, addend: 0x0, symName: '-[PigeonFirebaseOptions setDeepLinkURLScheme:]', symObjAddr: 0x18AC, symBinAddr: 0xBF5D0, symSize: 0x38 }
+  - { offset: 0x1724A8, size: 0x8, addend: 0x0, symName: '-[PigeonFirebaseOptions androidClientId]', symObjAddr: 0x18E4, symBinAddr: 0xBF608, symSize: 0x1C }
+  - { offset: 0x1724E1, size: 0x8, addend: 0x0, symName: '-[PigeonFirebaseOptions setAndroidClientId:]', symObjAddr: 0x1900, symBinAddr: 0xBF624, symSize: 0x38 }
+  - { offset: 0x172523, size: 0x8, addend: 0x0, symName: '-[PigeonFirebaseOptions iosClientId]', symObjAddr: 0x1938, symBinAddr: 0xBF65C, symSize: 0x1C }
+  - { offset: 0x17255C, size: 0x8, addend: 0x0, symName: '-[PigeonFirebaseOptions setIosClientId:]', symObjAddr: 0x1954, symBinAddr: 0xBF678, symSize: 0x38 }
+  - { offset: 0x17259E, size: 0x8, addend: 0x0, symName: '-[PigeonFirebaseOptions iosBundleId]', symObjAddr: 0x198C, symBinAddr: 0xBF6B0, symSize: 0x1C }
+  - { offset: 0x1725D7, size: 0x8, addend: 0x0, symName: '-[PigeonFirebaseOptions setIosBundleId:]', symObjAddr: 0x19A8, symBinAddr: 0xBF6CC, symSize: 0x38 }
+  - { offset: 0x172619, size: 0x8, addend: 0x0, symName: '-[PigeonFirebaseOptions appGroupId]', symObjAddr: 0x19E0, symBinAddr: 0xBF704, symSize: 0x1C }
+  - { offset: 0x172652, size: 0x8, addend: 0x0, symName: '-[PigeonFirebaseOptions setAppGroupId:]', symObjAddr: 0x19FC, symBinAddr: 0xBF720, symSize: 0x38 }
+  - { offset: 0x172694, size: 0x8, addend: 0x0, symName: '-[PigeonFirebaseOptions .cxx_destruct]', symObjAddr: 0x1A34, symBinAddr: 0xBF758, symSize: 0x108 }
+  - { offset: 0x1726C9, size: 0x8, addend: 0x0, symName: '+[PigeonInitializeResponse makeWithName:options:isAutomaticDataCollectionEnabled:pluginConstants:]', symObjAddr: 0x1B3C, symBinAddr: 0xBF860, symSize: 0x138 }
+  - { offset: 0x17274D, size: 0x8, addend: 0x0, symName: '+[PigeonInitializeResponse fromList:]', symObjAddr: 0x1C74, symBinAddr: 0xBF998, symSize: 0x364 }
+  - { offset: 0x1727A4, size: 0x8, addend: 0x0, symName: '+[PigeonInitializeResponse nullableFromList:]', symObjAddr: 0x1FD8, symBinAddr: 0xBFCFC, symSize: 0xDC }
+  - { offset: 0x1727EC, size: 0x8, addend: 0x0, symName: '-[PigeonInitializeResponse toList]', symObjAddr: 0x20B4, symBinAddr: 0xBFDD8, symSize: 0x3F8 }
+  - { offset: 0x172827, size: 0x8, addend: 0x0, symName: '-[PigeonInitializeResponse name]', symObjAddr: 0x24AC, symBinAddr: 0xC01D0, symSize: 0x1C }
+  - { offset: 0x172860, size: 0x8, addend: 0x0, symName: '-[PigeonInitializeResponse setName:]', symObjAddr: 0x24C8, symBinAddr: 0xC01EC, symSize: 0x38 }
+  - { offset: 0x1728A2, size: 0x8, addend: 0x0, symName: '-[PigeonInitializeResponse options]', symObjAddr: 0x2500, symBinAddr: 0xC0224, symSize: 0x1C }
+  - { offset: 0x1728DB, size: 0x8, addend: 0x0, symName: '-[PigeonInitializeResponse setOptions:]', symObjAddr: 0x251C, symBinAddr: 0xC0240, symSize: 0x34 }
+  - { offset: 0x17291D, size: 0x8, addend: 0x0, symName: '-[PigeonInitializeResponse isAutomaticDataCollectionEnabled]', symObjAddr: 0x2550, symBinAddr: 0xC0274, symSize: 0x1C }
+  - { offset: 0x172956, size: 0x8, addend: 0x0, symName: '-[PigeonInitializeResponse setIsAutomaticDataCollectionEnabled:]', symObjAddr: 0x256C, symBinAddr: 0xC0290, symSize: 0x34 }
+  - { offset: 0x172998, size: 0x8, addend: 0x0, symName: '-[PigeonInitializeResponse pluginConstants]', symObjAddr: 0x25A0, symBinAddr: 0xC02C4, symSize: 0x1C }
+  - { offset: 0x1729D1, size: 0x8, addend: 0x0, symName: '-[PigeonInitializeResponse setPluginConstants:]', symObjAddr: 0x25BC, symBinAddr: 0xC02E0, symSize: 0x34 }
+  - { offset: 0x172A13, size: 0x8, addend: 0x0, symName: '-[PigeonInitializeResponse .cxx_destruct]', symObjAddr: 0x25F0, symBinAddr: 0xC0314, symSize: 0x68 }
+  - { offset: 0x172A48, size: 0x8, addend: 0x0, symName: '-[FirebaseCoreHostApiCodecReader readValueOfType:]', symObjAddr: 0x2658, symBinAddr: 0xC037C, symSize: 0x134 }
+  - { offset: 0x172A90, size: 0x8, addend: 0x0, symName: '-[FirebaseCoreHostApiCodecWriter writeValue:]', symObjAddr: 0x278C, symBinAddr: 0xC04B0, symSize: 0x168 }
+  - { offset: 0x172AD4, size: 0x8, addend: 0x0, symName: '-[FirebaseCoreHostApiCodecReaderWriter writerWithData:]', symObjAddr: 0x28F4, symBinAddr: 0xC0618, symSize: 0x70 }
+  - { offset: 0x172B1C, size: 0x8, addend: 0x0, symName: '-[FirebaseCoreHostApiCodecReaderWriter readerWithData:]', symObjAddr: 0x2964, symBinAddr: 0xC0688, symSize: 0x70 }
+  - { offset: 0x172B9F, size: 0x8, addend: 0x0, symName: ___FirebaseCoreHostApiGetCodec_block_invoke, symObjAddr: 0x2A48, symBinAddr: 0xC076C, symSize: 0x80 }
+  - { offset: 0x172BE7, size: 0x8, addend: 0x0, symName: _FirebaseCoreHostApiSetup, symObjAddr: 0x2AC8, symBinAddr: 0xC07EC, symSize: 0x5B0 }
+  - { offset: 0x172C79, size: 0x8, addend: 0x0, symName: ___FirebaseCoreHostApiSetup_block_invoke, symObjAddr: 0x3078, symBinAddr: 0xC0D9C, symSize: 0x18C }
+  - { offset: 0x172D0F, size: 0x8, addend: 0x0, symName: ___FirebaseCoreHostApiSetup_block_invoke_2, symObjAddr: 0x3204, symBinAddr: 0xC0F28, symSize: 0xB4 }
+  - { offset: 0x172D69, size: 0x8, addend: 0x0, symName: _wrapResult, symObjAddr: 0x32B8, symBinAddr: 0xC0FDC, symSize: 0x3A0 }
+  - { offset: 0x172DA4, size: 0x8, addend: 0x0, symName: ___FirebaseCoreHostApiSetup_block_invoke.144, symObjAddr: 0x36F4, symBinAddr: 0xC137C, symSize: 0xF0 }
+  - { offset: 0x172DFE, size: 0x8, addend: 0x0, symName: ___FirebaseCoreHostApiSetup_block_invoke_2.145, symObjAddr: 0x37E4, symBinAddr: 0xC146C, symSize: 0xB4 }
+  - { offset: 0x172E58, size: 0x8, addend: 0x0, symName: ___FirebaseCoreHostApiSetup_block_invoke.153, symObjAddr: 0x3898, symBinAddr: 0xC1520, symSize: 0xF0 }
+  - { offset: 0x172EB6, size: 0x8, addend: 0x0, symName: ___FirebaseCoreHostApiSetup_block_invoke_2.154, symObjAddr: 0x3988, symBinAddr: 0xC1610, symSize: 0xB4 }
+  - { offset: 0x172F15, size: 0x8, addend: 0x0, symName: _FirebaseAppHostApiSetup, symObjAddr: 0x3A90, symBinAddr: 0xC1718, symSize: 0x5B0 }
+  - { offset: 0x172FAC, size: 0x8, addend: 0x0, symName: ___FirebaseAppHostApiSetup_block_invoke, symObjAddr: 0x4040, symBinAddr: 0xC1CC8, symSize: 0x18C }
+  - { offset: 0x17304A, size: 0x8, addend: 0x0, symName: ___FirebaseAppHostApiSetup_block_invoke_2, symObjAddr: 0x41CC, symBinAddr: 0xC1E54, symSize: 0x90 }
+  - { offset: 0x173099, size: 0x8, addend: 0x0, symName: ___FirebaseAppHostApiSetup_block_invoke.169, symObjAddr: 0x425C, symBinAddr: 0xC1EE4, symSize: 0x18C }
+  - { offset: 0x173137, size: 0x8, addend: 0x0, symName: ___FirebaseAppHostApiSetup_block_invoke_2.170, symObjAddr: 0x43E8, symBinAddr: 0xC2070, symSize: 0x90 }
+  - { offset: 0x173186, size: 0x8, addend: 0x0, symName: ___FirebaseAppHostApiSetup_block_invoke_3, symObjAddr: 0x4478, symBinAddr: 0xC2100, symSize: 0x154 }
+  - { offset: 0x173214, size: 0x8, addend: 0x0, symName: ___FirebaseAppHostApiSetup_block_invoke_4, symObjAddr: 0x45CC, symBinAddr: 0xC2254, symSize: 0x90 }
+  - { offset: 0x1738DA, size: 0x8, addend: 0x0, symName: '+[FLTFirebaseCrashlyticsPlugin sharedInstance]', symObjAddr: 0x0, symBinAddr: 0xC22E4, symSize: 0x7C }
+  - { offset: 0x1738F4, size: 0x8, addend: 0x0, symName: _kFLTFirebaseCrashlyticsChannelName, symObjAddr: 0x2830, symBinAddr: 0x120CF0, symSize: 0x0 }
+  - { offset: 0x173914, size: 0x8, addend: 0x0, symName: _kCrashlyticsArgumentException, symObjAddr: 0x2838, symBinAddr: 0x120CF8, symSize: 0x0 }
+  - { offset: 0x17392A, size: 0x8, addend: 0x0, symName: _kCrashlyticsArgumentInformation, symObjAddr: 0x2840, symBinAddr: 0x120D00, symSize: 0x0 }
+  - { offset: 0x173940, size: 0x8, addend: 0x0, symName: _kCrashlyticsArgumentStackTraceElements, symObjAddr: 0x2848, symBinAddr: 0x120D08, symSize: 0x0 }
+  - { offset: 0x173956, size: 0x8, addend: 0x0, symName: _kCrashlyticsArgumentReason, symObjAddr: 0x2850, symBinAddr: 0x120D10, symSize: 0x0 }
+  - { offset: 0x17396C, size: 0x8, addend: 0x0, symName: _kCrashlyticsArgumentIdentifier, symObjAddr: 0x2858, symBinAddr: 0x120D18, symSize: 0x0 }
+  - { offset: 0x173982, size: 0x8, addend: 0x0, symName: _kCrashlyticsArgumentKey, symObjAddr: 0x2860, symBinAddr: 0x120D20, symSize: 0x0 }
+  - { offset: 0x173998, size: 0x8, addend: 0x0, symName: _kCrashlyticsArgumentValue, symObjAddr: 0x2868, symBinAddr: 0x120D28, symSize: 0x0 }
+  - { offset: 0x1739AE, size: 0x8, addend: 0x0, symName: _kCrashlyticsArgumentFatal, symObjAddr: 0x2870, symBinAddr: 0x120D30, symSize: 0x0 }
+  - { offset: 0x1739C4, size: 0x8, addend: 0x0, symName: _kCrashlyticsArgumentFile, symObjAddr: 0x2878, symBinAddr: 0x120D38, symSize: 0x0 }
+  - { offset: 0x1739DA, size: 0x8, addend: 0x0, symName: _kCrashlyticsArgumentLine, symObjAddr: 0x2880, symBinAddr: 0x120D40, symSize: 0x0 }
+  - { offset: 0x1739F0, size: 0x8, addend: 0x0, symName: _kCrashlyticsArgumentMethod, symObjAddr: 0x2888, symBinAddr: 0x120D48, symSize: 0x0 }
+  - { offset: 0x173A06, size: 0x8, addend: 0x0, symName: _kCrashlyticsArgumentEnabled, symObjAddr: 0x2890, symBinAddr: 0x120D50, symSize: 0x0 }
+  - { offset: 0x173A1C, size: 0x8, addend: 0x0, symName: _kCrashlyticsArgumentUnsentReports, symObjAddr: 0x2898, symBinAddr: 0x120D58, symSize: 0x0 }
+  - { offset: 0x173A32, size: 0x8, addend: 0x0, symName: _kCrashlyticsArgumentDidCrashOnPreviousExecution, symObjAddr: 0x28A0, symBinAddr: 0x120D60, symSize: 0x0 }
+  - { offset: 0x173A3C, size: 0x8, addend: 0x0, symName: '+[FLTFirebaseCrashlyticsPlugin sharedInstance]', symObjAddr: 0x0, symBinAddr: 0xC22E4, symSize: 0x7C }
+  - { offset: 0x173A66, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x8C68, symBinAddr: 0x15F330, symSize: 0x0 }
+  - { offset: 0x173A7C, size: 0x8, addend: 0x0, symName: _sharedInstance.instance, symObjAddr: 0x8C70, symBinAddr: 0x15F338, symSize: 0x0 }
+  - { offset: 0x173B7D, size: 0x8, addend: 0x0, symName: '___46+[FLTFirebaseCrashlyticsPlugin sharedInstance]_block_invoke', symObjAddr: 0x7C, symBinAddr: 0xC2360, symSize: 0x108 }
+  - { offset: 0x173BA7, size: 0x8, addend: 0x0, symName: '+[FLTFirebaseCrashlyticsPlugin registerWithRegistrar:]', symObjAddr: 0x184, symBinAddr: 0xC2468, symSize: 0x100 }
+  - { offset: 0x173C09, size: 0x8, addend: 0x0, symName: '-[FLTFirebaseCrashlyticsPlugin handleMethodCall:result:]', symObjAddr: 0x284, symBinAddr: 0xC2568, symSize: 0x68C }
+  - { offset: 0x173C7B, size: 0x8, addend: 0x0, symName: '___56-[FLTFirebaseCrashlyticsPlugin handleMethodCall:result:]_block_invoke', symObjAddr: 0x910, symBinAddr: 0xC2BF4, symSize: 0xCC }
+  - { offset: 0x173CF3, size: 0x8, addend: 0x0, symName: '-[FLTFirebaseCrashlyticsPlugin recordError:withMethodCallResult:]', symObjAddr: 0xA40, symBinAddr: 0xC2CC0, symSize: 0x6EC }
+  - { offset: 0x173DF8, size: 0x8, addend: 0x0, symName: '-[FLTFirebaseCrashlyticsPlugin setUserIdentifier:withMethodCallResult:]', symObjAddr: 0x112C, symBinAddr: 0xC33AC, symSize: 0x110 }
+  - { offset: 0x173E4B, size: 0x8, addend: 0x0, symName: '-[FLTFirebaseCrashlyticsPlugin setCustomKey:withMethodCallResult:]', symObjAddr: 0x123C, symBinAddr: 0xC34BC, symSize: 0x148 }
+  - { offset: 0x173EBC, size: 0x8, addend: 0x0, symName: '-[FLTFirebaseCrashlyticsPlugin log:withMethodCallResult:]', symObjAddr: 0x1384, symBinAddr: 0xC3604, symSize: 0x120 }
+  - { offset: 0x173F1E, size: 0x8, addend: 0x0, symName: '-[FLTFirebaseCrashlyticsPlugin setCrashlyticsCollectionEnabled:withMethodCallResult:]', symObjAddr: 0x14A4, symBinAddr: 0xC3724, symSize: 0x21C }
+  - { offset: 0x173F80, size: 0x8, addend: 0x0, symName: '-[FLTFirebaseCrashlyticsPlugin checkForUnsentReportsWithMethodCallResult:]', symObjAddr: 0x16C0, symBinAddr: 0xC3940, symSize: 0xEC }
+  - { offset: 0x173FC4, size: 0x8, addend: 0x0, symName: '___74-[FLTFirebaseCrashlyticsPlugin checkForUnsentReportsWithMethodCallResult:]_block_invoke', symObjAddr: 0x17AC, symBinAddr: 0xC3A2C, symSize: 0x118 }
+  - { offset: 0x17400F, size: 0x8, addend: 0x0, symName: '-[FLTFirebaseCrashlyticsPlugin sendUnsentReportsWithMethodCallResult:]', symObjAddr: 0x18FC, symBinAddr: 0xC3B44, symSize: 0xB4 }
+  - { offset: 0x174053, size: 0x8, addend: 0x0, symName: '-[FLTFirebaseCrashlyticsPlugin deleteUnsentReportsWithMethodCallResult:]', symObjAddr: 0x19B0, symBinAddr: 0xC3BF8, symSize: 0xB4 }
+  - { offset: 0x174097, size: 0x8, addend: 0x0, symName: '-[FLTFirebaseCrashlyticsPlugin didCrashOnPreviousExecutionWithMethodCallResult:]', symObjAddr: 0x1A64, symBinAddr: 0xC3CAC, symSize: 0x17C }
+  - { offset: 0x1740EA, size: 0x8, addend: 0x0, symName: '-[FLTFirebaseCrashlyticsPlugin generateFrame:]', symObjAddr: 0x1BE0, symBinAddr: 0xC3E28, symSize: 0x1DC }
+  - { offset: 0x17416E, size: 0x8, addend: 0x0, symName: '-[FLTFirebaseCrashlyticsPlugin didReinitializeFirebaseCore:]', symObjAddr: 0x1DBC, symBinAddr: 0xC4004, symSize: 0x58 }
+  - { offset: 0x1741B2, size: 0x8, addend: 0x0, symName: '-[FLTFirebaseCrashlyticsPlugin pluginConstantsForFIRApp:]', symObjAddr: 0x1E14, symBinAddr: 0xC405C, symSize: 0x130 }
+  - { offset: 0x1741FA, size: 0x8, addend: 0x0, symName: '-[FLTFirebaseCrashlyticsPlugin firebaseLibraryName]', symObjAddr: 0x1F44, symBinAddr: 0xC418C, symSize: 0x1C }
+  - { offset: 0x174233, size: 0x8, addend: 0x0, symName: '-[FLTFirebaseCrashlyticsPlugin firebaseLibraryVersion]', symObjAddr: 0x1F60, symBinAddr: 0xC41A8, symSize: 0x1C }
+  - { offset: 0x17426C, size: 0x8, addend: 0x0, symName: '-[FLTFirebaseCrashlyticsPlugin flutterChannelName]', symObjAddr: 0x1F7C, symBinAddr: 0xC41C4, symSize: 0x1C }
+  - { offset: 0x174529, size: 0x8, addend: 0x0, symName: '+[FlutterTtsPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0xC41E0, symSize: 0x60 }
+  - { offset: 0x174537, size: 0x8, addend: 0x0, symName: '+[FlutterTtsPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0xC41E0, symSize: 0x60 }
+  - { offset: 0x17464C, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts13AudioCategoryO016toAVAudioSessionD0So0fgD0ayF', symObjAddr: 0x0, symBinAddr: 0xC4240, symSize: 0x100 }
+  - { offset: 0x1746E1, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts13AudioCategoryOSHAASQWb', symObjAddr: 0x430, symBinAddr: 0xC4670, symSize: 0x14 }
+  - { offset: 0x1746F5, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts13AudioCategoryOACSQAAWl', symObjAddr: 0x444, symBinAddr: 0xC4684, symSize: 0x68 }
+  - { offset: 0x174709, size: 0x8, addend: 0x0, symName: ___swift_memcpy1_1, symObjAddr: 0x5D4, symBinAddr: 0xC4814, symSize: 0xC }
+  - { offset: 0x17471D, size: 0x8, addend: 0x0, symName: ___swift_noop_void_return, symObjAddr: 0x5E0, symBinAddr: 0xC4820, symSize: 0x4 }
+  - { offset: 0x174731, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts13AudioCategoryOwet', symObjAddr: 0x5E4, symBinAddr: 0xC4824, symSize: 0x168 }
+  - { offset: 0x174745, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts13AudioCategoryOwst', symObjAddr: 0x74C, symBinAddr: 0xC498C, symSize: 0x1FC }
+  - { offset: 0x174759, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts13AudioCategoryOwug', symObjAddr: 0x948, symBinAddr: 0xC4B88, symSize: 0x8 }
+  - { offset: 0x17476D, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts13AudioCategoryOwup', symObjAddr: 0x950, symBinAddr: 0xC4B90, symSize: 0x4 }
+  - { offset: 0x174781, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts13AudioCategoryOwui', symObjAddr: 0x954, symBinAddr: 0xC4B94, symSize: 0x8 }
+  - { offset: 0x174795, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts13AudioCategoryOMa', symObjAddr: 0x95C, symBinAddr: 0xC4B9C, symSize: 0x14 }
+  - { offset: 0x1747A9, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts13AudioCategoryOACSYAAWl', symObjAddr: 0x970, symBinAddr: 0xC4BB0, symSize: 0x68 }
+  - { offset: 0x1747BD, size: 0x8, addend: 0x0, symName: '_$sSa12_endMutationyyF', symObjAddr: 0x9D8, symBinAddr: 0xC4C18, symSize: 0xC }
+  - { offset: 0x1747F4, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts13AudioCategoryO016toAVAudioSessionD0So0fgD0ayF', symObjAddr: 0x0, symBinAddr: 0xC4240, symSize: 0x100 }
+  - { offset: 0x17482B, size: 0x8, addend: 0x0, symName: '_$ss27_finalizeUninitializedArrayySayxGABnlF', symObjAddr: 0x2A4, symBinAddr: 0xC44E4, symSize: 0x40 }
+  - { offset: 0x174855, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts13AudioCategoryOSQAASQ2eeoiySbx_xtFZTW', symObjAddr: 0x3E8, symBinAddr: 0xC4628, symSize: 0x48 }
+  - { offset: 0x174871, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts13AudioCategoryOSHAASH9hashValueSivgTW', symObjAddr: 0x4AC, symBinAddr: 0xC46EC, symSize: 0x3C }
+  - { offset: 0x17488D, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts13AudioCategoryOSHAASH4hash4intoys6HasherVz_tFTW', symObjAddr: 0x4E8, symBinAddr: 0xC4728, symSize: 0x44 }
+  - { offset: 0x1748A9, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts13AudioCategoryOSHAASH13_rawHashValue4seedS2i_tFTW', symObjAddr: 0x52C, symBinAddr: 0xC476C, symSize: 0x44 }
+  - { offset: 0x1748DE, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts13AudioCategoryO8rawValueACSgSS_tcfC', symObjAddr: 0x100, symBinAddr: 0xC4340, symSize: 0x1A4 }
+  - { offset: 0x174900, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts13AudioCategoryO8rawValueSSvg', symObjAddr: 0x2E4, symBinAddr: 0xC4524, symSize: 0x104 }
+  - { offset: 0x174928, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts13AudioCategoryOSYAASY8rawValuexSg03RawF0Qz_tcfCTW', symObjAddr: 0x570, symBinAddr: 0xC47B0, symSize: 0x34 }
+  - { offset: 0x17493C, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts13AudioCategoryOSYAASY8rawValue03RawF0QzvgTW', symObjAddr: 0x5A4, symBinAddr: 0xC47E4, symSize: 0x30 }
+  - { offset: 0x174A30, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts20AudioCategoryOptionsO016toAVAudioSessiondE0So0ghdE0VSgyF', symObjAddr: 0x0, symBinAddr: 0xC4C24, symSize: 0x14C }
+  - { offset: 0x174AC5, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts20AudioCategoryOptionsOSHAASQWb', symObjAddr: 0x5F0, symBinAddr: 0xC51D4, symSize: 0x14 }
+  - { offset: 0x174AD9, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts20AudioCategoryOptionsOACSQAAWl', symObjAddr: 0x604, symBinAddr: 0xC51E8, symSize: 0x68 }
+  - { offset: 0x174AED, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts20AudioCategoryOptionsOwet', symObjAddr: 0x7A4, symBinAddr: 0xC5378, symSize: 0x168 }
+  - { offset: 0x174B01, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts20AudioCategoryOptionsOwst', symObjAddr: 0x90C, symBinAddr: 0xC54E0, symSize: 0x1FC }
+  - { offset: 0x174B15, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts20AudioCategoryOptionsOwug', symObjAddr: 0xB08, symBinAddr: 0xC56DC, symSize: 0x8 }
+  - { offset: 0x174B29, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts20AudioCategoryOptionsOwup', symObjAddr: 0xB10, symBinAddr: 0xC56E4, symSize: 0x4 }
+  - { offset: 0x174B3D, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts20AudioCategoryOptionsOwui', symObjAddr: 0xB14, symBinAddr: 0xC56E8, symSize: 0x8 }
+  - { offset: 0x174B51, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts20AudioCategoryOptionsOMa', symObjAddr: 0xB1C, symBinAddr: 0xC56F0, symSize: 0x14 }
+  - { offset: 0x174B65, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts20AudioCategoryOptionsOACSYAAWl', symObjAddr: 0xB30, symBinAddr: 0xC5704, symSize: 0x68 }
+  - { offset: 0x174B93, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts20AudioCategoryOptionsOSQAASQ2eeoiySbx_xtFZTW', symObjAddr: 0x5A8, symBinAddr: 0xC518C, symSize: 0x48 }
+  - { offset: 0x174BAF, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts20AudioCategoryOptionsOSHAASH9hashValueSivgTW', symObjAddr: 0x66C, symBinAddr: 0xC5250, symSize: 0x3C }
+  - { offset: 0x174BCB, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts20AudioCategoryOptionsOSHAASH4hash4intoys6HasherVz_tFTW', symObjAddr: 0x6A8, symBinAddr: 0xC528C, symSize: 0x44 }
+  - { offset: 0x174BE7, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts20AudioCategoryOptionsOSHAASH13_rawHashValue4seedS2i_tFTW', symObjAddr: 0x6EC, symBinAddr: 0xC52D0, symSize: 0x44 }
+  - { offset: 0x174C10, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts20AudioCategoryOptionsO016toAVAudioSessiondE0So0ghdE0VSgyF', symObjAddr: 0x0, symBinAddr: 0xC4C24, symSize: 0x14C }
+  - { offset: 0x174C3A, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts20AudioCategoryOptionsO8rawValueACSgSS_tcfC', symObjAddr: 0x14C, symBinAddr: 0xC4D70, symSize: 0x264 }
+  - { offset: 0x174C5C, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts20AudioCategoryOptionsO8rawValueSSvg', symObjAddr: 0x3F0, symBinAddr: 0xC4FD4, symSize: 0x1B8 }
+  - { offset: 0x174C84, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts20AudioCategoryOptionsOSYAASY8rawValuexSg03RawG0Qz_tcfCTW', symObjAddr: 0x730, symBinAddr: 0xC5314, symSize: 0x34 }
+  - { offset: 0x174C98, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts20AudioCategoryOptionsOSYAASY8rawValue03RawG0QzvgTW', symObjAddr: 0x764, symBinAddr: 0xC5348, symSize: 0x30 }
+  - { offset: 0x174D73, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts10AudioModesO20toAVAudioSessionModeSo0fgH0aSgyF', symObjAddr: 0x0, symBinAddr: 0xC576C, symSize: 0x250 }
+  - { offset: 0x174E08, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts10AudioModesOSHAASQWb', symObjAddr: 0x7E4, symBinAddr: 0xC5F10, symSize: 0x14 }
+  - { offset: 0x174E1C, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts10AudioModesOACSQAAWl', symObjAddr: 0x7F8, symBinAddr: 0xC5F24, symSize: 0x68 }
+  - { offset: 0x174E30, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts10AudioModesOwet', symObjAddr: 0x998, symBinAddr: 0xC60B4, symSize: 0x168 }
+  - { offset: 0x174E44, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts10AudioModesOwst', symObjAddr: 0xB00, symBinAddr: 0xC621C, symSize: 0x1FC }
+  - { offset: 0x174E58, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts10AudioModesOwug', symObjAddr: 0xCFC, symBinAddr: 0xC6418, symSize: 0x8 }
+  - { offset: 0x174E6C, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts10AudioModesOwup', symObjAddr: 0xD04, symBinAddr: 0xC6420, symSize: 0x4 }
+  - { offset: 0x174E80, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts10AudioModesOwui', symObjAddr: 0xD08, symBinAddr: 0xC6424, symSize: 0x8 }
+  - { offset: 0x174E94, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts10AudioModesOMa', symObjAddr: 0xD10, symBinAddr: 0xC642C, symSize: 0x14 }
+  - { offset: 0x174EA8, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts10AudioModesOACSYAAWl', symObjAddr: 0xD24, symBinAddr: 0xC6440, symSize: 0x68 }
+  - { offset: 0x174ED6, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts10AudioModesOSQAASQ2eeoiySbx_xtFZTW', symObjAddr: 0x79C, symBinAddr: 0xC5EC8, symSize: 0x48 }
+  - { offset: 0x174EF2, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts10AudioModesOSHAASH9hashValueSivgTW', symObjAddr: 0x860, symBinAddr: 0xC5F8C, symSize: 0x3C }
+  - { offset: 0x174F0E, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts10AudioModesOSHAASH4hash4intoys6HasherVz_tFTW', symObjAddr: 0x89C, symBinAddr: 0xC5FC8, symSize: 0x44 }
+  - { offset: 0x174F2A, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts10AudioModesOSHAASH13_rawHashValue4seedS2i_tFTW', symObjAddr: 0x8E0, symBinAddr: 0xC600C, symSize: 0x44 }
+  - { offset: 0x174F53, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts10AudioModesO20toAVAudioSessionModeSo0fgH0aSgyF', symObjAddr: 0x0, symBinAddr: 0xC576C, symSize: 0x250 }
+  - { offset: 0x174F7D, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts10AudioModesO8rawValueACSgSS_tcfC', symObjAddr: 0x250, symBinAddr: 0xC59BC, symSize: 0x2DC }
+  - { offset: 0x174F9F, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts10AudioModesO8rawValueSSvg', symObjAddr: 0x56C, symBinAddr: 0xC5C98, symSize: 0x230 }
+  - { offset: 0x174FC7, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts10AudioModesOSYAASY8rawValuexSg03RawF0Qz_tcfCTW', symObjAddr: 0x924, symBinAddr: 0xC6050, symSize: 0x34 }
+  - { offset: 0x174FDB, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts10AudioModesOSYAASY8rawValue03RawF0QzvgTW', symObjAddr: 0x958, symBinAddr: 0xC6084, symSize: 0x30 }
+  - { offset: 0x1750BA, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC19iosAudioCategoryKeySSvpfi', symObjAddr: 0x0, symBinAddr: 0xC64A8, symSize: 0x2C }
+  - { offset: 0x1750D2, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC19iosAudioCategoryKeySSvpfi', symObjAddr: 0x0, symBinAddr: 0xC64A8, symSize: 0x2C }
+  - { offset: 0x175A9C, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC26iosAudioCategoryOptionsKeySSvpfi', symObjAddr: 0x74, symBinAddr: 0xC651C, symSize: 0x2C }
+  - { offset: 0x175AB4, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC15iosAudioModeKeySSvpfi', symObjAddr: 0xE8, symBinAddr: 0xC6590, symSize: 0x2C }
+  - { offset: 0x175ACC, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC11synthesizerSo19AVSpeechSynthesizerCvpfi', symObjAddr: 0x15C, symBinAddr: 0xC6604, symSize: 0x28 }
+  - { offset: 0x175AE4, size: 0x8, addend: 0x0, symName: '_$sSo19AVSpeechSynthesizerCMa', symObjAddr: 0x184, symBinAddr: 0xC662C, symSize: 0x60 }
+  - { offset: 0x175AF8, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC4rateSfvpfi', symObjAddr: 0x254, symBinAddr: 0xC66FC, symSize: 0x10 }
+  - { offset: 0x175B10, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC4rateSfvpACTK', symObjAddr: 0x264, symBinAddr: 0xC670C, symSize: 0x7C }
+  - { offset: 0x175B28, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC4rateSfvpACTk', symObjAddr: 0x2E0, symBinAddr: 0xC6788, symSize: 0x7C }
+  - { offset: 0x175B40, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC6volumeSfvpfi', symObjAddr: 0x4B0, symBinAddr: 0xC6958, symSize: 0x8 }
+  - { offset: 0x175B58, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC6volumeSfvpACTK', symObjAddr: 0x4B8, symBinAddr: 0xC6960, symSize: 0x7C }
+  - { offset: 0x175B70, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC6volumeSfvpACTk', symObjAddr: 0x534, symBinAddr: 0xC69DC, symSize: 0x7C }
+  - { offset: 0x175B88, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC5pitchSfvpfi', symObjAddr: 0x704, symBinAddr: 0xC6BAC, symSize: 0x8 }
+  - { offset: 0x175BA0, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC5pitchSfvpACTK', symObjAddr: 0x70C, symBinAddr: 0xC6BB4, symSize: 0x7C }
+  - { offset: 0x175BB8, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC5pitchSfvpACTk', symObjAddr: 0x788, symBinAddr: 0xC6C30, symSize: 0x7C }
+  - { offset: 0x175BD0, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC5voiceSo22AVSpeechSynthesisVoiceCSgvpfi', symObjAddr: 0x958, symBinAddr: 0xC6E00, symSize: 0x8 }
+  - { offset: 0x175BE8, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC5voiceSo22AVSpeechSynthesisVoiceCSgvpACTK', symObjAddr: 0x960, symBinAddr: 0xC6E08, symSize: 0x80 }
+  - { offset: 0x175C00, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC5voiceSo22AVSpeechSynthesisVoiceCSgvpACTk', symObjAddr: 0x9E0, symBinAddr: 0xC6E88, symSize: 0x8C }
+  - { offset: 0x175C18, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC20awaitSpeakCompletionSbvpfi', symObjAddr: 0xBF8, symBinAddr: 0xC70A0, symSize: 0xC }
+  - { offset: 0x175C30, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC20awaitSpeakCompletionSbvpACTK', symObjAddr: 0xC04, symBinAddr: 0xC70AC, symSize: 0x84 }
+  - { offset: 0x175C48, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC20awaitSpeakCompletionSbvpACTk', symObjAddr: 0xC88, symBinAddr: 0xC7130, symSize: 0x80 }
+  - { offset: 0x175C60, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC20awaitSynthCompletionSbvpfi', symObjAddr: 0xE68, symBinAddr: 0xC7310, symSize: 0xC }
+  - { offset: 0x175C78, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC20awaitSynthCompletionSbvpACTK', symObjAddr: 0xE74, symBinAddr: 0xC731C, symSize: 0x84 }
+  - { offset: 0x175C90, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC20awaitSynthCompletionSbvpACTk', symObjAddr: 0xEF8, symBinAddr: 0xC73A0, symSize: 0x80 }
+  - { offset: 0x175CA8, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC21autoStopSharedSessionSbvpfi', symObjAddr: 0x10D8, symBinAddr: 0xC7580, symSize: 0xC }
+  - { offset: 0x175CC0, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC21autoStopSharedSessionSbvpACTK', symObjAddr: 0x10E4, symBinAddr: 0xC758C, symSize: 0x84 }
+  - { offset: 0x175CD8, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC21autoStopSharedSessionSbvpACTk', symObjAddr: 0x1168, symBinAddr: 0xC7610, symSize: 0x80 }
+  - { offset: 0x175CF0, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC11speakResultyypSgcSgvpfi', symObjAddr: 0x1348, symBinAddr: 0xC77F0, symSize: 0xC }
+  - { offset: 0x175D08, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC11speakResultyypSgcSgvpACTK', symObjAddr: 0x1354, symBinAddr: 0xC77FC, symSize: 0x120 }
+  - { offset: 0x175D20, size: 0x8, addend: 0x0, symName: '_$sypSgIegn_AAytIegnr_TR', symObjAddr: 0x1474, symBinAddr: 0xC791C, symSize: 0x20 }
+  - { offset: 0x175D38, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC11speakResultyypSgcSgvpACTk', symObjAddr: 0x1494, symBinAddr: 0xC793C, symSize: 0x138 }
+  - { offset: 0x175D50, size: 0x8, addend: 0x0, symName: '_$sypSgytIegnr_AAIegn_TR', symObjAddr: 0x15CC, symBinAddr: 0xC7A74, symSize: 0x20 }
+  - { offset: 0x175D68, size: 0x8, addend: 0x0, symName: '_$sypSgIegn_SgWOy', symObjAddr: 0x165C, symBinAddr: 0xC7B04, symSize: 0x30 }
+  - { offset: 0x175D7C, size: 0x8, addend: 0x0, symName: '_$sypSgIegn_SgWOe', symObjAddr: 0x1724, symBinAddr: 0xC7BCC, symSize: 0x30 }
+  - { offset: 0x175D90, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC11synthResultyypSgcSgvpfi', symObjAddr: 0x17E0, symBinAddr: 0xC7C88, symSize: 0xC }
+  - { offset: 0x175DA8, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC11synthResultyypSgcSgvpACTK', symObjAddr: 0x17EC, symBinAddr: 0xC7C94, symSize: 0x120 }
+  - { offset: 0x175DC0, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC11synthResultyypSgcSgvpACTk', symObjAddr: 0x190C, symBinAddr: 0xC7DB4, symSize: 0x138 }
+  - { offset: 0x175DD8, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC12audioSessionSo07AVAudioH0CvpACTK', symObjAddr: 0x1BD8, symBinAddr: 0xC8080, symSize: 0x80 }
+  - { offset: 0x175DF0, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC12audioSessionSo07AVAudioH0CvpACTk', symObjAddr: 0x1C58, symBinAddr: 0xC8100, symSize: 0xA0 }
+  - { offset: 0x175E08, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC30$__lazy_storage_$_audioSession33_AA7A56CA4EE1B420071E0620BE00CE17LLSo07AVAudioJ0CSgvpfi', symObjAddr: 0x1F6C, symBinAddr: 0xC8414, symSize: 0x8 }
+  - { offset: 0x175E20, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC8languageSSvpACTK', symObjAddr: 0x1F74, symBinAddr: 0xC841C, symSize: 0x84 }
+  - { offset: 0x175E38, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC8languageSSvpACTk', symObjAddr: 0x1FF8, symBinAddr: 0xC84A0, symSize: 0x98 }
+  - { offset: 0x175E50, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC26$__lazy_storage_$_language33_AA7A56CA4EE1B420071E0620BE00CE17LLSSSgvpfi', symObjAddr: 0x2398, symBinAddr: 0xC8818, symSize: 0xC }
+  - { offset: 0x175E68, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC9languagesShySSGvpACTK', symObjAddr: 0x23A4, symBinAddr: 0xC8824, symSize: 0x80 }
+  - { offset: 0x175E80, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC9languagesShySSGvpACTk', symObjAddr: 0x2424, symBinAddr: 0xC88A4, symSize: 0x8C }
+  - { offset: 0x175E98, size: 0x8, addend: 0x0, symName: '_$sSo22AVSpeechSynthesisVoiceC8languageSSvpABTK', symObjAddr: 0x26F4, symBinAddr: 0xC8B74, symSize: 0x8C }
+  - { offset: 0x175EB0, size: 0x8, addend: 0x0, symName: '_$sShySSGWOh', symObjAddr: 0x302C, symBinAddr: 0xC94AC, symSize: 0x28 }
+  - { offset: 0x175EC4, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC27$__lazy_storage_$_languages33_AA7A56CA4EE1B420071E0620BE00CE17LLShySSGSgvpfi', symObjAddr: 0x3054, symBinAddr: 0xC94D4, symSize: 0x8 }
+  - { offset: 0x175EDC, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC7channelSo0D13MethodChannelCvpfi', symObjAddr: 0x305C, symBinAddr: 0xC94DC, symSize: 0x28 }
+  - { offset: 0x175EF4, size: 0x8, addend: 0x0, symName: '_$sSo20FlutterMethodChannelCMa', symObjAddr: 0x3084, symBinAddr: 0xC9504, symSize: 0x60 }
+  - { offset: 0x175F08, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC7channelSo0D13MethodChannelCvpACTK', symObjAddr: 0x3110, symBinAddr: 0xC9590, symSize: 0x80 }
+  - { offset: 0x175F20, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC7channelSo0D13MethodChannelCvpACTk', symObjAddr: 0x3190, symBinAddr: 0xC9610, symSize: 0xA0 }
+  - { offset: 0x175F38, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginCMa', symObjAddr: 0x39D0, symBinAddr: 0xC9E50, symSize: 0x24 }
+  - { offset: 0x175F4C, size: 0x8, addend: 0x0, symName: '_$syXlSgIeyBy_ypSgIegn_TR', symObjAddr: 0x6594, symBinAddr: 0xCCA14, symSize: 0x100 }
+  - { offset: 0x175F64, size: 0x8, addend: 0x0, symName: '_$sSo13AVAudioBufferCIegg_ABIeyBy_TR', symObjAddr: 0x8504, symBinAddr: 0xCE944, symSize: 0x70 }
+  - { offset: 0x175F7C, size: 0x8, addend: 0x0, symName: '_$sSo29AVSpeechSynthesisVoiceQualityV11flutter_ttsE11stringValueSSvg', symObjAddr: 0xA540, symBinAddr: 0xD0980, symSize: 0x114 }
+  - { offset: 0x175FAC, size: 0x8, addend: 0x0, symName: '_$sSo28AVSpeechSynthesisVoiceGenderV11flutter_ttsE11stringValueSSvg', symObjAddr: 0xA654, symBinAddr: 0xD0A94, symSize: 0x110 }
+  - { offset: 0x175FDC, size: 0x8, addend: 0x0, symName: '_$sypSgWOh', symObjAddr: 0xB0E4, symBinAddr: 0xD14C4, symSize: 0x38 }
+  - { offset: 0x175FF0, size: 0x8, addend: 0x0, symName: '_$syXlSgIeyBy_ypSgIegn_TRTA', symObjAddr: 0xB4A0, symBinAddr: 0xD179C, symSize: 0x8 }
+  - { offset: 0x176004, size: 0x8, addend: 0x0, symName: '_$sSo17AVSpeechUtteranceCMa', symObjAddr: 0xB4A8, symBinAddr: 0xD17A4, symSize: 0x60 }
+  - { offset: 0x176018, size: 0x8, addend: 0x0, symName: '_$sSo22AVSpeechSynthesisVoiceCSgWOh', symObjAddr: 0xB508, symBinAddr: 0xD1804, symSize: 0x30 }
+  - { offset: 0x17602C, size: 0x8, addend: 0x0, symName: '_$sSo22AVSpeechSynthesisVoiceCMa', symObjAddr: 0xB538, symBinAddr: 0xD1834, symSize: 0x60 }
+  - { offset: 0x176040, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC16synthesizeToFile33_AA7A56CA4EE1B420071E0620BE00CE17LL4text8fileName10isFullPath6resultySS_SSSbyypSgctFySo13AVAudioBufferCcfU_TA', symObjAddr: 0xB650, symBinAddr: 0xD194C, symSize: 0x1C }
+  - { offset: 0x176054, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0xB66C, symBinAddr: 0xD1968, symSize: 0x44 }
+  - { offset: 0x176068, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0xB6B0, symBinAddr: 0xD19AC, symSize: 0x18 }
+  - { offset: 0x17607C, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC11setLanguage33_AA7A56CA4EE1B420071E0620BE00CE17LL8language6resultySS_yypSgXEtFSbSSXEfU_TA', symObjAddr: 0xB6C8, symBinAddr: 0xD19C4, symSize: 0x2C }
+  - { offset: 0x176090, size: 0x8, addend: 0x0, symName: '_$sShySSGShyxGSTsWl', symObjAddr: 0xB6F4, symBinAddr: 0xD19F0, symSize: 0x6C }
+  - { offset: 0x1760A4, size: 0x8, addend: 0x0, symName: '_$sShySSGMa', symObjAddr: 0xB760, symBinAddr: 0xD1A5C, symSize: 0x98 }
+  - { offset: 0x1760B8, size: 0x8, addend: 0x0, symName: '_$sSo30AVAudioSessionSetActiveOptionsVMa', symObjAddr: 0xB7F8, symBinAddr: 0xD1AF4, symSize: 0x94 }
+  - { offset: 0x1760CC, size: 0x8, addend: 0x0, symName: '_$sSo30AVAudioSessionSetActiveOptionsVABs0C7AlgebraSCWl', symObjAddr: 0xB88C, symBinAddr: 0xD1B88, symSize: 0x6C }
+  - { offset: 0x1760E0, size: 0x8, addend: 0x0, symName: '_$sSSSgWOh', symObjAddr: 0xB8F8, symBinAddr: 0xD1BF4, symSize: 0x28 }
+  - { offset: 0x1760F4, size: 0x8, addend: 0x0, symName: '_$sSo22AVAudioSessionCategoryaSgWOh', symObjAddr: 0xB920, symBinAddr: 0xD1C1C, symSize: 0x30 }
+  - { offset: 0x176108, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVMa', symObjAddr: 0xB950, symBinAddr: 0xD1C4C, symSize: 0x94 }
+  - { offset: 0x17611C, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVABs10SetAlgebraSCWl', symObjAddr: 0xB9E4, symBinAddr: 0xD1CE0, symSize: 0x6C }
+  - { offset: 0x176130, size: 0x8, addend: 0x0, symName: '_$sSo18AVAudioSessionModeaWOc', symObjAddr: 0xBA50, symBinAddr: 0xD1D4C, symSize: 0x3C }
+  - { offset: 0x176144, size: 0x8, addend: 0x0, symName: '_$sSo18AVAudioSessionModeaSgWOh', symObjAddr: 0xBA8C, symBinAddr: 0xD1D88, symSize: 0x30 }
+  - { offset: 0x176158, size: 0x8, addend: 0x0, symName: ___swift_allocate_boxed_opaque_existential_0, symObjAddr: 0xBABC, symBinAddr: 0xD1DB8, symSize: 0x5C }
+  - { offset: 0x17616C, size: 0x8, addend: 0x0, symName: '_$sSaySSGSayxGSTsWl', symObjAddr: 0xBB18, symBinAddr: 0xD1E14, symSize: 0x6C }
+  - { offset: 0x176180, size: 0x8, addend: 0x0, symName: '_$sSaySSGMa', symObjAddr: 0xBB84, symBinAddr: 0xD1E80, symSize: 0x90 }
+  - { offset: 0x176194, size: 0x8, addend: 0x0, symName: '_$sSaySSGWOh', symObjAddr: 0xBC14, symBinAddr: 0xD1F10, symSize: 0x28 }
+  - { offset: 0x1761A8, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC19isLanguageAvailable33_AA7A56CA4EE1B420071E0620BE00CE17LL8language6resultySS_yypSgXEtFSbSSXEfU_TA', symObjAddr: 0xBC3C, symBinAddr: 0xD1F38, symSize: 0x2C }
+  - { offset: 0x1761BC, size: 0x8, addend: 0x0, symName: '_$sSo14NSMutableArrayCMa', symObjAddr: 0xBC68, symBinAddr: 0xD1F64, symSize: 0x60 }
+  - { offset: 0x1761D0, size: 0x8, addend: 0x0, symName: '_$sSaySo22AVSpeechSynthesisVoiceCGSayxGSlsWl', symObjAddr: 0xBCC8, symBinAddr: 0xD1FC4, symSize: 0x6C }
+  - { offset: 0x1761E4, size: 0x8, addend: 0x0, symName: '_$sSaySo22AVSpeechSynthesisVoiceCGMa', symObjAddr: 0xBD34, symBinAddr: 0xD2030, symSize: 0x98 }
+  - { offset: 0x1761F8, size: 0x8, addend: 0x0, symName: '_$ss16IndexingIteratorVySaySo22AVSpeechSynthesisVoiceCGGWOh', symObjAddr: 0xBDCC, symBinAddr: 0xD20C8, symSize: 0x28 }
+  - { offset: 0x17620C, size: 0x8, addend: 0x0, symName: '_$sSDyS2SGWOh', symObjAddr: 0xBDF4, symBinAddr: 0xD20F0, symSize: 0x28 }
+  - { offset: 0x176220, size: 0x8, addend: 0x0, symName: '_$sSo29AVSpeechSynthesisVoiceQualityVMa', symObjAddr: 0xBE1C, symBinAddr: 0xD2118, symSize: 0x94 }
+  - { offset: 0x176234, size: 0x8, addend: 0x0, symName: '_$sSo28AVSpeechSynthesisVoiceGenderVMa', symObjAddr: 0xBEB0, symBinAddr: 0xD21AC, symSize: 0x94 }
+  - { offset: 0x176248, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC8setVoice33_AA7A56CA4EE1B420071E0620BE00CE17LL5voice6resultySDyS2SG_yypSgXEtFSbSo017AVSpeechSynthesisH0CXEfU_TA', symObjAddr: 0xBF44, symBinAddr: 0xD2240, symSize: 0x34 }
+  - { offset: 0x17625C, size: 0x8, addend: 0x0, symName: '_$sSaySo22AVSpeechSynthesisVoiceCGSayxGs14_ArrayProtocolsWl', symObjAddr: 0xBF78, symBinAddr: 0xD2274, symSize: 0x6C }
+  - { offset: 0x176270, size: 0x8, addend: 0x0, symName: '_$sSaySo22AVSpeechSynthesisVoiceCGWOh', symObjAddr: 0xBFE4, symBinAddr: 0xD22E0, symSize: 0x28 }
+  - { offset: 0x176284, size: 0x8, addend: 0x0, symName: '_$sSaySo22AVSpeechSynthesisVoiceCGSayxGSTsWl', symObjAddr: 0xC00C, symBinAddr: 0xD2308, symSize: 0x6C }
+  - { offset: 0x176298, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVABs9OptionSetSCWl', symObjAddr: 0xC168, symBinAddr: 0xD2464, symSize: 0x6C }
+  - { offset: 0x1762AC, size: 0x8, addend: 0x0, symName: ___swift_project_boxed_opaque_existential_0, symObjAddr: 0xCDE4, symBinAddr: 0xD30E0, symSize: 0x4C }
+  - { offset: 0x1762C0, size: 0x8, addend: 0x0, symName: '_$sxq_Ri_zRi0_zRi__Ri0__r0_lyypSgytIsegnr_SgWOh', symObjAddr: 0xCE30, symBinAddr: 0xD312C, symSize: 0x3C }
+  - { offset: 0x1762D4, size: 0x8, addend: 0x0, symName: '_$sypSgIegn_AAytIegnr_TRTA', symObjAddr: 0xCEA8, symBinAddr: 0xD31A4, symSize: 0xC }
+  - { offset: 0x1762E8, size: 0x8, addend: 0x0, symName: '_$sypSgIegn_AAytIegnr_TRTA.16', symObjAddr: 0xCEF0, symBinAddr: 0xD31EC, symSize: 0xC }
+  - { offset: 0x1762FC, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginCfETo', symObjAddr: 0xDE14, symBinAddr: 0xD4110, symSize: 0x110 }
+  - { offset: 0x17632A, size: 0x8, addend: 0x0, symName: '_$ss31_stdlib_isOSVersionAtLeast_AEICyBi1_Bw_BwBwtF', symObjAddr: 0xF31C, symBinAddr: 0xD5618, symSize: 0x34 }
+  - { offset: 0x176342, size: 0x8, addend: 0x0, symName: '_$ss12StaticStringV14withUTF8BufferyxxSRys5UInt8VGXElFxAFXEfU_yt_Tgq5', symObjAddr: 0xF350, symBinAddr: 0xD564C, symSize: 0x30 }
+  - { offset: 0x176361, size: 0x8, addend: 0x0, symName: '_$ss7UnicodeO6ScalarV17withUTF8CodeUnitsyxxSRys5UInt8VGKXEKlFyt_Tgq5', symObjAddr: 0xF380, symBinAddr: 0xD567C, symSize: 0x234 }
+  - { offset: 0x176380, size: 0x8, addend: 0x0, symName: '_$ss25_unimplementedInitializer9className04initD04file4line6columns5NeverOs12StaticStringV_A2JS2utFySRys5UInt8VGXEfU_', symObjAddr: 0xF5B4, symBinAddr: 0xD58B0, symSize: 0x340 }
+  - { offset: 0x176398, size: 0x8, addend: 0x0, symName: '_$sypSgIegn_SgWOh', symObjAddr: 0xF8F4, symBinAddr: 0xD5BF0, symSize: 0x3C }
+  - { offset: 0x1763AC, size: 0x8, addend: 0x0, symName: '_$sSo14AVAudioSessionCSgWOh', symObjAddr: 0xF930, symBinAddr: 0xD5C2C, symSize: 0x30 }
+  - { offset: 0x1763C0, size: 0x8, addend: 0x0, symName: '_$sShySSGSgWOh', symObjAddr: 0xF960, symBinAddr: 0xD5C5C, symSize: 0x28 }
+  - { offset: 0x1763D4, size: 0x8, addend: 0x0, symName: '_$sSo30AVAudioSessionSetActiveOptionsVs06OptionC0SCSYWb', symObjAddr: 0xF988, symBinAddr: 0xD5C84, symSize: 0x14 }
+  - { offset: 0x1763E8, size: 0x8, addend: 0x0, symName: '_$sSo30AVAudioSessionSetActiveOptionsVABSYSCWl', symObjAddr: 0xF99C, symBinAddr: 0xD5C98, symSize: 0x6C }
+  - { offset: 0x1763FC, size: 0x8, addend: 0x0, symName: '_$sSo30AVAudioSessionSetActiveOptionsVs06OptionC0SCs0C7AlgebraPWb', symObjAddr: 0xFA08, symBinAddr: 0xD5D04, symSize: 0x14 }
+  - { offset: 0x176410, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVs9OptionSetSCSYWb', symObjAddr: 0xFA1C, symBinAddr: 0xD5D18, symSize: 0x14 }
+  - { offset: 0x176424, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVABSYSCWl', symObjAddr: 0xFA30, symBinAddr: 0xD5D2C, symSize: 0x6C }
+  - { offset: 0x176438, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVs9OptionSetSCs0F7AlgebraPWb', symObjAddr: 0xFA9C, symBinAddr: 0xD5D98, symSize: 0x14 }
+  - { offset: 0x17644C, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVs10SetAlgebraSCSQWb', symObjAddr: 0xFAB0, symBinAddr: 0xD5DAC, symSize: 0x14 }
+  - { offset: 0x176460, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVABSQSCWl', symObjAddr: 0xFAC4, symBinAddr: 0xD5DC0, symSize: 0x6C }
+  - { offset: 0x176474, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVs10SetAlgebraSCs25ExpressibleByArrayLiteralPWb', symObjAddr: 0xFB30, symBinAddr: 0xD5E2C, symSize: 0x14 }
+  - { offset: 0x176488, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVABs25ExpressibleByArrayLiteralSCWl', symObjAddr: 0xFB44, symBinAddr: 0xD5E40, symSize: 0x6C }
+  - { offset: 0x17649C, size: 0x8, addend: 0x0, symName: '_$sSo30AVAudioSessionSetActiveOptionsVs0C7AlgebraSCSQWb', symObjAddr: 0xFBB0, symBinAddr: 0xD5EAC, symSize: 0x14 }
+  - { offset: 0x1764B0, size: 0x8, addend: 0x0, symName: '_$sSo30AVAudioSessionSetActiveOptionsVABSQSCWl', symObjAddr: 0xFBC4, symBinAddr: 0xD5EC0, symSize: 0x6C }
+  - { offset: 0x1764C4, size: 0x8, addend: 0x0, symName: '_$sSo30AVAudioSessionSetActiveOptionsVs0C7AlgebraSCs25ExpressibleByArrayLiteralPWb', symObjAddr: 0xFC30, symBinAddr: 0xD5F2C, symSize: 0x14 }
+  - { offset: 0x1764D8, size: 0x8, addend: 0x0, symName: '_$sSo30AVAudioSessionSetActiveOptionsVABs25ExpressibleByArrayLiteralSCWl', symObjAddr: 0xFC44, symBinAddr: 0xD5F40, symSize: 0x6C }
+  - { offset: 0x1764EC, size: 0x8, addend: 0x0, symName: '_$sSo30AVAudioSessionSetActiveOptionsVABs06OptionC0SCWl', symObjAddr: 0xFCB0, symBinAddr: 0xD5FAC, symSize: 0x6C }
+  - { offset: 0x176500, size: 0x8, addend: 0x0, symName: '_$sS2us17FixedWidthIntegersWl', symObjAddr: 0xFD1C, symBinAddr: 0xD6018, symSize: 0x64 }
+  - { offset: 0x176514, size: 0x8, addend: 0x0, symName: '_$sSo29AVSpeechSynthesisVoiceQualityVABSYSCWl', symObjAddr: 0xFD80, symBinAddr: 0xD607C, symSize: 0x6C }
+  - { offset: 0x176528, size: 0x8, addend: 0x0, symName: '_$sShySSGWOc', symObjAddr: 0xFDEC, symBinAddr: 0xD60E8, symSize: 0x34 }
+  - { offset: 0x17653C, size: 0x8, addend: 0x0, symName: '_$sSSWOc', symObjAddr: 0xFE20, symBinAddr: 0xD611C, symSize: 0x3C }
+  - { offset: 0x176550, size: 0x8, addend: 0x0, symName: '_$sxq_Ri_zRi0_zRi__Ri0__r0_lyypSgytIsegnr_SgWOc', symObjAddr: 0xFE5C, symBinAddr: 0xD6158, symSize: 0x74 }
+  - { offset: 0x176564, size: 0x8, addend: 0x0, symName: '_$sypSgytIegnr_AAIegn_TRTA', symObjAddr: 0xFF0C, symBinAddr: 0xD6208, symSize: 0xC }
+  - { offset: 0x176578, size: 0x8, addend: 0x0, symName: '_$sypSgIegn_AAytIegnr_TRTA.24', symObjAddr: 0xFF54, symBinAddr: 0xD6250, symSize: 0xC }
+  - { offset: 0x17658C, size: 0x8, addend: 0x0, symName: '_$sypSgytIegnr_AAIegn_TRTA.28', symObjAddr: 0xFF9C, symBinAddr: 0xD6298, symSize: 0xC }
+  - { offset: 0x1765A0, size: 0x8, addend: 0x0, symName: '_$sypSgIegn_AAytIegnr_TRTA.32', symObjAddr: 0xFFE4, symBinAddr: 0xD62E0, symSize: 0xC }
+  - { offset: 0x1765B4, size: 0x8, addend: 0x0, symName: '_$sSo22AVSpeechSynthesisVoiceCSgWOc', symObjAddr: 0xFFF0, symBinAddr: 0xD62EC, symSize: 0x3C }
+  - { offset: 0x1765C8, size: 0x8, addend: 0x0, symName: '_$ss7UnicodeO6ScalarV17withUTF8CodeUnitsyxxSRys5UInt8VGKXEKlFxSPys6UInt64VGKXEfU_yt_Tgq5', symObjAddr: 0x1002C, symBinAddr: 0xD6328, symSize: 0x170 }
+  - { offset: 0x1765E7, size: 0x8, addend: 0x0, symName: '_$ss25_unimplementedInitializer9className04initD04file4line6columns5NeverOs12StaticStringV_A2JS2utFySRys5UInt8VGXEfU_yAMXEfU_', symObjAddr: 0x1019C, symBinAddr: 0xD6498, symSize: 0x318 }
+  - { offset: 0x1765FF, size: 0x8, addend: 0x0, symName: '_$ss25_unimplementedInitializer9className04initD04file4line6columns5NeverOs12StaticStringV_A2JS2utFySRys5UInt8VGXEfU_yAMXEfU_TA', symObjAddr: 0x104B4, symBinAddr: 0xD67B0, symSize: 0x40 }
+  - { offset: 0x176613, size: 0x8, addend: 0x0, symName: '_$ss12StaticStringV14withUTF8BufferyxxSRys5UInt8VGXElFxAFXEfU_yt_Tgq5TA', symObjAddr: 0x104F4, symBinAddr: 0xD67F0, symSize: 0x28 }
+  - { offset: 0x176627, size: 0x8, addend: 0x0, symName: '_$ss25_unimplementedInitializer9className04initD04file4line6columns5NeverOs12StaticStringV_A2JS2utFySRys5UInt8VGXEfU_yAMXEfU_yAMXEfU_', symObjAddr: 0x1051C, symBinAddr: 0xD6818, symSize: 0x504 }
+  - { offset: 0x17663F, size: 0x8, addend: 0x0, symName: '_$ss25_unimplementedInitializer9className04initD04file4line6columns5NeverOs12StaticStringV_A2JS2utFySRys5UInt8VGXEfU_yAMXEfU_yAMXEfU_TA', symObjAddr: 0x10A20, symBinAddr: 0xD6D1C, symSize: 0x1C }
+  - { offset: 0x176653, size: 0x8, addend: 0x0, symName: '_$ss12StaticStringV14withUTF8BufferyxxSRys5UInt8VGXElFxAFXEfU_yt_Tgq5TA.33', symObjAddr: 0x10A3C, symBinAddr: 0xD6D38, symSize: 0x28 }
+  - { offset: 0x176667, size: 0x8, addend: 0x0, symName: '_$sSo29AVSpeechSynthesisVoiceQualityVABSQSCWl', symObjAddr: 0x10A64, symBinAddr: 0xD6D60, symSize: 0x6C }
+  - { offset: 0x17667B, size: 0x8, addend: 0x0, symName: '_$sSo22NSStringCompareOptionsVMa', symObjAddr: 0x10AD0, symBinAddr: 0xD6DCC, symSize: 0x94 }
+  - { offset: 0x17668F, size: 0x8, addend: 0x0, symName: '_$sSo22NSStringCompareOptionsVABs10SetAlgebraSCWl', symObjAddr: 0x10B64, symBinAddr: 0xD6E60, symSize: 0x6C }
+  - { offset: 0x1766A3, size: 0x8, addend: 0x0, symName: '_$sS2SSysWl', symObjAddr: 0x10BD0, symBinAddr: 0xD6ECC, symSize: 0x64 }
+  - { offset: 0x1766B7, size: 0x8, addend: 0x0, symName: '_$s10Foundation6LocaleVSgWOh', symObjAddr: 0x10C34, symBinAddr: 0xD6F30, symSize: 0x68 }
+  - { offset: 0x1766CB, size: 0x8, addend: 0x0, symName: '_$sSo13AVAudioBufferCMa', symObjAddr: 0x10CA8, symBinAddr: 0xD6F98, symSize: 0x60 }
+  - { offset: 0x1766DF, size: 0x8, addend: 0x0, symName: '_$sSo13AVAudioBufferCSo8NSObjectCs23CustomStringConvertible10FoundationWl', symObjAddr: 0x10D08, symBinAddr: 0xD6FF8, symSize: 0x6C }
+  - { offset: 0x1766F3, size: 0x8, addend: 0x0, symName: '_$ss26DefaultStringInterpolationVWOh', symObjAddr: 0x10D74, symBinAddr: 0xD7064, symSize: 0x28 }
+  - { offset: 0x176707, size: 0x8, addend: 0x0, symName: '_$sSo13AVAudioFormatCMa', symObjAddr: 0x10D9C, symBinAddr: 0xD708C, symSize: 0x60 }
+  - { offset: 0x17671B, size: 0x8, addend: 0x0, symName: '_$sSay10Foundation3URLVGSayxGSlsWl', symObjAddr: 0x10DFC, symBinAddr: 0xD70EC, symSize: 0x6C }
+  - { offset: 0x17672F, size: 0x8, addend: 0x0, symName: '_$sSay10Foundation3URLVGMa', symObjAddr: 0x10E68, symBinAddr: 0xD7158, symSize: 0x98 }
+  - { offset: 0x176743, size: 0x8, addend: 0x0, symName: '_$sSay10Foundation3URLVGWOh', symObjAddr: 0x10F00, symBinAddr: 0xD71F0, symSize: 0x28 }
+  - { offset: 0x176757, size: 0x8, addend: 0x0, symName: '_$sSo11AVAudioFileCSgWOh', symObjAddr: 0x10F28, symBinAddr: 0xD7218, symSize: 0x30 }
+  - { offset: 0x17676B, size: 0x8, addend: 0x0, symName: '_$sSo11AVAudioFileCMa', symObjAddr: 0x10F58, symBinAddr: 0xD7248, symSize: 0x60 }
+  - { offset: 0x17677F, size: 0x8, addend: 0x0, symName: '_$sSAySo7NSErrorCSgGSAyxGs8_PointersWl', symObjAddr: 0x10FB8, symBinAddr: 0xD72A8, symSize: 0x6C }
+  - { offset: 0x176793, size: 0x8, addend: 0x0, symName: '_$sSAySo7NSErrorCSgGMa', symObjAddr: 0x11024, symBinAddr: 0xD7314, symSize: 0x98 }
+  - { offset: 0x1767A7, size: 0x8, addend: 0x0, symName: '_$sSo7NSErrorCSgMa', symObjAddr: 0x110BC, symBinAddr: 0xD73AC, symSize: 0x98 }
+  - { offset: 0x1767BB, size: 0x8, addend: 0x0, symName: '_$sSo7NSErrorCMa', symObjAddr: 0x11154, symBinAddr: 0xD7444, symSize: 0x60 }
+  - { offset: 0x1767CF, size: 0x8, addend: 0x0, symName: '_$sypSgWOc', symObjAddr: 0x111B4, symBinAddr: 0xD74A4, symSize: 0x70 }
+  - { offset: 0x1767E3, size: 0x8, addend: 0x0, symName: _keypath_get_selector_language, symObjAddr: 0x11224, symBinAddr: 0xD7514, symSize: 0xC }
+  - { offset: 0x1767F7, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC9languagesShySSGvgAEyXEfU_SSSo22AVSpeechSynthesisVoiceCcfu_TA', symObjAddr: 0x11230, symBinAddr: 0xD7520, symSize: 0x30 }
+  - { offset: 0x17680B, size: 0x8, addend: 0x0, symName: '_$ss15ContiguousArrayVyqd__GSlRzs5ErrorRd_0_r_0_lWOh', symObjAddr: 0x11260, symBinAddr: 0xD7550, symSize: 0x28 }
+  - { offset: 0x17681F, size: 0x8, addend: 0x0, symName: '_$sSo22NSStringCompareOptionsVs9OptionSetSCSYWb', symObjAddr: 0x11288, symBinAddr: 0xD7578, symSize: 0x14 }
+  - { offset: 0x176833, size: 0x8, addend: 0x0, symName: '_$sSo22NSStringCompareOptionsVABSYSCWl', symObjAddr: 0x1129C, symBinAddr: 0xD758C, symSize: 0x6C }
+  - { offset: 0x176847, size: 0x8, addend: 0x0, symName: '_$sSo22NSStringCompareOptionsVs9OptionSetSCs0E7AlgebraPWb', symObjAddr: 0x11308, symBinAddr: 0xD75F8, symSize: 0x14 }
+  - { offset: 0x17685B, size: 0x8, addend: 0x0, symName: '_$sSo22NSStringCompareOptionsVs10SetAlgebraSCSQWb', symObjAddr: 0x1131C, symBinAddr: 0xD760C, symSize: 0x14 }
+  - { offset: 0x17686F, size: 0x8, addend: 0x0, symName: '_$sSo22NSStringCompareOptionsVABSQSCWl', symObjAddr: 0x11330, symBinAddr: 0xD7620, symSize: 0x6C }
+  - { offset: 0x176883, size: 0x8, addend: 0x0, symName: '_$sSo22NSStringCompareOptionsVs10SetAlgebraSCs25ExpressibleByArrayLiteralPWb', symObjAddr: 0x1139C, symBinAddr: 0xD768C, symSize: 0x14 }
+  - { offset: 0x176897, size: 0x8, addend: 0x0, symName: '_$sSo22NSStringCompareOptionsVABs25ExpressibleByArrayLiteralSCWl', symObjAddr: 0x113B0, symBinAddr: 0xD76A0, symSize: 0x6C }
+  - { offset: 0x1768AB, size: 0x8, addend: 0x0, symName: '_$sSo22NSStringCompareOptionsVABs9OptionSetSCWl', symObjAddr: 0x1141C, symBinAddr: 0xD770C, symSize: 0x6C }
+  - { offset: 0x176911, size: 0x8, addend: 0x0, symName: '_$sSlsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lF', symObjAddr: 0x27F4, symBinAddr: 0xC8C74, symSize: 0x710 }
+  - { offset: 0x1769A3, size: 0x8, addend: 0x0, symName: '_$ss5print_9separator10terminatoryypd_S2StFfA0_', symObjAddr: 0x8338, symBinAddr: 0xCE778, symSize: 0x2C }
+  - { offset: 0x1769BF, size: 0x8, addend: 0x0, symName: '_$ss5print_9separator10terminatoryypd_S2StFfA1_', symObjAddr: 0x8364, symBinAddr: 0xCE7A4, symSize: 0x2C }
+  - { offset: 0x176A65, size: 0x8, addend: 0x0, symName: '_$sSo22NSStringCompareOptionsVs10SetAlgebraSCsACPxycfCTW', symObjAddr: 0xE4B0, symBinAddr: 0xD47AC, symSize: 0x40 }
+  - { offset: 0x176A81, size: 0x8, addend: 0x0, symName: '_$sSo22NSStringCompareOptionsVs10SetAlgebraSCsACP8containsySb7ElementQzFTW', symObjAddr: 0xE4F0, symBinAddr: 0xD47EC, symSize: 0x38 }
+  - { offset: 0x176A9D, size: 0x8, addend: 0x0, symName: '_$sSo22NSStringCompareOptionsVs10SetAlgebraSCsACP5unionyxxnFTW', symObjAddr: 0xE528, symBinAddr: 0xD4824, symSize: 0x3C }
+  - { offset: 0x176AB9, size: 0x8, addend: 0x0, symName: '_$sSo22NSStringCompareOptionsVs10SetAlgebraSCsACP12intersectionyxxFTW', symObjAddr: 0xE564, symBinAddr: 0xD4860, symSize: 0x3C }
+  - { offset: 0x176AD5, size: 0x8, addend: 0x0, symName: '_$sSo22NSStringCompareOptionsVs10SetAlgebraSCsACP19symmetricDifferenceyxxnFTW', symObjAddr: 0xE5A0, symBinAddr: 0xD489C, symSize: 0x3C }
+  - { offset: 0x176AF1, size: 0x8, addend: 0x0, symName: '_$sSo22NSStringCompareOptionsVs10SetAlgebraSCsACP6insertySb8inserted_7ElementQz17memberAfterInserttAHnFTW', symObjAddr: 0xE5DC, symBinAddr: 0xD48D8, symSize: 0x40 }
+  - { offset: 0x176B0D, size: 0x8, addend: 0x0, symName: '_$sSo22NSStringCompareOptionsVs10SetAlgebraSCsACP6removey7ElementQzSgAGFTW', symObjAddr: 0xE61C, symBinAddr: 0xD4918, symSize: 0x3C }
+  - { offset: 0x176B29, size: 0x8, addend: 0x0, symName: '_$sSo22NSStringCompareOptionsVs10SetAlgebraSCsACP6update4with7ElementQzSgAHn_tFTW', symObjAddr: 0xE658, symBinAddr: 0xD4954, symSize: 0x3C }
+  - { offset: 0x176B45, size: 0x8, addend: 0x0, symName: '_$sSo22NSStringCompareOptionsVs10SetAlgebraSCsACP9formUnionyyxnFTW', symObjAddr: 0xE694, symBinAddr: 0xD4990, symSize: 0x40 }
+  - { offset: 0x176B61, size: 0x8, addend: 0x0, symName: '_$sSo22NSStringCompareOptionsVs10SetAlgebraSCsACP16formIntersectionyyxFTW', symObjAddr: 0xE6D4, symBinAddr: 0xD49D0, symSize: 0x40 }
+  - { offset: 0x176B7D, size: 0x8, addend: 0x0, symName: '_$sSo22NSStringCompareOptionsVs10SetAlgebraSCsACP23formSymmetricDifferenceyyxnFTW', symObjAddr: 0xE714, symBinAddr: 0xD4A10, symSize: 0x40 }
+  - { offset: 0x176B99, size: 0x8, addend: 0x0, symName: '_$sSo22NSStringCompareOptionsVs10SetAlgebraSCsACP11subtractingyxxFTW', symObjAddr: 0xE754, symBinAddr: 0xD4A50, symSize: 0x14 }
+  - { offset: 0x176BB5, size: 0x8, addend: 0x0, symName: '_$sSo22NSStringCompareOptionsVs10SetAlgebraSCsACP8isSubset2ofSbx_tFTW', symObjAddr: 0xE768, symBinAddr: 0xD4A64, symSize: 0x18 }
+  - { offset: 0x176BD1, size: 0x8, addend: 0x0, symName: '_$sSo22NSStringCompareOptionsVs10SetAlgebraSCsACP10isDisjoint4withSbx_tFTW', symObjAddr: 0xE780, symBinAddr: 0xD4A7C, symSize: 0x18 }
+  - { offset: 0x176BED, size: 0x8, addend: 0x0, symName: '_$sSo22NSStringCompareOptionsVs10SetAlgebraSCsACP10isSuperset2ofSbx_tFTW', symObjAddr: 0xE798, symBinAddr: 0xD4A94, symSize: 0x18 }
+  - { offset: 0x176C09, size: 0x8, addend: 0x0, symName: '_$sSo22NSStringCompareOptionsVs10SetAlgebraSCsACP7isEmptySbvgTW', symObjAddr: 0xE7B0, symBinAddr: 0xD4AAC, symSize: 0x18 }
+  - { offset: 0x176C25, size: 0x8, addend: 0x0, symName: '_$sSo22NSStringCompareOptionsVs10SetAlgebraSCsACPyxqd__ncSTRd__7ElementQyd__AERtzlufCTW', symObjAddr: 0xE7C8, symBinAddr: 0xD4AC4, symSize: 0x38 }
+  - { offset: 0x176C41, size: 0x8, addend: 0x0, symName: '_$sSo22NSStringCompareOptionsVs10SetAlgebraSCsACP8subtractyyxFTW', symObjAddr: 0xE800, symBinAddr: 0xD4AFC, symSize: 0x14 }
+  - { offset: 0x176C5D, size: 0x8, addend: 0x0, symName: '_$sSo30AVAudioSessionSetActiveOptionsVs0C7AlgebraSCsACPxycfCTW', symObjAddr: 0xE814, symBinAddr: 0xD4B10, symSize: 0x40 }
+  - { offset: 0x176C79, size: 0x8, addend: 0x0, symName: '_$sSo30AVAudioSessionSetActiveOptionsVs0C7AlgebraSCsACP8containsySb7ElementQzFTW', symObjAddr: 0xE854, symBinAddr: 0xD4B50, symSize: 0x38 }
+  - { offset: 0x176C95, size: 0x8, addend: 0x0, symName: '_$sSo30AVAudioSessionSetActiveOptionsVs0C7AlgebraSCsACP5unionyxxnFTW', symObjAddr: 0xE88C, symBinAddr: 0xD4B88, symSize: 0x3C }
+  - { offset: 0x176CB1, size: 0x8, addend: 0x0, symName: '_$sSo30AVAudioSessionSetActiveOptionsVs0C7AlgebraSCsACP12intersectionyxxFTW', symObjAddr: 0xE8C8, symBinAddr: 0xD4BC4, symSize: 0x3C }
+  - { offset: 0x176CCD, size: 0x8, addend: 0x0, symName: '_$sSo30AVAudioSessionSetActiveOptionsVs0C7AlgebraSCsACP19symmetricDifferenceyxxnFTW', symObjAddr: 0xE904, symBinAddr: 0xD4C00, symSize: 0x3C }
+  - { offset: 0x176CE9, size: 0x8, addend: 0x0, symName: '_$sSo30AVAudioSessionSetActiveOptionsVs0C7AlgebraSCsACP6insertySb8inserted_7ElementQz17memberAfterInserttAHnFTW', symObjAddr: 0xE940, symBinAddr: 0xD4C3C, symSize: 0x40 }
+  - { offset: 0x176D05, size: 0x8, addend: 0x0, symName: '_$sSo30AVAudioSessionSetActiveOptionsVs0C7AlgebraSCsACP6removey7ElementQzSgAGFTW', symObjAddr: 0xE980, symBinAddr: 0xD4C7C, symSize: 0x3C }
+  - { offset: 0x176D21, size: 0x8, addend: 0x0, symName: '_$sSo30AVAudioSessionSetActiveOptionsVs0C7AlgebraSCsACP6update4with7ElementQzSgAHn_tFTW', symObjAddr: 0xE9BC, symBinAddr: 0xD4CB8, symSize: 0x3C }
+  - { offset: 0x176D3D, size: 0x8, addend: 0x0, symName: '_$sSo30AVAudioSessionSetActiveOptionsVs0C7AlgebraSCsACP9formUnionyyxnFTW', symObjAddr: 0xE9F8, symBinAddr: 0xD4CF4, symSize: 0x40 }
+  - { offset: 0x176D59, size: 0x8, addend: 0x0, symName: '_$sSo30AVAudioSessionSetActiveOptionsVs0C7AlgebraSCsACP16formIntersectionyyxFTW', symObjAddr: 0xEA38, symBinAddr: 0xD4D34, symSize: 0x40 }
+  - { offset: 0x176D75, size: 0x8, addend: 0x0, symName: '_$sSo30AVAudioSessionSetActiveOptionsVs0C7AlgebraSCsACP23formSymmetricDifferenceyyxnFTW', symObjAddr: 0xEA78, symBinAddr: 0xD4D74, symSize: 0x40 }
+  - { offset: 0x176D91, size: 0x8, addend: 0x0, symName: '_$sSo30AVAudioSessionSetActiveOptionsVs0C7AlgebraSCsACP11subtractingyxxFTW', symObjAddr: 0xEAB8, symBinAddr: 0xD4DB4, symSize: 0x14 }
+  - { offset: 0x176DAD, size: 0x8, addend: 0x0, symName: '_$sSo30AVAudioSessionSetActiveOptionsVs0C7AlgebraSCsACP8isSubset2ofSbx_tFTW', symObjAddr: 0xEACC, symBinAddr: 0xD4DC8, symSize: 0x18 }
+  - { offset: 0x176DC9, size: 0x8, addend: 0x0, symName: '_$sSo30AVAudioSessionSetActiveOptionsVs0C7AlgebraSCsACP10isDisjoint4withSbx_tFTW', symObjAddr: 0xEAE4, symBinAddr: 0xD4DE0, symSize: 0x18 }
+  - { offset: 0x176DE5, size: 0x8, addend: 0x0, symName: '_$sSo30AVAudioSessionSetActiveOptionsVs0C7AlgebraSCsACP10isSuperset2ofSbx_tFTW', symObjAddr: 0xEAFC, symBinAddr: 0xD4DF8, symSize: 0x18 }
+  - { offset: 0x176E01, size: 0x8, addend: 0x0, symName: '_$sSo30AVAudioSessionSetActiveOptionsVs0C7AlgebraSCsACP7isEmptySbvgTW', symObjAddr: 0xEB14, symBinAddr: 0xD4E10, symSize: 0x18 }
+  - { offset: 0x176E1D, size: 0x8, addend: 0x0, symName: '_$sSo30AVAudioSessionSetActiveOptionsVs0C7AlgebraSCsACPyxqd__ncSTRd__7ElementQyd__AERtzlufCTW', symObjAddr: 0xEB2C, symBinAddr: 0xD4E28, symSize: 0x38 }
+  - { offset: 0x176E39, size: 0x8, addend: 0x0, symName: '_$sSo30AVAudioSessionSetActiveOptionsVs0C7AlgebraSCsACP8subtractyyxFTW', symObjAddr: 0xEB64, symBinAddr: 0xD4E60, symSize: 0x14 }
+  - { offset: 0x176E55, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVs10SetAlgebraSCsACPxycfCTW', symObjAddr: 0xEB78, symBinAddr: 0xD4E74, symSize: 0x40 }
+  - { offset: 0x176E71, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVs10SetAlgebraSCsACP8containsySb7ElementQzFTW', symObjAddr: 0xEBB8, symBinAddr: 0xD4EB4, symSize: 0x38 }
+  - { offset: 0x176E8D, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVs10SetAlgebraSCsACP5unionyxxnFTW', symObjAddr: 0xEBF0, symBinAddr: 0xD4EEC, symSize: 0x3C }
+  - { offset: 0x176EA9, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVs10SetAlgebraSCsACP12intersectionyxxFTW', symObjAddr: 0xEC2C, symBinAddr: 0xD4F28, symSize: 0x3C }
+  - { offset: 0x176EC5, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVs10SetAlgebraSCsACP19symmetricDifferenceyxxnFTW', symObjAddr: 0xEC68, symBinAddr: 0xD4F64, symSize: 0x3C }
+  - { offset: 0x176EE1, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVs10SetAlgebraSCsACP6insertySb8inserted_7ElementQz17memberAfterInserttAHnFTW', symObjAddr: 0xECA4, symBinAddr: 0xD4FA0, symSize: 0x40 }
+  - { offset: 0x176EFD, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVs10SetAlgebraSCsACP6removey7ElementQzSgAGFTW', symObjAddr: 0xECE4, symBinAddr: 0xD4FE0, symSize: 0x3C }
+  - { offset: 0x176F19, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVs10SetAlgebraSCsACP6update4with7ElementQzSgAHn_tFTW', symObjAddr: 0xED20, symBinAddr: 0xD501C, symSize: 0x3C }
+  - { offset: 0x176F35, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVs10SetAlgebraSCsACP9formUnionyyxnFTW', symObjAddr: 0xED5C, symBinAddr: 0xD5058, symSize: 0x40 }
+  - { offset: 0x176F51, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVs10SetAlgebraSCsACP16formIntersectionyyxFTW', symObjAddr: 0xED9C, symBinAddr: 0xD5098, symSize: 0x40 }
+  - { offset: 0x176F6D, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVs10SetAlgebraSCsACP23formSymmetricDifferenceyyxnFTW', symObjAddr: 0xEDDC, symBinAddr: 0xD50D8, symSize: 0x40 }
+  - { offset: 0x176F89, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVs10SetAlgebraSCsACP11subtractingyxxFTW', symObjAddr: 0xEE1C, symBinAddr: 0xD5118, symSize: 0x14 }
+  - { offset: 0x176FA5, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVs10SetAlgebraSCsACP8isSubset2ofSbx_tFTW', symObjAddr: 0xEE30, symBinAddr: 0xD512C, symSize: 0x18 }
+  - { offset: 0x176FC1, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVs10SetAlgebraSCsACP10isDisjoint4withSbx_tFTW', symObjAddr: 0xEE48, symBinAddr: 0xD5144, symSize: 0x18 }
+  - { offset: 0x176FDD, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVs10SetAlgebraSCsACP10isSuperset2ofSbx_tFTW', symObjAddr: 0xEE60, symBinAddr: 0xD515C, symSize: 0x18 }
+  - { offset: 0x176FF9, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVs10SetAlgebraSCsACP7isEmptySbvgTW', symObjAddr: 0xEE78, symBinAddr: 0xD5174, symSize: 0x18 }
+  - { offset: 0x177015, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVs10SetAlgebraSCsACPyxqd__ncSTRd__7ElementQyd__AERtzlufCTW', symObjAddr: 0xEE90, symBinAddr: 0xD518C, symSize: 0x38 }
+  - { offset: 0x177031, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVs10SetAlgebraSCsACP8subtractyyxFTW', symObjAddr: 0xEEC8, symBinAddr: 0xD51C4, symSize: 0x14 }
+  - { offset: 0x17704D, size: 0x8, addend: 0x0, symName: '_$sSo29AVSpeechSynthesisVoiceQualityVSQSCSQ2eeoiySbx_xtFZTW', symObjAddr: 0xEF08, symBinAddr: 0xD5204, symSize: 0x48 }
+  - { offset: 0x17707B, size: 0x8, addend: 0x0, symName: '_$sSo22NSStringCompareOptionsVSQSCSQ2eeoiySbx_xtFZTW', symObjAddr: 0xEFF4, symBinAddr: 0xD52F0, symSize: 0x48 }
+  - { offset: 0x177097, size: 0x8, addend: 0x0, symName: '_$sSo22NSStringCompareOptionsVs25ExpressibleByArrayLiteralSCsACP05arrayG0x0fG7ElementQzd_tcfCTW', symObjAddr: 0xF03C, symBinAddr: 0xD5338, symSize: 0x3C }
+  - { offset: 0x1770B3, size: 0x8, addend: 0x0, symName: '_$sSo30AVAudioSessionSetActiveOptionsVSQSCSQ2eeoiySbx_xtFZTW', symObjAddr: 0xF0A4, symBinAddr: 0xD53A0, symSize: 0x48 }
+  - { offset: 0x1770CF, size: 0x8, addend: 0x0, symName: '_$sSo30AVAudioSessionSetActiveOptionsVs25ExpressibleByArrayLiteralSCsACP05arrayI0x0hI7ElementQzd_tcfCTW', symObjAddr: 0xF0EC, symBinAddr: 0xD53E8, symSize: 0x3C }
+  - { offset: 0x1770EB, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVSQSCSQ2eeoiySbx_xtFZTW', symObjAddr: 0xF154, symBinAddr: 0xD5450, symSize: 0x48 }
+  - { offset: 0x177107, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVs25ExpressibleByArrayLiteralSCsACP05arrayH0x0gH7ElementQzd_tcfCTW', symObjAddr: 0xF19C, symBinAddr: 0xD5498, symSize: 0x3C }
+  - { offset: 0x1771C8, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC19iosAudioCategoryKeySSvg', symObjAddr: 0x2C, symBinAddr: 0xC64D4, symSize: 0x48 }
+  - { offset: 0x1771EC, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC26iosAudioCategoryOptionsKeySSvg', symObjAddr: 0xA0, symBinAddr: 0xC6548, symSize: 0x48 }
+  - { offset: 0x177210, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC15iosAudioModeKeySSvg', symObjAddr: 0x114, symBinAddr: 0xC65BC, symSize: 0x48 }
+  - { offset: 0x1775F6, size: 0x8, addend: 0x0, symName: '_$sSo19AVSpeechSynthesizerCABycfC', symObjAddr: 0x1E4, symBinAddr: 0xC668C, symSize: 0x2C }
+  - { offset: 0x17760A, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC11synthesizerSo19AVSpeechSynthesizerCvg', symObjAddr: 0x210, symBinAddr: 0xC66B8, symSize: 0x44 }
+  - { offset: 0x17762E, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC4rateSfvg', symObjAddr: 0x35C, symBinAddr: 0xC6804, symSize: 0x60 }
+  - { offset: 0x177658, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC4rateSfvs', symObjAddr: 0x3BC, symBinAddr: 0xC6864, symSize: 0x68 }
+  - { offset: 0x17768B, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC4rateSfvM', symObjAddr: 0x424, symBinAddr: 0xC68CC, symSize: 0x50 }
+  - { offset: 0x1776AF, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC4rateSfvM.resume.0', symObjAddr: 0x474, symBinAddr: 0xC691C, symSize: 0x3C }
+  - { offset: 0x1776D0, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC6volumeSfvg', symObjAddr: 0x5B0, symBinAddr: 0xC6A58, symSize: 0x60 }
+  - { offset: 0x1776F4, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC6volumeSfvs', symObjAddr: 0x610, symBinAddr: 0xC6AB8, symSize: 0x68 }
+  - { offset: 0x177727, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC6volumeSfvM', symObjAddr: 0x678, symBinAddr: 0xC6B20, symSize: 0x50 }
+  - { offset: 0x17774B, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC6volumeSfvM.resume.0', symObjAddr: 0x6C8, symBinAddr: 0xC6B70, symSize: 0x3C }
+  - { offset: 0x17776C, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC5pitchSfvg', symObjAddr: 0x804, symBinAddr: 0xC6CAC, symSize: 0x60 }
+  - { offset: 0x177790, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC5pitchSfvs', symObjAddr: 0x864, symBinAddr: 0xC6D0C, symSize: 0x68 }
+  - { offset: 0x1777C3, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC5pitchSfvM', symObjAddr: 0x8CC, symBinAddr: 0xC6D74, symSize: 0x50 }
+  - { offset: 0x1777E7, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC5pitchSfvM.resume.0', symObjAddr: 0x91C, symBinAddr: 0xC6DC4, symSize: 0x3C }
+  - { offset: 0x177808, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC5voiceSo22AVSpeechSynthesisVoiceCSgvg', symObjAddr: 0xA6C, symBinAddr: 0xC6F14, symSize: 0x6C }
+  - { offset: 0x17782C, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC5voiceSo22AVSpeechSynthesisVoiceCSgvs', symObjAddr: 0xAD8, symBinAddr: 0xC6F80, symSize: 0x94 }
+  - { offset: 0x17785F, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC5voiceSo22AVSpeechSynthesisVoiceCSgvM', symObjAddr: 0xB6C, symBinAddr: 0xC7014, symSize: 0x50 }
+  - { offset: 0x177883, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC5voiceSo22AVSpeechSynthesisVoiceCSgvM.resume.0', symObjAddr: 0xBBC, symBinAddr: 0xC7064, symSize: 0x3C }
+  - { offset: 0x1778A4, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC20awaitSpeakCompletionSbvg', symObjAddr: 0xD08, symBinAddr: 0xC71B0, symSize: 0x64 }
+  - { offset: 0x1778C8, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC20awaitSpeakCompletionSbvs', symObjAddr: 0xD6C, symBinAddr: 0xC7214, symSize: 0x70 }
+  - { offset: 0x1778FB, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC20awaitSpeakCompletionSbvM', symObjAddr: 0xDDC, symBinAddr: 0xC7284, symSize: 0x50 }
+  - { offset: 0x17791F, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC20awaitSpeakCompletionSbvM.resume.0', symObjAddr: 0xE2C, symBinAddr: 0xC72D4, symSize: 0x3C }
+  - { offset: 0x177940, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC20awaitSynthCompletionSbvg', symObjAddr: 0xF78, symBinAddr: 0xC7420, symSize: 0x64 }
+  - { offset: 0x177964, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC20awaitSynthCompletionSbvs', symObjAddr: 0xFDC, symBinAddr: 0xC7484, symSize: 0x70 }
+  - { offset: 0x177997, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC20awaitSynthCompletionSbvM', symObjAddr: 0x104C, symBinAddr: 0xC74F4, symSize: 0x50 }
+  - { offset: 0x1779BB, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC20awaitSynthCompletionSbvM.resume.0', symObjAddr: 0x109C, symBinAddr: 0xC7544, symSize: 0x3C }
+  - { offset: 0x1779DC, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC21autoStopSharedSessionSbvg', symObjAddr: 0x11E8, symBinAddr: 0xC7690, symSize: 0x64 }
+  - { offset: 0x177A00, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC21autoStopSharedSessionSbvs', symObjAddr: 0x124C, symBinAddr: 0xC76F4, symSize: 0x70 }
+  - { offset: 0x177A33, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC21autoStopSharedSessionSbvM', symObjAddr: 0x12BC, symBinAddr: 0xC7764, symSize: 0x50 }
+  - { offset: 0x177A57, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC21autoStopSharedSessionSbvM.resume.0', symObjAddr: 0x130C, symBinAddr: 0xC77B4, symSize: 0x3C }
+  - { offset: 0x177A78, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC11speakResultyypSgcSgvg', symObjAddr: 0x15EC, symBinAddr: 0xC7A94, symSize: 0x70 }
+  - { offset: 0x177A9C, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC11speakResultyypSgcSgvs', symObjAddr: 0x168C, symBinAddr: 0xC7B34, symSize: 0x98 }
+  - { offset: 0x177ACF, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC11speakResultyypSgcSgvM', symObjAddr: 0x1754, symBinAddr: 0xC7BFC, symSize: 0x50 }
+  - { offset: 0x177AF3, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC11speakResultyypSgcSgvM.resume.0', symObjAddr: 0x17A4, symBinAddr: 0xC7C4C, symSize: 0x3C }
+  - { offset: 0x177B20, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC11synthResultyypSgcSgvg', symObjAddr: 0x1A44, symBinAddr: 0xC7EEC, symSize: 0x70 }
+  - { offset: 0x177B44, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC11synthResultyypSgcSgvs', symObjAddr: 0x1AB4, symBinAddr: 0xC7F5C, symSize: 0x98 }
+  - { offset: 0x177B77, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC11synthResultyypSgcSgvM', symObjAddr: 0x1B4C, symBinAddr: 0xC7FF4, symSize: 0x50 }
+  - { offset: 0x177B9B, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC11synthResultyypSgcSgvM.resume.0', symObjAddr: 0x1B9C, symBinAddr: 0xC8044, symSize: 0x3C }
+  - { offset: 0x177BBC, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC12audioSessionSo07AVAudioH0Cvg', symObjAddr: 0x1CF8, symBinAddr: 0xC81A0, symSize: 0x120 }
+  - { offset: 0x177BE0, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC12audioSessionSo07AVAudioH0Cvs', symObjAddr: 0x1E18, symBinAddr: 0xC82C0, symSize: 0x94 }
+  - { offset: 0x177C13, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC12audioSessionSo07AVAudioH0CvM', symObjAddr: 0x1EAC, symBinAddr: 0xC8354, symSize: 0x44 }
+  - { offset: 0x177C37, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC12audioSessionSo07AVAudioH0CvM.resume.0', symObjAddr: 0x1EF0, symBinAddr: 0xC8398, symSize: 0x7C }
+  - { offset: 0x177C58, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC8languageSSvg', symObjAddr: 0x2090, symBinAddr: 0xC8538, symSize: 0x120 }
+  - { offset: 0x177C7B, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC8languageSSvgSSyXEfU_', symObjAddr: 0x21B0, symBinAddr: 0xC8658, symSize: 0x64 }
+  - { offset: 0x177C96, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC8languageSSvs', symObjAddr: 0x2214, symBinAddr: 0xC86BC, symSize: 0x98 }
+  - { offset: 0x177CC9, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC8languageSSvM', symObjAddr: 0x22AC, symBinAddr: 0xC8754, symSize: 0x4C }
+  - { offset: 0x177CED, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC8languageSSvM.resume.0', symObjAddr: 0x22F8, symBinAddr: 0xC87A0, symSize: 0x78 }
+  - { offset: 0x177D0E, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC9languagesShySSGvg', symObjAddr: 0x24B0, symBinAddr: 0xC8930, symSize: 0xEC }
+  - { offset: 0x177D31, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC9languagesShySSGvgAEyXEfU_', symObjAddr: 0x259C, symBinAddr: 0xC8A1C, symSize: 0x158 }
+  - { offset: 0x177D4B, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC9languagesShySSGvgAEyXEfU_SSSo22AVSpeechSynthesisVoiceCcfu_', symObjAddr: 0x2780, symBinAddr: 0xC8C00, symSize: 0x74 }
+  - { offset: 0x177D72, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC9languagesShySSGvs', symObjAddr: 0x2F04, symBinAddr: 0xC9384, symSize: 0x7C }
+  - { offset: 0x177DA5, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC9languagesShySSGvM', symObjAddr: 0x2F80, symBinAddr: 0xC9400, symSize: 0x44 }
+  - { offset: 0x177DC9, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC9languagesShySSGvM.resume.0', symObjAddr: 0x2FC4, symBinAddr: 0xC9444, symSize: 0x68 }
+  - { offset: 0x177E99, size: 0x8, addend: 0x0, symName: '_$sSo20FlutterMethodChannelCABycfC', symObjAddr: 0x30E4, symBinAddr: 0xC9564, symSize: 0x2C }
+  - { offset: 0x177EAD, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC7channelSo0D13MethodChannelCvg', symObjAddr: 0x3230, symBinAddr: 0xC96B0, symSize: 0x6C }
+  - { offset: 0x177ED1, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC7channelSo0D13MethodChannelCvs', symObjAddr: 0x329C, symBinAddr: 0xC971C, symSize: 0x98 }
+  - { offset: 0x177F04, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC7channelSo0D13MethodChannelCvM', symObjAddr: 0x3334, symBinAddr: 0xC97B4, symSize: 0x50 }
+  - { offset: 0x177F28, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC7channelSo0D13MethodChannelCvM.resume.0', symObjAddr: 0x3384, symBinAddr: 0xC9804, symSize: 0x3C }
+  - { offset: 0x177F55, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC7channelACSo0D13MethodChannelC_tcfC', symObjAddr: 0x33C0, symBinAddr: 0xC9840, symSize: 0x38 }
+  - { offset: 0x177F69, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC7channelACSo0D13MethodChannelC_tcfc', symObjAddr: 0x33F8, symBinAddr: 0xC9878, symSize: 0x5D8 }
+  - { offset: 0x177F9C, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC8register4withySo0dF9Registrar_p_tFZ', symObjAddr: 0x39F4, symBinAddr: 0xC9E74, symSize: 0x138 }
+  - { offset: 0x178003, size: 0x8, addend: 0x0, symName: '_$sSo20FlutterMethodChannelC4name15binaryMessengerABSS_So0a6BinaryF0_ptcfCTO', symObjAddr: 0x3B2C, symBinAddr: 0xC9FAC, symSize: 0x80 }
+  - { offset: 0x17801D, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC8register4withySo0dF9Registrar_p_tFZTo', symObjAddr: 0x3BAC, symBinAddr: 0xCA02C, symSize: 0x50 }
+  - { offset: 0x178031, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC6handle_6resultySo0D10MethodCallC_yypSgctF', symObjAddr: 0x3BFC, symBinAddr: 0xCA07C, symSize: 0x28D4 }
+  - { offset: 0x178288, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC6handle_6resultySo0D10MethodCallC_yypSgctFTo', symObjAddr: 0x64D0, symBinAddr: 0xCC950, symSize: 0xC4 }
+  - { offset: 0x17829C, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC5speak33_AA7A56CA4EE1B420071E0620BE00CE17LL4text6resultySS_yypSgctF', symObjAddr: 0x6694, symBinAddr: 0xCCB14, symSize: 0x52C }
+  - { offset: 0x178302, size: 0x8, addend: 0x0, symName: '_$sSo17AVSpeechUtteranceC6stringABSS_tcfC', symObjAddr: 0x6BC0, symBinAddr: 0xCD040, symSize: 0x44 }
+  - { offset: 0x17831C, size: 0x8, addend: 0x0, symName: '_$sSo22AVSpeechSynthesisVoiceC8languageABSgSSSg_tcfCTO', symObjAddr: 0x6C04, symBinAddr: 0xCD084, symSize: 0xBC }
+  - { offset: 0x178330, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC16synthesizeToFile33_AA7A56CA4EE1B420071E0620BE00CE17LL4text8fileName10isFullPath6resultySS_SSSbyypSgctF', symObjAddr: 0x6CC0, symBinAddr: 0xCD140, symSize: 0x5A0 }
+  - { offset: 0x1783E0, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC16synthesizeToFile33_AA7A56CA4EE1B420071E0620BE00CE17LL4text8fileName10isFullPath6resultySS_SSSbyypSgctFySo13AVAudioBufferCcfU_', symObjAddr: 0x7260, symBinAddr: 0xCD6E0, symSize: 0x1098 }
+  - { offset: 0x1784C1, size: 0x8, addend: 0x0, symName: '_$sSo13AVAudioFormatC06commonB010sampleRate8channels11interleavedABSgSo0a6CommonB0V_Sds6UInt32VSbtcfC', symObjAddr: 0x8390, symBinAddr: 0xCE7D0, symSize: 0x58 }
+  - { offset: 0x1784FB, size: 0x8, addend: 0x0, symName: '_$sSo11AVAudioFileC10forWriting8settingsAB10Foundation3URLV_SDySSypGtKcfC', symObjAddr: 0x83E8, symBinAddr: 0xCE828, symSize: 0x84 }
+  - { offset: 0x17850F, size: 0x8, addend: 0x0, symName: '_$sSo11AVAudioFileC10forWriting8settings12commonFormat11interleavedAB10Foundation3URLV_SDySSypGSo0a6CommonG0VSbtKcfC', symObjAddr: 0x846C, symBinAddr: 0xCE8AC, symSize: 0x98 }
+  - { offset: 0x17852F, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC5pause33_AA7A56CA4EE1B420071E0620BE00CE17LL6resultyyypSgXE_tF', symObjAddr: 0x8574, symBinAddr: 0xCE9B4, symSize: 0x100 }
+  - { offset: 0x178562, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC11setLanguage33_AA7A56CA4EE1B420071E0620BE00CE17LL8language6resultySS_yypSgXEtF', symObjAddr: 0x8674, symBinAddr: 0xCEAB4, symSize: 0x1D4 }
+  - { offset: 0x1785A4, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC11setLanguage33_AA7A56CA4EE1B420071E0620BE00CE17LL8language6resultySS_yypSgXEtFSbSSXEfU_', symObjAddr: 0x8848, symBinAddr: 0xCEC88, symSize: 0x20C }
+  - { offset: 0x1785E4, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC7setRate33_AA7A56CA4EE1B420071E0620BE00CE17LL4rateySf_tF', symObjAddr: 0x8A54, symBinAddr: 0xCEE94, symSize: 0x48 }
+  - { offset: 0x178619, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC9setVolume33_AA7A56CA4EE1B420071E0620BE00CE17LL6volume6resultySf_yypSgXEtF', symObjAddr: 0x8A9C, symBinAddr: 0xCEEDC, symSize: 0x11C }
+  - { offset: 0x17865E, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC8setPitch33_AA7A56CA4EE1B420071E0620BE00CE17LL5pitch6resultySf_yypSgXEtF', symObjAddr: 0x8BB8, symBinAddr: 0xCEFF8, symSize: 0x18C }
+  - { offset: 0x1786A3, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC17setSharedInstance33_AA7A56CA4EE1B420071E0620BE00CE17LL06sharedI06resultySb_yypSgXEtF', symObjAddr: 0x8D44, symBinAddr: 0xCF184, symSize: 0x21C }
+  - { offset: 0x178703, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC16setAudioCategory33_AA7A56CA4EE1B420071E0620BE00CE17LL05audioI00R7Options0R4Mode6resultySSSg_SaySSGSgAJyypSgXEtF', symObjAddr: 0x8F60, symBinAddr: 0xCF3A0, symSize: 0x870 }
+  - { offset: 0x1787CB, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC16setAudioCategory33_AA7A56CA4EE1B420071E0620BE00CE17LL05audioI00R7Options0R4Mode6resultySSSg_SaySSGSgAJyypSgXEtFSo014AVAudioSessioniS0VAO_SStXEfU_', symObjAddr: 0x97D0, symBinAddr: 0xCFC10, symSize: 0x168 }
+  - { offset: 0x17880E, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC4stop33_AA7A56CA4EE1B420071E0620BE00CE17LLyyF', symObjAddr: 0x9938, symBinAddr: 0xCFD78, symSize: 0x64 }
+  - { offset: 0x178833, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC12getLanguages33_AA7A56CA4EE1B420071E0620BE00CE17LL6resultyyypSgXE_tF', symObjAddr: 0x999C, symBinAddr: 0xCFDDC, symSize: 0xD4 }
+  - { offset: 0x178868, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC23getSpeechRateValidRange33_AA7A56CA4EE1B420071E0620BE00CE17LL6resultyyypSgXE_tF', symObjAddr: 0x9A70, symBinAddr: 0xCFEB0, symSize: 0x25C }
+  - { offset: 0x1788BC, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC19isLanguageAvailable33_AA7A56CA4EE1B420071E0620BE00CE17LL8language6resultySS_yypSgXEtF', symObjAddr: 0x9CCC, symBinAddr: 0xD010C, symSize: 0x160 }
+  - { offset: 0x178921, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC19isLanguageAvailable33_AA7A56CA4EE1B420071E0620BE00CE17LL8language6resultySS_yypSgXEtFSbSSXEfU_', symObjAddr: 0x9E2C, symBinAddr: 0xD026C, symSize: 0x20C }
+  - { offset: 0x178964, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC9getVoices33_AA7A56CA4EE1B420071E0620BE00CE17LL6resultyyypSgXE_tF', symObjAddr: 0xA038, symBinAddr: 0xD0478, symSize: 0x4DC }
+  - { offset: 0x178AFD, size: 0x8, addend: 0x0, symName: '_$sSo14NSMutableArrayCABycfC', symObjAddr: 0xA514, symBinAddr: 0xD0954, symSize: 0x2C }
+  - { offset: 0x178B11, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC8setVoice33_AA7A56CA4EE1B420071E0620BE00CE17LL5voice6resultySDyS2SG_yypSgXEtF', symObjAddr: 0xA764, symBinAddr: 0xD0BA4, symSize: 0x750 }
+  - { offset: 0x178C1D, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC8setVoice33_AA7A56CA4EE1B420071E0620BE00CE17LL5voice6resultySDyS2SG_yypSgXEtFSbSo017AVSpeechSynthesisH0CXEfU_', symObjAddr: 0xAF24, symBinAddr: 0xD1364, symSize: 0x160 }
+  - { offset: 0x178C6F, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC8setVoice33_AA7A56CA4EE1B420071E0620BE00CE17LL5voice6resultySDyS2SG_yypSgXEtFSbSo017AVSpeechSynthesisH0C_AKtXEfU0_', symObjAddr: 0xB200, symBinAddr: 0xD14FC, symSize: 0x220 }
+  - { offset: 0x178CF0, size: 0x8, addend: 0x0, symName: '_$sSo22AVSpeechSynthesisVoiceC10identifierABSgSS_tcfCTO', symObjAddr: 0xAEB4, symBinAddr: 0xD12F4, symSize: 0x70 }
+  - { offset: 0x178D04, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC10clearVoice33_AA7A56CA4EE1B420071E0620BE00CE17LLyyF', symObjAddr: 0xB420, symBinAddr: 0xD171C, symSize: 0x44 }
+  - { offset: 0x178D29, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC31shouldDeactivateAndNotifyOthers33_AA7A56CA4EE1B420071E0620BE00CE17LLySbSo14AVAudioSessionCF', symObjAddr: 0xC078, symBinAddr: 0xD2374, symSize: 0xF0 }
+  - { offset: 0x178D7D, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC17speechSynthesizer_9didFinishySo08AVSpeechH0C_So0K9UtteranceCtF', symObjAddr: 0xC1D4, symBinAddr: 0xD24D0, symSize: 0xC10 }
+  - { offset: 0x178DDD, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC17speechSynthesizer_9didFinishySo08AVSpeechH0C_So0K9UtteranceCtFTo', symObjAddr: 0xCEFC, symBinAddr: 0xD31F8, symSize: 0x9C }
+  - { offset: 0x178DF1, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC17speechSynthesizer_8didStartySo08AVSpeechH0C_So0K9UtteranceCtF', symObjAddr: 0xCF98, symBinAddr: 0xD3294, symSize: 0x190 }
+  - { offset: 0x178E36, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC17speechSynthesizer_8didStartySo08AVSpeechH0C_So0K9UtteranceCtFTo', symObjAddr: 0xD128, symBinAddr: 0xD3424, symSize: 0x9C }
+  - { offset: 0x178E4A, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC17speechSynthesizer_8didPauseySo08AVSpeechH0C_So0K9UtteranceCtF', symObjAddr: 0xD1C4, symBinAddr: 0xD34C0, symSize: 0x190 }
+  - { offset: 0x178E8F, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC17speechSynthesizer_8didPauseySo08AVSpeechH0C_So0K9UtteranceCtFTo', symObjAddr: 0xD354, symBinAddr: 0xD3650, symSize: 0x9C }
+  - { offset: 0x178EA3, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC17speechSynthesizer_11didContinueySo08AVSpeechH0C_So0K9UtteranceCtF', symObjAddr: 0xD3F0, symBinAddr: 0xD36EC, symSize: 0x190 }
+  - { offset: 0x178EE8, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC17speechSynthesizer_11didContinueySo08AVSpeechH0C_So0K9UtteranceCtFTo', symObjAddr: 0xD580, symBinAddr: 0xD387C, symSize: 0x9C }
+  - { offset: 0x178EFC, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC17speechSynthesizer_9didCancelySo08AVSpeechH0C_So0K9UtteranceCtF', symObjAddr: 0xD61C, symBinAddr: 0xD3918, symSize: 0x190 }
+  - { offset: 0x178F41, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC17speechSynthesizer_9didCancelySo08AVSpeechH0C_So0K9UtteranceCtFTo', symObjAddr: 0xD7AC, symBinAddr: 0xD3AA8, symSize: 0x9C }
+  - { offset: 0x178F55, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC17speechSynthesizer_28willSpeakRangeOfSpeechString9utteranceySo08AVSpeechH0C_So8_NSRangeVSo0P9UtteranceCtF', symObjAddr: 0xD848, symBinAddr: 0xD3B44, symSize: 0x41C }
+  - { offset: 0x178FFF, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginC17speechSynthesizer_28willSpeakRangeOfSpeechString9utteranceySo08AVSpeechH0C_So8_NSRangeVSo0P9UtteranceCtFTo', symObjAddr: 0xDC64, symBinAddr: 0xD3F60, symSize: 0xBC }
+  - { offset: 0x179013, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginCACycfC', symObjAddr: 0xDD20, symBinAddr: 0xD401C, symSize: 0x24 }
+  - { offset: 0x179027, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginCACycfc', symObjAddr: 0xDD44, symBinAddr: 0xD4040, symSize: 0x68 }
+  - { offset: 0x17904B, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginCACycfcTo', symObjAddr: 0xDDAC, symBinAddr: 0xD40A8, symSize: 0x20 }
+  - { offset: 0x17905F, size: 0x8, addend: 0x0, symName: '_$s11flutter_tts21SwiftFlutterTtsPluginCfD', symObjAddr: 0xDDCC, symBinAddr: 0xD40C8, symSize: 0x48 }
+  - { offset: 0x179083, size: 0x8, addend: 0x0, symName: '_$sSo19AVSpeechSynthesizerCABycfcTO', symObjAddr: 0xDF24, symBinAddr: 0xD4220, symSize: 0x20 }
+  - { offset: 0x179097, size: 0x8, addend: 0x0, symName: '_$sSo20FlutterMethodChannelCABycfcTO', symObjAddr: 0xDF44, symBinAddr: 0xD4240, symSize: 0x20 }
+  - { offset: 0x1790AB, size: 0x8, addend: 0x0, symName: '_$sSo17AVSpeechUtteranceC6stringABSS_tcfcTO', symObjAddr: 0xDF64, symBinAddr: 0xD4260, symSize: 0x60 }
+  - { offset: 0x1790BF, size: 0x8, addend: 0x0, symName: '_$sSo13AVAudioFormatC06commonB010sampleRate8channels11interleavedABSgSo0a6CommonB0V_Sds6UInt32VSbtcfcTO', symObjAddr: 0xDFC4, symBinAddr: 0xD42C0, symSize: 0x3C }
+  - { offset: 0x1790D3, size: 0x8, addend: 0x0, symName: '_$sSo11AVAudioFileC10forWriting8settingsAB10Foundation3URLV_SDySSypGtKcfcTO', symObjAddr: 0xE000, symBinAddr: 0xD42FC, symSize: 0x238 }
+  - { offset: 0x1790E7, size: 0x8, addend: 0x0, symName: '_$sSo11AVAudioFileC10forWriting8settings12commonFormat11interleavedAB10Foundation3URLV_SDySSypGSo0a6CommonG0VSbtKcfcTO', symObjAddr: 0xE238, symBinAddr: 0xD4534, symSize: 0x24C }
+  - { offset: 0x179101, size: 0x8, addend: 0x0, symName: '_$sSo22NSStringCompareOptionsV8rawValueABSu_tcfC', symObjAddr: 0xE484, symBinAddr: 0xD4780, symSize: 0x4 }
+  - { offset: 0x179115, size: 0x8, addend: 0x0, symName: '_$sSo14NSMutableArrayCABycfcTO', symObjAddr: 0xE488, symBinAddr: 0xD4784, symSize: 0x20 }
+  - { offset: 0x17912F, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsV8rawValueABSu_tcfC', symObjAddr: 0xE4A8, symBinAddr: 0xD47A4, symSize: 0x4 }
+  - { offset: 0x179149, size: 0x8, addend: 0x0, symName: '_$sSo30AVAudioSessionSetActiveOptionsV8rawValueABSu_tcfC', symObjAddr: 0xE4AC, symBinAddr: 0xD47A8, symSize: 0x4 }
+  - { offset: 0x179163, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVs9OptionSetSCsACP8rawValuex03RawH0Qz_tcfCTW', symObjAddr: 0xEEDC, symBinAddr: 0xD51D8, symSize: 0x2C }
+  - { offset: 0x17917D, size: 0x8, addend: 0x0, symName: '_$sSo29AVSpeechSynthesisVoiceQualityVSYSCSY8rawValuexSg03RawF0Qz_tcfCTW', symObjAddr: 0xEF50, symBinAddr: 0xD524C, symSize: 0x38 }
+  - { offset: 0x179197, size: 0x8, addend: 0x0, symName: '_$sSo29AVSpeechSynthesisVoiceQualityV8rawValueABSgSi_tcfC', symObjAddr: 0xEF88, symBinAddr: 0xD5284, symSize: 0x24 }
+  - { offset: 0x1791C8, size: 0x8, addend: 0x0, symName: '_$sSo29AVSpeechSynthesisVoiceQualityVSYSCSY8rawValue03RawF0QzvgTW', symObjAddr: 0xEFAC, symBinAddr: 0xD52A8, symSize: 0x2C }
+  - { offset: 0x1791DC, size: 0x8, addend: 0x0, symName: '_$sSo29AVSpeechSynthesisVoiceQualityV8rawValueSivg', symObjAddr: 0xEFD8, symBinAddr: 0xD52D4, symSize: 0x1C }
+  - { offset: 0x179204, size: 0x8, addend: 0x0, symName: '_$sSo22NSStringCompareOptionsVs9OptionSetSCsACP8rawValuex03RawG0Qz_tcfCTW', symObjAddr: 0xF078, symBinAddr: 0xD5374, symSize: 0x2C }
+  - { offset: 0x17921E, size: 0x8, addend: 0x0, symName: '_$sSo30AVAudioSessionSetActiveOptionsVs06OptionC0SCsACP8rawValuex03RawH0Qz_tcfCTW', symObjAddr: 0xF128, symBinAddr: 0xD5424, symSize: 0x2C }
+  - { offset: 0x179232, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVSYSCSY8rawValuexSg03RawF0Qz_tcfCTW', symObjAddr: 0xF1D8, symBinAddr: 0xD54D4, symSize: 0x3C }
+  - { offset: 0x179246, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsVSYSCSY8rawValue03RawF0QzvgTW', symObjAddr: 0xF214, symBinAddr: 0xD5510, symSize: 0x2C }
+  - { offset: 0x17925A, size: 0x8, addend: 0x0, symName: '_$sSo29AVAudioSessionCategoryOptionsV8rawValueSuvg', symObjAddr: 0xF240, symBinAddr: 0xD553C, symSize: 0x4 }
+  - { offset: 0x17926E, size: 0x8, addend: 0x0, symName: '_$sSo22NSStringCompareOptionsVSYSCSY8rawValuexSg03RawE0Qz_tcfCTW', symObjAddr: 0xF244, symBinAddr: 0xD5540, symSize: 0x3C }
+  - { offset: 0x179282, size: 0x8, addend: 0x0, symName: '_$sSo22NSStringCompareOptionsVSYSCSY8rawValue03RawE0QzvgTW', symObjAddr: 0xF280, symBinAddr: 0xD557C, symSize: 0x2C }
+  - { offset: 0x179296, size: 0x8, addend: 0x0, symName: '_$sSo22NSStringCompareOptionsV8rawValueSuvg', symObjAddr: 0xF2AC, symBinAddr: 0xD55A8, symSize: 0x4 }
+  - { offset: 0x1792AA, size: 0x8, addend: 0x0, symName: '_$sSo30AVAudioSessionSetActiveOptionsVSYSCSY8rawValuexSg03RawG0Qz_tcfCTW', symObjAddr: 0xF2B0, symBinAddr: 0xD55AC, symSize: 0x3C }
+  - { offset: 0x1792BE, size: 0x8, addend: 0x0, symName: '_$sSo30AVAudioSessionSetActiveOptionsVSYSCSY8rawValue03RawG0QzvgTW', symObjAddr: 0xF2EC, symBinAddr: 0xD55E8, symSize: 0x2C }
+  - { offset: 0x1792D2, size: 0x8, addend: 0x0, symName: '_$sSo30AVAudioSessionSetActiveOptionsV8rawValueSuvg', symObjAddr: 0xF318, symBinAddr: 0xD5614, symSize: 0x4 }
+...
